@@ -2,6 +2,18 @@
   {
     "trade_index": 1,
     "direction": "SHORT",
+    "entry_time": "2025-10-05T04:00:00.000Z",
+    "entry_price": 125167.5,
+    "exit_time": "2025-10-06T14:00:00.000Z",
+    "exit_price": 124416.49,
+    "final_result": "TP1_BE",
+    "roi_total": 30,
+    "pnl_usdt": 36,
+    "max_drawdown_during_trade": -10.09
+  },
+  {
+    "trade_index": 2,
+    "direction": "SHORT",
     "entry_time": "2025-10-05T05:00:00.000Z",
     "entry_price": 125103,
     "exit_time": "2025-10-06T14:00:00.000Z",
@@ -9,19 +21,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-4.50"
-  },
-  {
-    "trade_index": 2,
-    "direction": "SHORT",
-    "entry_time": "2025-10-05T06:00:00.000Z",
-    "entry_price": 124977.7,
-    "exit_time": "2025-10-06T13:00:00.000Z",
-    "exit_price": 124227.83,
-    "final_result": "TP1_BE",
-    "roi_total": 30,
-    "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-6.77"
+    "max_drawdown_during_trade": -4.5
   },
   {
     "trade_index": 3,
@@ -33,7 +33,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-21.38"
+    "max_drawdown_during_trade": -21.38
   },
   {
     "trade_index": 4,
@@ -45,7 +45,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-15.49"
+    "max_drawdown_during_trade": -15.49
   },
   {
     "trade_index": 5,
@@ -57,7 +57,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
     "trade_index": 6,
@@ -69,7 +69,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-24.87"
+    "max_drawdown_during_trade": -24.87
   },
   {
     "trade_index": 7,
@@ -81,7 +81,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-23.01"
+    "max_drawdown_during_trade": -23.01
   },
   {
     "trade_index": 8,
@@ -93,10 +93,22 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-1.51"
+    "max_drawdown_during_trade": -1.51
   },
   {
     "trade_index": 9,
+    "direction": "SHORT",
+    "entry_time": "2025-10-09T12:00:00.000Z",
+    "entry_price": 123500,
+    "exit_time": "2025-10-09T16:00:00.000Z",
+    "exit_price": 121030,
+    "final_result": "TP2_FULL",
+    "roi_total": 100,
+    "pnl_usdt": 120,
+    "max_drawdown_during_trade": -4
+  },
+  {
+    "trade_index": 10,
     "direction": "LONG",
     "entry_time": "2025-10-09T16:00:00.000Z",
     "entry_price": 119752.1,
@@ -105,19 +117,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-7.49"
-  },
-  {
-    "trade_index": 10,
-    "direction": "LONG",
-    "entry_time": "2025-10-09T17:00:00.000Z",
-    "entry_price": 120915.6,
-    "exit_time": "2025-10-10T14:00:00.000Z",
-    "exit_price": 121641.09,
-    "final_result": "TP1_BE",
-    "roi_total": 30,
-    "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-24.67"
+    "max_drawdown_during_trade": -7.49
   },
   {
     "trade_index": 11,
@@ -129,7 +129,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
     "trade_index": 12,
@@ -141,7 +141,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-26.76"
+    "max_drawdown_during_trade": -26.76
   },
   {
     "trade_index": 13,
@@ -153,7 +153,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-18.24"
+    "max_drawdown_during_trade": -18.24
   },
   {
     "trade_index": 14,
@@ -165,7 +165,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
     "trade_index": 15,
@@ -177,7 +177,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
     "trade_index": 16,
@@ -189,7 +189,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
     "trade_index": 17,
@@ -201,7 +201,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
     "trade_index": 18,
@@ -213,7 +213,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
     "trade_index": 19,
@@ -225,7 +225,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
     "trade_index": 20,
@@ -237,7 +237,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
     "trade_index": 21,
@@ -249,7 +249,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-0.65"
+    "max_drawdown_during_trade": -0.65
   },
   {
     "trade_index": 22,
@@ -261,22 +261,34 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-10.79"
+    "max_drawdown_during_trade": -10.79
   },
   {
     "trade_index": 23,
     "direction": "SHORT",
-    "entry_time": "2025-10-11T12:00:00.000Z",
-    "entry_price": 112319.6,
+    "entry_time": "2025-10-11T11:00:00.000Z",
+    "entry_price": 112224.6,
     "exit_time": "2025-10-12T14:00:00.000Z",
-    "exit_price": 111645.68,
+    "exit_price": 111551.25,
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-6.53"
+    "max_drawdown_during_trade": -10.76
   },
   {
     "trade_index": 24,
+    "direction": "SHORT",
+    "entry_time": "2025-10-12T04:00:00.000Z",
+    "entry_price": 111486.1,
+    "exit_time": "2025-10-12T06:00:00.000Z",
+    "exit_price": 112099.27,
+    "final_result": "SL_FULL",
+    "roi_total": -27.5,
+    "pnl_usdt": -33,
+    "max_drawdown_during_trade": -12.09
+  },
+  {
+    "trade_index": 25,
     "direction": "SHORT",
     "entry_time": "2025-10-12T05:00:00.000Z",
     "entry_price": 111642.4,
@@ -285,19 +297,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-24.59"
-  },
-  {
-    "trade_index": 25,
-    "direction": "SHORT",
-    "entry_time": "2025-10-12T06:00:00.000Z",
-    "entry_price": 111634.8,
-    "exit_time": "2025-10-12T14:00:00.000Z",
-    "exit_price": 112248.79,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-24.93"
+    "max_drawdown_during_trade": -24.59
   },
   {
     "trade_index": 26,
@@ -309,7 +309,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-17.68"
+    "max_drawdown_during_trade": -17.68
   },
   {
     "trade_index": 27,
@@ -321,58 +321,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-27.12"
+    "max_drawdown_during_trade": -27.12
   },
   {
     "trade_index": 28,
-    "direction": "SHORT",
-    "entry_time": "2025-10-12T18:00:00.000Z",
-    "entry_price": 113815.9,
-    "exit_time": "2025-10-12T20:00:00.000Z",
-    "exit_price": 114441.89,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-23.30"
-  },
-  {
-    "trade_index": 29,
-    "direction": "SHORT",
-    "entry_time": "2025-10-12T19:00:00.000Z",
-    "entry_price": 114288.7,
-    "exit_time": "2025-10-12T20:00:00.000Z",
-    "exit_price": 114917.29,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
-  },
-  {
-    "trade_index": 30,
-    "direction": "SHORT",
-    "entry_time": "2025-10-12T20:00:00.000Z",
-    "entry_price": 114864.5,
-    "exit_time": "2025-10-12T21:00:00.000Z",
-    "exit_price": 115496.25,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
-  },
-  {
-    "trade_index": 31,
-    "direction": "SHORT",
-    "entry_time": "2025-10-13T19:00:00.000Z",
-    "entry_price": 115726.6,
-    "exit_time": "2025-10-14T05:00:00.000Z",
-    "exit_price": 113412.07,
-    "final_result": "TP2_FULL",
-    "roi_total": 100,
-    "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-3.92"
-  },
-  {
-    "trade_index": 32,
     "direction": "LONG",
     "entry_time": "2025-10-14T02:00:00.000Z",
     "entry_price": 113566.2,
@@ -381,22 +333,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-15.66"
+    "max_drawdown_during_trade": -15.66
   },
   {
-    "trade_index": 33,
-    "direction": "LONG",
-    "entry_time": "2025-10-14T03:00:00.000Z",
-    "entry_price": 113441,
-    "exit_time": "2025-10-14T04:00:00.000Z",
-    "exit_price": 112817.07,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
-  },
-  {
-    "trade_index": 34,
+    "trade_index": 29,
     "direction": "LONG",
     "entry_time": "2025-10-14T04:00:00.000Z",
     "entry_price": 113012.9,
@@ -405,10 +345,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 35,
+    "trade_index": 30,
     "direction": "LONG",
     "entry_time": "2025-10-14T05:00:00.000Z",
     "entry_price": 112438.3,
@@ -417,22 +357,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 36,
-    "direction": "LONG",
-    "entry_time": "2025-10-14T06:00:00.000Z",
-    "entry_price": 111933.5,
-    "exit_time": "2025-10-14T09:00:00.000Z",
-    "exit_price": 111317.87,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-23.27"
-  },
-  {
-    "trade_index": 37,
+    "trade_index": 31,
     "direction": "LONG",
     "entry_time": "2025-10-14T07:00:00.000Z",
     "entry_price": 111665.2,
@@ -441,46 +369,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-9.37"
+    "max_drawdown_during_trade": -9.37
   },
   {
-    "trade_index": 38,
-    "direction": "LONG",
-    "entry_time": "2025-10-14T09:00:00.000Z",
-    "entry_price": 111237.4,
-    "exit_time": "2025-10-14T10:00:00.000Z",
-    "exit_price": 110625.59,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
-  },
-  {
-    "trade_index": 39,
-    "direction": "LONG",
-    "entry_time": "2025-10-14T10:00:00.000Z",
-    "entry_price": 110573.9,
-    "exit_time": "2025-10-14T13:00:00.000Z",
-    "exit_price": 109965.74,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-0.98"
-  },
-  {
-    "trade_index": 40,
-    "direction": "SHORT",
-    "entry_time": "2025-10-14T15:00:00.000Z",
-    "entry_price": 112823,
-    "exit_time": "2025-10-14T19:00:00.000Z",
-    "exit_price": 113443.53,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-25.19"
-  },
-  {
-    "trade_index": 41,
+    "trade_index": 32,
     "direction": "SHORT",
     "entry_time": "2025-10-14T17:00:00.000Z",
     "entry_price": 112690.5,
@@ -489,22 +381,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 42,
-    "direction": "SHORT",
-    "entry_time": "2025-10-14T18:00:00.000Z",
-    "entry_price": 112784.2,
-    "exit_time": "2025-10-14T19:00:00.000Z",
-    "exit_price": 113404.51,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
-  },
-  {
-    "trade_index": 43,
+    "trade_index": 33,
     "direction": "LONG",
     "entry_time": "2025-10-16T15:00:00.000Z",
     "entry_price": 108474,
@@ -513,10 +393,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 44,
+    "trade_index": 34,
     "direction": "LONG",
     "entry_time": "2025-10-16T16:00:00.000Z",
     "entry_price": 109182.9,
@@ -525,10 +405,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 45,
+    "trade_index": 35,
     "direction": "LONG",
     "entry_time": "2025-10-16T17:00:00.000Z",
     "entry_price": 108220.5,
@@ -537,10 +417,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-27.50"
+    "max_drawdown_during_trade": -27.5
   },
   {
-    "trade_index": 46,
+    "trade_index": 36,
     "direction": "LONG",
     "entry_time": "2025-10-16T18:00:00.000Z",
     "entry_price": 108600,
@@ -549,22 +429,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 47,
-    "direction": "LONG",
-    "entry_time": "2025-10-16T19:00:00.000Z",
-    "entry_price": 108151.3,
-    "exit_time": "2025-10-16T20:00:00.000Z",
-    "exit_price": 107556.47,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
-  },
-  {
-    "trade_index": 48,
+    "trade_index": 37,
     "direction": "LONG",
     "entry_time": "2025-10-17T06:00:00.000Z",
     "entry_price": 106699.1,
@@ -573,10 +441,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 49,
+    "trade_index": 38,
     "direction": "LONG",
     "entry_time": "2025-10-17T07:00:00.000Z",
     "entry_price": 105578.3,
@@ -585,10 +453,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 50,
+    "trade_index": 39,
     "direction": "LONG",
     "entry_time": "2025-10-17T08:00:00.000Z",
     "entry_price": 104845.1,
@@ -597,10 +465,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-17.39"
+    "max_drawdown_during_trade": -17.39
   },
   {
-    "trade_index": 51,
+    "trade_index": 40,
     "direction": "LONG",
     "entry_time": "2025-10-17T09:00:00.000Z",
     "entry_price": 104487.5,
@@ -609,10 +477,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 52,
+    "trade_index": 41,
     "direction": "LONG",
     "entry_time": "2025-10-17T10:00:00.000Z",
     "entry_price": 104728.5,
@@ -621,34 +489,10 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-5.30"
+    "max_drawdown_during_trade": -5.3
   },
   {
-    "trade_index": 53,
-    "direction": "SHORT",
-    "entry_time": "2025-10-17T15:00:00.000Z",
-    "entry_price": 106750.1,
-    "exit_time": "2025-10-17T16:00:00.000Z",
-    "exit_price": 107337.23,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
-  },
-  {
-    "trade_index": 54,
-    "direction": "SHORT",
-    "entry_time": "2025-10-19T13:00:00.000Z",
-    "entry_price": 108035.3,
-    "exit_time": "2025-10-19T16:00:00.000Z",
-    "exit_price": 108629.49,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-25.01"
-  },
-  {
-    "trade_index": 55,
+    "trade_index": 42,
     "direction": "SHORT",
     "entry_time": "2025-10-20T04:00:00.000Z",
     "entry_price": 110369.3,
@@ -657,10 +501,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 56,
+    "trade_index": 43,
     "direction": "SHORT",
     "entry_time": "2025-10-20T05:00:00.000Z",
     "entry_price": 110973.6,
@@ -669,10 +513,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-16.96"
+    "max_drawdown_during_trade": -16.96
   },
   {
-    "trade_index": 57,
+    "trade_index": 44,
     "direction": "SHORT",
     "entry_time": "2025-10-20T06:00:00.000Z",
     "entry_price": 111232.1,
@@ -681,34 +525,10 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-18.79"
+    "max_drawdown_during_trade": -18.79
   },
   {
-    "trade_index": 58,
-    "direction": "SHORT",
-    "entry_time": "2025-10-20T07:00:00.000Z",
-    "entry_price": 111126.2,
-    "exit_time": "2025-10-21T04:00:00.000Z",
-    "exit_price": 108903.68,
-    "final_result": "TP2_FULL",
-    "roi_total": 100,
-    "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-23.57"
-  },
-  {
-    "trade_index": 59,
-    "direction": "LONG",
-    "entry_time": "2025-10-21T03:00:00.000Z",
-    "entry_price": 109005,
-    "exit_time": "2025-10-21T04:00:00.000Z",
-    "exit_price": 108405.47,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
-  },
-  {
-    "trade_index": 60,
+    "trade_index": 45,
     "direction": "LONG",
     "entry_time": "2025-10-21T04:00:00.000Z",
     "entry_price": 107743.4,
@@ -717,10 +537,10 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-15.94"
+    "max_drawdown_during_trade": -15.94
   },
   {
-    "trade_index": 61,
+    "trade_index": 46,
     "direction": "LONG",
     "entry_time": "2025-10-21T05:00:00.000Z",
     "entry_price": 107498,
@@ -729,22 +549,10 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-3.03"
+    "max_drawdown_during_trade": -3.03
   },
   {
-    "trade_index": 62,
-    "direction": "LONG",
-    "entry_time": "2025-10-21T06:00:00.000Z",
-    "entry_price": 107868.4,
-    "exit_time": "2025-10-21T13:00:00.000Z",
-    "exit_price": 108515.61,
-    "final_result": "TP1_BE",
-    "roi_total": 30,
-    "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-20.19"
-  },
-  {
-    "trade_index": 63,
+    "trade_index": 47,
     "direction": "SHORT",
     "entry_time": "2025-10-21T14:00:00.000Z",
     "entry_price": 112127.5,
@@ -753,10 +561,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 64,
+    "trade_index": 48,
     "direction": "SHORT",
     "entry_time": "2025-10-21T15:00:00.000Z",
     "entry_price": 113355.2,
@@ -765,10 +573,10 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-25.80"
+    "max_drawdown_during_trade": -25.8
   },
   {
-    "trade_index": 65,
+    "trade_index": 49,
     "direction": "SHORT",
     "entry_time": "2025-10-21T16:00:00.000Z",
     "entry_price": 112507.2,
@@ -777,10 +585,10 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-19.58"
+    "max_drawdown_during_trade": -19.58
   },
   {
-    "trade_index": 66,
+    "trade_index": 50,
     "direction": "SHORT",
     "entry_time": "2025-10-21T17:00:00.000Z",
     "entry_price": 111960.1,
@@ -789,22 +597,10 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-13.45"
+    "max_drawdown_during_trade": -13.45
   },
   {
-    "trade_index": 67,
-    "direction": "SHORT",
-    "entry_time": "2025-10-21T18:00:00.000Z",
-    "entry_price": 111934.5,
-    "exit_time": "2025-10-21T22:00:00.000Z",
-    "exit_price": 109695.81,
-    "final_result": "TP2_FULL",
-    "roi_total": 100,
-    "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-9.51"
-  },
-  {
-    "trade_index": 68,
+    "trade_index": 51,
     "direction": "LONG",
     "entry_time": "2025-10-21T20:00:00.000Z",
     "entry_price": 110733,
@@ -813,22 +609,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 69,
-    "direction": "LONG",
-    "entry_time": "2025-10-21T21:00:00.000Z",
-    "entry_price": 110772.6,
-    "exit_time": "2025-10-21T22:00:00.000Z",
-    "exit_price": 110163.35,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
-  },
-  {
-    "trade_index": 70,
+    "trade_index": 52,
     "direction": "LONG",
     "entry_time": "2025-10-21T22:00:00.000Z",
     "entry_price": 109008,
@@ -837,10 +621,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 71,
+    "trade_index": 53,
     "direction": "LONG",
     "entry_time": "2025-10-21T23:00:00.000Z",
     "entry_price": 108253.7,
@@ -849,10 +633,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-22.01"
+    "max_drawdown_during_trade": -22.01
   },
   {
-    "trade_index": 72,
+    "trade_index": 54,
     "direction": "LONG",
     "entry_time": "2025-10-22T00:00:00.000Z",
     "entry_price": 107930.1,
@@ -861,10 +645,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-17.23"
+    "max_drawdown_during_trade": -17.23
   },
   {
-    "trade_index": 73,
+    "trade_index": 55,
     "direction": "LONG",
     "entry_time": "2025-10-22T01:00:00.000Z",
     "entry_price": 108313.6,
@@ -873,22 +657,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-23.60"
+    "max_drawdown_during_trade": -23.6
   },
   {
-    "trade_index": 74,
-    "direction": "LONG",
-    "entry_time": "2025-10-22T02:00:00.000Z",
-    "entry_price": 108159.3,
-    "exit_time": "2025-10-22T07:00:00.000Z",
-    "exit_price": 107564.42,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-16.50"
-  },
-  {
-    "trade_index": 75,
+    "trade_index": 56,
     "direction": "SHORT",
     "entry_time": "2025-10-23T06:00:00.000Z",
     "entry_price": 110180.2,
@@ -897,10 +669,10 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-1.57"
+    "max_drawdown_during_trade": -1.57
   },
   {
-    "trade_index": 76,
+    "trade_index": 57,
     "direction": "SHORT",
     "entry_time": "2025-10-23T17:00:00.000Z",
     "entry_price": 111175.2,
@@ -909,10 +681,22 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-2.72"
+    "max_drawdown_during_trade": -2.72
   },
   {
-    "trade_index": 77,
+    "trade_index": 58,
+    "direction": "LONG",
+    "entry_time": "2025-10-23T21:00:00.000Z",
+    "entry_price": 109493.3,
+    "exit_time": "2025-10-26T09:00:00.000Z",
+    "exit_price": 111683.17,
+    "final_result": "TP2_FULL",
+    "roi_total": 100,
+    "pnl_usdt": 120,
+    "max_drawdown_during_trade": -1.18
+  },
+  {
+    "trade_index": 59,
     "direction": "SHORT",
     "entry_time": "2025-10-26T12:00:00.000Z",
     "entry_price": 113530.7,
@@ -921,22 +705,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-20.67"
+    "max_drawdown_during_trade": -20.67
   },
   {
-    "trade_index": 78,
-    "direction": "SHORT",
-    "entry_time": "2025-10-26T13:00:00.000Z",
-    "entry_price": 113669.4,
-    "exit_time": "2025-10-26T22:00:00.000Z",
-    "exit_price": 114294.58,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-7.94"
-  },
-  {
-    "trade_index": 79,
+    "trade_index": 60,
     "direction": "SHORT",
     "entry_time": "2025-10-27T01:00:00.000Z",
     "entry_price": 115217.8,
@@ -945,10 +717,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-17.86"
+    "max_drawdown_during_trade": -17.86
   },
   {
-    "trade_index": 80,
+    "trade_index": 61,
     "direction": "LONG",
     "entry_time": "2025-10-28T20:00:00.000Z",
     "entry_price": 112744.6,
@@ -957,10 +729,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 81,
+    "trade_index": 62,
     "direction": "LONG",
     "entry_time": "2025-10-28T21:00:00.000Z",
     "entry_price": 112935.5,
@@ -969,10 +741,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-24.99"
+    "max_drawdown_during_trade": -24.99
   },
   {
-    "trade_index": 82,
+    "trade_index": 63,
     "direction": "LONG",
     "entry_time": "2025-10-28T22:00:00.000Z",
     "entry_price": 113164.2,
@@ -981,22 +753,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-19.77"
+    "max_drawdown_during_trade": -19.77
   },
   {
-    "trade_index": 83,
-    "direction": "LONG",
-    "entry_time": "2025-10-28T23:00:00.000Z",
-    "entry_price": 112833.5,
-    "exit_time": "2025-10-29T01:00:00.000Z",
-    "exit_price": 112212.92,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-20.49"
-  },
-  {
-    "trade_index": 84,
+    "trade_index": 64,
     "direction": "LONG",
     "entry_time": "2025-10-29T16:00:00.000Z",
     "entry_price": 111060,
@@ -1005,10 +765,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-5.33"
+    "max_drawdown_during_trade": -5.33
   },
   {
-    "trade_index": 85,
+    "trade_index": 65,
     "direction": "LONG",
     "entry_time": "2025-10-29T18:00:00.000Z",
     "entry_price": 110743,
@@ -1017,22 +777,34 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 86,
+    "trade_index": 66,
     "direction": "LONG",
-    "entry_time": "2025-10-29T19:00:00.000Z",
-    "entry_price": 110605.6,
-    "exit_time": "2025-10-29T23:00:00.000Z",
-    "exit_price": 109997.27,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-11.91"
+    "entry_time": "2025-10-30T04:00:00.000Z",
+    "entry_price": 108503.7,
+    "exit_time": "2025-10-30T07:00:00.000Z",
+    "exit_price": 110673.77,
+    "final_result": "TP2_FULL",
+    "roi_total": 100,
+    "pnl_usdt": 120,
+    "max_drawdown_during_trade": -6.35
   },
   {
-    "trade_index": 87,
+    "trade_index": 67,
+    "direction": "SHORT",
+    "entry_time": "2025-10-30T08:00:00.000Z",
+    "entry_price": 110649.6,
+    "exit_time": "2025-10-30T13:00:00.000Z",
+    "exit_price": 108436.61,
+    "final_result": "TP2_FULL",
+    "roi_total": 100,
+    "pnl_usdt": 120,
+    "max_drawdown_during_trade": -4.53
+  },
+  {
+    "trade_index": 68,
     "direction": "LONG",
     "entry_time": "2025-10-30T12:00:00.000Z",
     "entry_price": 108337.8,
@@ -1041,10 +813,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 88,
+    "trade_index": 69,
     "direction": "LONG",
     "entry_time": "2025-10-30T13:00:00.000Z",
     "entry_price": 107582.2,
@@ -1053,10 +825,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-15.25"
+    "max_drawdown_during_trade": -15.25
   },
   {
-    "trade_index": 89,
+    "trade_index": 70,
     "direction": "LONG",
     "entry_time": "2025-10-30T14:00:00.000Z",
     "entry_price": 108212.1,
@@ -1065,10 +837,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 90,
+    "trade_index": 71,
     "direction": "LONG",
     "entry_time": "2025-10-30T15:00:00.000Z",
     "entry_price": 107670.6,
@@ -1077,22 +849,22 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-7.17"
+    "max_drawdown_during_trade": -7.17
   },
   {
-    "trade_index": 91,
-    "direction": "LONG",
-    "entry_time": "2025-10-30T19:00:00.000Z",
-    "entry_price": 106495.1,
+    "trade_index": 72,
+    "direction": "SHORT",
+    "entry_time": "2025-10-30T23:00:00.000Z",
+    "entry_price": 108263.5,
     "exit_time": "2025-10-31T00:00:00.000Z",
-    "exit_price": 108625,
-    "final_result": "TP2_FULL",
-    "roi_total": 100,
-    "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-11.18"
+    "exit_price": 108858.95,
+    "final_result": "SL_FULL",
+    "roi_total": -27.5,
+    "pnl_usdt": -33,
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 92,
+    "trade_index": 73,
     "direction": "SHORT",
     "entry_time": "2025-10-31T00:00:00.000Z",
     "entry_price": 109276.3,
@@ -1101,10 +873,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 93,
+    "trade_index": 74,
     "direction": "SHORT",
     "entry_time": "2025-10-31T01:00:00.000Z",
     "entry_price": 109585.3,
@@ -1113,22 +885,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-2.68"
+    "max_drawdown_during_trade": -2.68
   },
   {
-    "trade_index": 94,
-    "direction": "SHORT",
-    "entry_time": "2025-10-31T04:00:00.000Z",
-    "entry_price": 110052.5,
-    "exit_time": "2025-10-31T12:00:00.000Z",
-    "exit_price": 110657.79,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-20.33"
-  },
-  {
-    "trade_index": 95,
+    "trade_index": 75,
     "direction": "LONG",
     "entry_time": "2025-11-03T03:00:00.000Z",
     "entry_price": 107886,
@@ -1137,10 +897,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-25.63"
+    "max_drawdown_during_trade": -25.63
   },
   {
-    "trade_index": 96,
+    "trade_index": 76,
     "direction": "LONG",
     "entry_time": "2025-11-03T04:00:00.000Z",
     "entry_price": 107843.8,
@@ -1149,10 +909,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-23.68"
+    "max_drawdown_during_trade": -23.68
   },
   {
-    "trade_index": 97,
+    "trade_index": 77,
     "direction": "LONG",
     "entry_time": "2025-11-03T05:00:00.000Z",
     "entry_price": 107556.9,
@@ -1161,22 +921,22 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 98,
+    "trade_index": 78,
     "direction": "LONG",
-    "entry_time": "2025-11-03T06:00:00.000Z",
-    "entry_price": 107452.8,
-    "exit_time": "2025-11-03T10:00:00.000Z",
-    "exit_price": 106861.81,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-24.53"
+    "entry_time": "2025-11-03T15:00:00.000Z",
+    "entry_price": 105718.8,
+    "exit_time": "2025-11-04T05:00:00.000Z",
+    "exit_price": 106353.11,
+    "final_result": "TP1_BE",
+    "roi_total": 30,
+    "pnl_usdt": 36,
+    "max_drawdown_during_trade": -19.81
   },
   {
-    "trade_index": 99,
+    "trade_index": 79,
     "direction": "LONG",
     "entry_time": "2025-11-04T05:00:00.000Z",
     "entry_price": 104164.3,
@@ -1185,10 +945,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-27.09"
+    "max_drawdown_during_trade": -27.09
   },
   {
-    "trade_index": 100,
+    "trade_index": 80,
     "direction": "LONG",
     "entry_time": "2025-11-04T06:00:00.000Z",
     "entry_price": 104702.4,
@@ -1197,10 +957,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-20.45"
+    "max_drawdown_during_trade": -20.45
   },
   {
-    "trade_index": 101,
+    "trade_index": 81,
     "direction": "LONG",
     "entry_time": "2025-11-04T07:00:00.000Z",
     "entry_price": 104442.9,
@@ -1209,10 +969,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 102,
+    "trade_index": 82,
     "direction": "LONG",
     "entry_time": "2025-11-04T08:00:00.000Z",
     "entry_price": 104018.4,
@@ -1221,22 +981,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-24.28"
+    "max_drawdown_during_trade": -24.28
   },
   {
-    "trade_index": 103,
-    "direction": "LONG",
-    "entry_time": "2025-11-04T09:00:00.000Z",
-    "entry_price": 103822.3,
-    "exit_time": "2025-11-04T14:00:00.000Z",
-    "exit_price": 103251.28,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-14.89"
-  },
-  {
-    "trade_index": 104,
+    "trade_index": 83,
     "direction": "LONG",
     "entry_time": "2025-11-04T16:00:00.000Z",
     "entry_price": 102227.4,
@@ -1245,10 +993,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 105,
+    "trade_index": 84,
     "direction": "LONG",
     "entry_time": "2025-11-04T17:00:00.000Z",
     "entry_price": 101074.8,
@@ -1257,10 +1005,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 106,
+    "trade_index": 85,
     "direction": "LONG",
     "entry_time": "2025-11-04T18:00:00.000Z",
     "entry_price": 101317.3,
@@ -1269,10 +1017,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 107,
+    "trade_index": 86,
     "direction": "LONG",
     "entry_time": "2025-11-04T19:00:00.000Z",
     "entry_price": 100507,
@@ -1281,34 +1029,22 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 108,
-    "direction": "LONG",
-    "entry_time": "2025-11-04T20:00:00.000Z",
-    "entry_price": 100710.1,
-    "exit_time": "2025-11-04T21:00:00.000Z",
-    "exit_price": 100156.19,
+    "trade_index": 87,
+    "direction": "SHORT",
+    "entry_time": "2025-11-05T14:00:00.000Z",
+    "entry_price": 103162.6,
+    "exit_time": "2025-11-05T15:00:00.000Z",
+    "exit_price": 103729.99,
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 109,
-    "direction": "LONG",
-    "entry_time": "2025-11-04T21:00:00.000Z",
-    "entry_price": 100274.1,
-    "exit_time": "2025-11-05T01:00:00.000Z",
-    "exit_price": 100875.74,
-    "final_result": "TP1_BE",
-    "roi_total": 30,
-    "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-11.52"
-  },
-  {
-    "trade_index": 110,
+    "trade_index": 88,
     "direction": "SHORT",
     "entry_time": "2025-11-05T15:00:00.000Z",
     "entry_price": 103668.3,
@@ -1317,22 +1053,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-15.53"
+    "max_drawdown_during_trade": -15.53
   },
   {
-    "trade_index": 111,
-    "direction": "SHORT",
-    "entry_time": "2025-11-05T16:00:00.000Z",
-    "entry_price": 103865,
-    "exit_time": "2025-11-05T19:00:00.000Z",
-    "exit_price": 104436.26,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-24.97"
-  },
-  {
-    "trade_index": 112,
+    "trade_index": 89,
     "direction": "LONG",
     "entry_time": "2025-11-06T16:00:00.000Z",
     "entry_price": 100830.6,
@@ -1341,34 +1065,22 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-5.26"
+    "max_drawdown_during_trade": -5.26
   },
   {
-    "trade_index": 113,
+    "trade_index": 90,
     "direction": "LONG",
-    "entry_time": "2025-11-06T18:00:00.000Z",
-    "entry_price": 101670,
-    "exit_time": "2025-11-06T20:00:00.000Z",
-    "exit_price": 101110.82,
+    "entry_time": "2025-11-07T11:00:00.000Z",
+    "entry_price": 100369.1,
+    "exit_time": "2025-11-07T12:00:00.000Z",
+    "exit_price": 99817.07,
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-26.02"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 114,
-    "direction": "LONG",
-    "entry_time": "2025-11-07T10:00:00.000Z",
-    "entry_price": 100725.3,
-    "exit_time": "2025-11-07T11:00:00.000Z",
-    "exit_price": 100171.31,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
-  },
-  {
-    "trade_index": 115,
+    "trade_index": 91,
     "direction": "LONG",
     "entry_time": "2025-11-07T12:00:00.000Z",
     "entry_price": 99608.9,
@@ -1377,10 +1089,22 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-9.21"
+    "max_drawdown_during_trade": -9.21
   },
   {
-    "trade_index": 116,
+    "trade_index": 92,
+    "direction": "SHORT",
+    "entry_time": "2025-11-07T16:00:00.000Z",
+    "entry_price": 101128.4,
+    "exit_time": "2025-11-07T17:00:00.000Z",
+    "exit_price": 101684.61,
+    "final_result": "SL_FULL",
+    "roi_total": -27.5,
+    "pnl_usdt": -33,
+    "max_drawdown_during_trade": 0
+  },
+  {
+    "trade_index": 93,
     "direction": "SHORT",
     "entry_time": "2025-11-07T17:00:00.000Z",
     "entry_price": 102354.6,
@@ -1389,10 +1113,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-22.64"
+    "max_drawdown_during_trade": -22.64
   },
   {
-    "trade_index": 117,
+    "trade_index": 94,
     "direction": "SHORT",
     "entry_time": "2025-11-07T18:00:00.000Z",
     "entry_price": 102551.3,
@@ -1401,10 +1125,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 118,
+    "trade_index": 95,
     "direction": "SHORT",
     "entry_time": "2025-11-07T19:00:00.000Z",
     "entry_price": 103350,
@@ -1413,10 +1137,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-24.18"
+    "max_drawdown_during_trade": -24.18
   },
   {
-    "trade_index": 119,
+    "trade_index": 96,
     "direction": "SHORT",
     "entry_time": "2025-11-07T20:00:00.000Z",
     "entry_price": 103718.4,
@@ -1425,34 +1149,10 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-16.98"
+    "max_drawdown_during_trade": -16.98
   },
   {
-    "trade_index": 120,
-    "direction": "SHORT",
-    "entry_time": "2025-11-07T21:00:00.000Z",
-    "entry_price": 103844.9,
-    "exit_time": "2025-11-09T14:00:00.000Z",
-    "exit_price": 103221.83,
-    "final_result": "TP1_BE",
-    "roi_total": 30,
-    "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-10.87"
-  },
-  {
-    "trade_index": 121,
-    "direction": "SHORT",
-    "entry_time": "2025-11-09T15:00:00.000Z",
-    "entry_price": 103715.8,
-    "exit_time": "2025-11-09T18:00:00.000Z",
-    "exit_price": 104286.24,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-10.74"
-  },
-  {
-    "trade_index": 122,
+    "trade_index": 97,
     "direction": "SHORT",
     "entry_time": "2025-11-09T16:00:00.000Z",
     "entry_price": 103814.8,
@@ -1461,46 +1161,22 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-5.96"
+    "max_drawdown_during_trade": -5.96
   },
   {
-    "trade_index": 123,
+    "trade_index": 98,
     "direction": "SHORT",
-    "entry_time": "2025-11-09T17:00:00.000Z",
-    "entry_price": 103607.6,
-    "exit_time": "2025-11-09T18:00:00.000Z",
-    "exit_price": 104177.44,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "entry_time": "2025-11-10T00:00:00.000Z",
+    "entry_price": 106268,
+    "exit_time": "2025-11-11T01:00:00.000Z",
+    "exit_price": 105630.39,
+    "final_result": "TP1_BE",
+    "roi_total": 30,
+    "pnl_usdt": 36,
+    "max_drawdown_during_trade": -18.73
   },
   {
-    "trade_index": 124,
-    "direction": "SHORT",
-    "entry_time": "2025-11-09T18:00:00.000Z",
-    "entry_price": 104479.8,
-    "exit_time": "2025-11-09T23:00:00.000Z",
-    "exit_price": 105054.44,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-26.64"
-  },
-  {
-    "trade_index": 125,
-    "direction": "SHORT",
-    "entry_time": "2025-11-09T19:00:00.000Z",
-    "entry_price": 104764.1,
-    "exit_time": "2025-11-09T23:00:00.000Z",
-    "exit_price": 105340.3,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-13.00"
-  },
-  {
-    "trade_index": 126,
+    "trade_index": 99,
     "direction": "LONG",
     "entry_time": "2025-11-11T07:00:00.000Z",
     "entry_price": 104737,
@@ -1509,10 +1185,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-18.83"
+    "max_drawdown_during_trade": -18.83
   },
   {
-    "trade_index": 127,
+    "trade_index": 100,
     "direction": "LONG",
     "entry_time": "2025-11-11T15:00:00.000Z",
     "entry_price": 103417.2,
@@ -1521,22 +1197,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-12.05"
+    "max_drawdown_during_trade": -12.05
   },
   {
-    "trade_index": 128,
-    "direction": "LONG",
-    "entry_time": "2025-11-11T16:00:00.000Z",
-    "entry_price": 103366.6,
-    "exit_time": "2025-11-11T17:00:00.000Z",
-    "exit_price": 102798.08,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
-  },
-  {
-    "trade_index": 129,
+    "trade_index": 101,
     "direction": "SHORT",
     "entry_time": "2025-11-12T11:00:00.000Z",
     "entry_price": 104979.9,
@@ -1545,22 +1209,10 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-15.10"
+    "max_drawdown_during_trade": -15.1
   },
   {
-    "trade_index": 130,
-    "direction": "SHORT",
-    "entry_time": "2025-11-12T12:00:00.000Z",
-    "entry_price": 104947.8,
-    "exit_time": "2025-11-12T15:00:00.000Z",
-    "exit_price": 102848.84,
-    "final_result": "TP2_FULL",
-    "roi_total": 100,
-    "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-8.96"
-  },
-  {
-    "trade_index": 131,
+    "trade_index": 102,
     "direction": "LONG",
     "entry_time": "2025-11-12T15:00:00.000Z",
     "entry_price": 102124.9,
@@ -1569,10 +1221,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 132,
+    "trade_index": 103,
     "direction": "LONG",
     "entry_time": "2025-11-12T16:00:00.000Z",
     "entry_price": 101393.1,
@@ -1581,10 +1233,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-1.90"
+    "max_drawdown_during_trade": -1.9
   },
   {
-    "trade_index": 133,
+    "trade_index": 104,
     "direction": "LONG",
     "entry_time": "2025-11-12T17:00:00.000Z",
     "entry_price": 101700,
@@ -1593,10 +1245,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-16.70"
+    "max_drawdown_during_trade": -16.7
   },
   {
-    "trade_index": 134,
+    "trade_index": 105,
     "direction": "LONG",
     "entry_time": "2025-11-12T18:00:00.000Z",
     "entry_price": 101493.6,
@@ -1605,22 +1257,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 135,
-    "direction": "LONG",
-    "entry_time": "2025-11-12T19:00:00.000Z",
-    "entry_price": 101245.4,
-    "exit_time": "2025-11-13T03:00:00.000Z",
-    "exit_price": 101852.87,
-    "final_result": "TP1_BE",
-    "roi_total": 30,
-    "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-7.78"
-  },
-  {
-    "trade_index": 136,
+    "trade_index": 106,
     "direction": "SHORT",
     "entry_time": "2025-11-13T06:00:00.000Z",
     "entry_price": 103555,
@@ -1629,10 +1269,10 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-22.67"
+    "max_drawdown_during_trade": -22.67
   },
   {
-    "trade_index": 137,
+    "trade_index": 107,
     "direction": "SHORT",
     "entry_time": "2025-11-13T08:00:00.000Z",
     "entry_price": 103635.1,
@@ -1641,10 +1281,10 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-3.39"
+    "max_drawdown_during_trade": -3.39
   },
   {
-    "trade_index": 138,
+    "trade_index": 108,
     "direction": "LONG",
     "entry_time": "2025-11-13T15:00:00.000Z",
     "entry_price": 101338,
@@ -1653,10 +1293,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 139,
+    "trade_index": 109,
     "direction": "LONG",
     "entry_time": "2025-11-13T16:00:00.000Z",
     "entry_price": 100580.2,
@@ -1665,10 +1305,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 140,
+    "trade_index": 110,
     "direction": "LONG",
     "entry_time": "2025-11-13T17:00:00.000Z",
     "entry_price": 99601.4,
@@ -1677,10 +1317,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 141,
+    "trade_index": 111,
     "direction": "LONG",
     "entry_time": "2025-11-13T18:00:00.000Z",
     "entry_price": 98539.7,
@@ -1689,10 +1329,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-16.74"
+    "max_drawdown_during_trade": -16.74
   },
   {
-    "trade_index": 142,
+    "trade_index": 112,
     "direction": "LONG",
     "entry_time": "2025-11-13T19:00:00.000Z",
     "entry_price": 98643.1,
@@ -1701,10 +1341,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 143,
+    "trade_index": 113,
     "direction": "LONG",
     "entry_time": "2025-11-13T20:00:00.000Z",
     "entry_price": 98131.6,
@@ -1713,34 +1353,22 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-7.43"
+    "max_drawdown_during_trade": -7.43
   },
   {
-    "trade_index": 144,
+    "trade_index": 114,
     "direction": "LONG",
-    "entry_time": "2025-11-13T21:00:00.000Z",
-    "entry_price": 98764.1,
-    "exit_time": "2025-11-14T00:00:00.000Z",
-    "exit_price": 99356.68,
-    "final_result": "TP1_BE",
-    "roi_total": 30,
-    "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-5.42"
-  },
-  {
-    "trade_index": 145,
-    "direction": "LONG",
-    "entry_time": "2025-11-14T04:00:00.000Z",
-    "entry_price": 97789.7,
-    "exit_time": "2025-11-14T05:00:00.000Z",
-    "exit_price": 97251.86,
+    "entry_time": "2025-11-14T05:00:00.000Z",
+    "entry_price": 97491.9,
+    "exit_time": "2025-11-14T06:00:00.000Z",
+    "exit_price": 96955.69,
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 146,
+    "trade_index": 115,
     "direction": "LONG",
     "entry_time": "2025-11-14T06:00:00.000Z",
     "entry_price": 97530.9,
@@ -1749,10 +1377,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 147,
+    "trade_index": 116,
     "direction": "LONG",
     "entry_time": "2025-11-14T07:00:00.000Z",
     "entry_price": 97099.9,
@@ -1761,22 +1389,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-24.57"
+    "max_drawdown_during_trade": -24.57
   },
   {
-    "trade_index": 148,
-    "direction": "LONG",
-    "entry_time": "2025-11-14T08:00:00.000Z",
-    "entry_price": 97333.2,
-    "exit_time": "2025-11-14T09:00:00.000Z",
-    "exit_price": 96797.87,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
-  },
-  {
-    "trade_index": 149,
+    "trade_index": 117,
     "direction": "LONG",
     "entry_time": "2025-11-14T12:00:00.000Z",
     "entry_price": 95327,
@@ -1785,10 +1401,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 150,
+    "trade_index": 118,
     "direction": "LONG",
     "entry_time": "2025-11-14T13:00:00.000Z",
     "entry_price": 95209,
@@ -1797,10 +1413,34 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-15.95"
+    "max_drawdown_during_trade": -15.95
   },
   {
-    "trade_index": 151,
+    "trade_index": 119,
+    "direction": "SHORT",
+    "entry_time": "2025-11-14T16:00:00.000Z",
+    "entry_price": 96972.5,
+    "exit_time": "2025-11-14T20:00:00.000Z",
+    "exit_price": 95033.05,
+    "final_result": "TP2_FULL",
+    "roi_total": 100,
+    "pnl_usdt": 120,
+    "max_drawdown_during_trade": -6.29
+  },
+  {
+    "trade_index": 120,
+    "direction": "LONG",
+    "entry_time": "2025-11-14T18:00:00.000Z",
+    "entry_price": 95023.9,
+    "exit_time": "2025-11-14T20:00:00.000Z",
+    "exit_price": 94501.27,
+    "final_result": "SL_FULL",
+    "roi_total": -27.5,
+    "pnl_usdt": -33,
+    "max_drawdown_during_trade": -14.88
+  },
+  {
+    "trade_index": 121,
     "direction": "LONG",
     "entry_time": "2025-11-14T20:00:00.000Z",
     "entry_price": 94336.6,
@@ -1809,82 +1449,46 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-20.23"
+    "max_drawdown_during_trade": -20.23
   },
   {
-    "trade_index": 152,
-    "direction": "LONG",
-    "entry_time": "2025-11-14T21:00:00.000Z",
-    "entry_price": 95023.3,
-    "exit_time": "2025-11-14T23:00:00.000Z",
-    "exit_price": 94500.67,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-19.43"
-  },
-  {
-    "trade_index": 153,
+    "trade_index": 122,
     "direction": "SHORT",
-    "entry_time": "2025-11-15T02:00:00.000Z",
-    "entry_price": 96452.5,
+    "entry_time": "2025-11-15T03:00:00.000Z",
+    "entry_price": 96388.5,
     "exit_time": "2025-11-16T09:00:00.000Z",
-    "exit_price": 95873.79,
+    "exit_price": 95810.17,
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-18.01"
+    "max_drawdown_during_trade": -8.06
   },
   {
-    "trade_index": 154,
-    "direction": "SHORT",
-    "entry_time": "2025-11-15T04:00:00.000Z",
-    "entry_price": 96077.4,
-    "exit_time": "2025-11-16T05:00:00.000Z",
-    "exit_price": 95500.94,
+    "trade_index": 123,
+    "direction": "LONG",
+    "entry_time": "2025-11-16T16:00:00.000Z",
+    "entry_price": 94185.4,
+    "exit_time": "2025-11-16T19:00:00.000Z",
+    "exit_price": 94750.51,
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-24.27"
+    "max_drawdown_during_trade": -26.97
   },
   {
-    "trade_index": 155,
+    "trade_index": 124,
     "direction": "LONG",
-    "entry_time": "2025-11-16T15:00:00.000Z",
-    "entry_price": 94531.3,
-    "exit_time": "2025-11-16T16:00:00.000Z",
-    "exit_price": 94011.38,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
-  },
-  {
-    "trade_index": 156,
-    "direction": "LONG",
-    "entry_time": "2025-11-16T19:00:00.000Z",
-    "entry_price": 93994.5,
+    "entry_time": "2025-11-16T18:00:00.000Z",
+    "entry_price": 94005.9,
     "exit_time": "2025-11-16T21:00:00.000Z",
-    "exit_price": 93477.53,
+    "exit_price": 93488.87,
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-3.90"
+    "max_drawdown_during_trade": -5.79
   },
   {
-    "trade_index": 157,
-    "direction": "SHORT",
-    "entry_time": "2025-11-17T02:00:00.000Z",
-    "entry_price": 94942.1,
-    "exit_time": "2025-11-17T03:00:00.000Z",
-    "exit_price": 95464.28,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
-  },
-  {
-    "trade_index": 158,
+    "trade_index": 125,
     "direction": "LONG",
     "entry_time": "2025-11-17T13:00:00.000Z",
     "entry_price": 93913.5,
@@ -1893,10 +1497,10 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-10.66"
+    "max_drawdown_during_trade": -10.66
   },
   {
-    "trade_index": 159,
+    "trade_index": 126,
     "direction": "LONG",
     "entry_time": "2025-11-17T15:00:00.000Z",
     "entry_price": 93915.7,
@@ -1905,22 +1509,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 160,
-    "direction": "LONG",
-    "entry_time": "2025-11-17T17:00:00.000Z",
-    "entry_price": 92724,
-    "exit_time": "2025-11-17T19:00:00.000Z",
-    "exit_price": 92214.02,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-19.26"
-  },
-  {
-    "trade_index": 161,
+    "trade_index": 127,
     "direction": "LONG",
     "entry_time": "2025-11-17T18:00:00.000Z",
     "entry_price": 92504.2,
@@ -1929,10 +1521,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 162,
+    "trade_index": 128,
     "direction": "LONG",
     "entry_time": "2025-11-17T19:00:00.000Z",
     "entry_price": 91656.2,
@@ -1941,10 +1533,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-22.16"
+    "max_drawdown_during_trade": -22.16
   },
   {
-    "trade_index": 163,
+    "trade_index": 129,
     "direction": "LONG",
     "entry_time": "2025-11-17T20:00:00.000Z",
     "entry_price": 91880.5,
@@ -1953,34 +1545,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-21.79"
+    "max_drawdown_during_trade": -21.79
   },
   {
-    "trade_index": 164,
-    "direction": "LONG",
-    "entry_time": "2025-11-17T21:00:00.000Z",
-    "entry_price": 91925.7,
-    "exit_time": "2025-11-18T00:00:00.000Z",
-    "exit_price": 91420.11,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-9.35"
-  },
-  {
-    "trade_index": 165,
-    "direction": "LONG",
-    "entry_time": "2025-11-18T03:00:00.000Z",
-    "entry_price": 90811.9,
-    "exit_time": "2025-11-18T04:00:00.000Z",
-    "exit_price": 90312.43,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
-  },
-  {
-    "trade_index": 166,
+    "trade_index": 130,
     "direction": "LONG",
     "entry_time": "2025-11-18T04:00:00.000Z",
     "entry_price": 90049.4,
@@ -1989,10 +1557,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-20.69"
+    "max_drawdown_during_trade": -20.69
   },
   {
-    "trade_index": 167,
+    "trade_index": 131,
     "direction": "LONG",
     "entry_time": "2025-11-18T05:00:00.000Z",
     "entry_price": 90185.9,
@@ -2001,34 +1569,34 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 168,
-    "direction": "LONG",
-    "entry_time": "2025-11-18T06:00:00.000Z",
-    "entry_price": 89615.9,
-    "exit_time": "2025-11-18T14:00:00.000Z",
-    "exit_price": 91408.22,
-    "final_result": "TP2_FULL",
-    "roi_total": 100,
-    "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-17.64"
-  },
-  {
-    "trade_index": 169,
+    "trade_index": 132,
     "direction": "SHORT",
-    "entry_time": "2025-11-18T11:00:00.000Z",
-    "entry_price": 91473.6,
+    "entry_time": "2025-11-18T10:00:00.000Z",
+    "entry_price": 91536.3,
     "exit_time": "2025-11-18T14:00:00.000Z",
-    "exit_price": 91976.7,
+    "exit_price": 92039.75,
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-21.07"
+    "max_drawdown_during_trade": -17.63
   },
   {
-    "trade_index": 170,
+    "trade_index": 133,
+    "direction": "SHORT",
+    "entry_time": "2025-11-18T15:00:00.000Z",
+    "entry_price": 92851.4,
+    "exit_time": "2025-11-18T16:00:00.000Z",
+    "exit_price": 93362.08,
+    "final_result": "SL_FULL",
+    "roi_total": -27.5,
+    "pnl_usdt": -33,
+    "max_drawdown_during_trade": 0
+  },
+  {
+    "trade_index": 134,
     "direction": "SHORT",
     "entry_time": "2025-11-18T16:00:00.000Z",
     "entry_price": 93447.3,
@@ -2037,10 +1605,10 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-15.02"
+    "max_drawdown_during_trade": -15.02
   },
   {
-    "trade_index": 171,
+    "trade_index": 135,
     "direction": "SHORT",
     "entry_time": "2025-11-18T17:00:00.000Z",
     "entry_price": 93215.7,
@@ -2049,10 +1617,10 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-27.48"
+    "max_drawdown_during_trade": -27.48
   },
   {
-    "trade_index": 172,
+    "trade_index": 136,
     "direction": "SHORT",
     "entry_time": "2025-11-18T18:00:00.000Z",
     "entry_price": 93290.6,
@@ -2061,34 +1629,10 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-15.30"
+    "max_drawdown_during_trade": -15.3
   },
   {
-    "trade_index": 173,
-    "direction": "SHORT",
-    "entry_time": "2025-11-18T19:00:00.000Z",
-    "entry_price": 93143.1,
-    "exit_time": "2025-11-19T05:00:00.000Z",
-    "exit_price": 91280.24,
-    "final_result": "TP2_FULL",
-    "roi_total": 100,
-    "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-13.79"
-  },
-  {
-    "trade_index": 174,
-    "direction": "LONG",
-    "entry_time": "2025-11-19T04:00:00.000Z",
-    "entry_price": 91120.3,
-    "exit_time": "2025-11-19T05:00:00.000Z",
-    "exit_price": 90619.14,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
-  },
-  {
-    "trade_index": 175,
+    "trade_index": 137,
     "direction": "LONG",
     "entry_time": "2025-11-19T05:00:00.000Z",
     "entry_price": 90415.7,
@@ -2097,10 +1641,10 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-10.35"
+    "max_drawdown_during_trade": -10.35
   },
   {
-    "trade_index": 176,
+    "trade_index": 138,
     "direction": "LONG",
     "entry_time": "2025-11-19T06:00:00.000Z",
     "entry_price": 90938.5,
@@ -2109,10 +1653,22 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-1.93"
+    "max_drawdown_during_trade": -1.93
   },
   {
-    "trade_index": 177,
+    "trade_index": 139,
+    "direction": "LONG",
+    "entry_time": "2025-11-19T15:00:00.000Z",
+    "entry_price": 89901,
+    "exit_time": "2025-11-19T17:00:00.000Z",
+    "exit_price": 89406.54,
+    "final_result": "SL_FULL",
+    "roi_total": -27.5,
+    "pnl_usdt": -33,
+    "max_drawdown_during_trade": -26.97
+  },
+  {
+    "trade_index": 140,
     "direction": "LONG",
     "entry_time": "2025-11-19T16:00:00.000Z",
     "entry_price": 89863.2,
@@ -2121,10 +1677,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 178,
+    "trade_index": 141,
     "direction": "LONG",
     "entry_time": "2025-11-19T17:00:00.000Z",
     "entry_price": 89459.9,
@@ -2133,10 +1689,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 179,
+    "trade_index": 142,
     "direction": "LONG",
     "entry_time": "2025-11-19T18:00:00.000Z",
     "entry_price": 89214.4,
@@ -2145,22 +1701,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 180,
-    "direction": "LONG",
-    "entry_time": "2025-11-19T19:00:00.000Z",
-    "entry_price": 88857.7,
-    "exit_time": "2025-11-19T23:00:00.000Z",
-    "exit_price": 90634.85,
-    "final_result": "TP2_FULL",
-    "roi_total": 100,
-    "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-16.50"
-  },
-  {
-    "trade_index": 181,
+    "trade_index": 143,
     "direction": "SHORT",
     "entry_time": "2025-11-19T23:00:00.000Z",
     "entry_price": 91508.9,
@@ -2169,10 +1713,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 182,
+    "trade_index": 144,
     "direction": "SHORT",
     "entry_time": "2025-11-20T00:00:00.000Z",
     "entry_price": 91850.1,
@@ -2181,10 +1725,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 183,
+    "trade_index": 145,
     "direction": "SHORT",
     "entry_time": "2025-11-20T01:00:00.000Z",
     "entry_price": 92556,
@@ -2193,10 +1737,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-21.82"
+    "max_drawdown_during_trade": -21.82
   },
   {
-    "trade_index": 184,
+    "trade_index": 146,
     "direction": "SHORT",
     "entry_time": "2025-11-20T02:00:00.000Z",
     "entry_price": 92555.9,
@@ -2205,34 +1749,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-21.83"
+    "max_drawdown_during_trade": -21.83
   },
   {
-    "trade_index": 185,
-    "direction": "SHORT",
-    "entry_time": "2025-11-20T03:00:00.000Z",
-    "entry_price": 92404.6,
-    "exit_time": "2025-11-20T04:00:00.000Z",
-    "exit_price": 92912.83,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
-  },
-  {
-    "trade_index": 186,
-    "direction": "SHORT",
-    "entry_time": "2025-11-20T04:00:00.000Z",
-    "entry_price": 92936.7,
-    "exit_time": "2025-11-20T15:00:00.000Z",
-    "exit_price": 91077.97,
-    "final_result": "TP2_FULL",
-    "roi_total": 100,
-    "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-11.48"
-  },
-  {
-    "trade_index": 187,
+    "trade_index": 147,
     "direction": "LONG",
     "entry_time": "2025-11-20T15:00:00.000Z",
     "entry_price": 89835.4,
@@ -2241,10 +1761,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 188,
+    "trade_index": 148,
     "direction": "LONG",
     "entry_time": "2025-11-20T16:00:00.000Z",
     "entry_price": 87855.5,
@@ -2253,10 +1773,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 189,
+    "trade_index": 149,
     "direction": "LONG",
     "entry_time": "2025-11-20T17:00:00.000Z",
     "entry_price": 87186.1,
@@ -2265,10 +1785,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 190,
+    "trade_index": 150,
     "direction": "LONG",
     "entry_time": "2025-11-20T18:00:00.000Z",
     "entry_price": 86445.7,
@@ -2277,10 +1797,10 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-21.93"
+    "max_drawdown_during_trade": -21.93
   },
   {
-    "trade_index": 191,
+    "trade_index": 151,
     "direction": "LONG",
     "entry_time": "2025-11-20T19:00:00.000Z",
     "entry_price": 86880.3,
@@ -2289,10 +1809,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 192,
+    "trade_index": 152,
     "direction": "LONG",
     "entry_time": "2025-11-20T20:00:00.000Z",
     "entry_price": 86432.8,
@@ -2301,10 +1821,22 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-1.82"
+    "max_drawdown_during_trade": -1.82
   },
   {
-    "trade_index": 193,
+    "trade_index": 153,
+    "direction": "SHORT",
+    "entry_time": "2025-11-20T22:00:00.000Z",
+    "entry_price": 88033.8,
+    "exit_time": "2025-11-21T02:00:00.000Z",
+    "exit_price": 86273.12,
+    "final_result": "TP2_FULL",
+    "roi_total": 100,
+    "pnl_usdt": 120,
+    "max_drawdown_during_trade": -5.83
+  },
+  {
+    "trade_index": 154,
     "direction": "LONG",
     "entry_time": "2025-11-21T02:00:00.000Z",
     "entry_price": 85396.4,
@@ -2313,34 +1845,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-2.84"
+    "max_drawdown_during_trade": -2.84
   },
   {
-    "trade_index": 194,
-    "direction": "LONG",
-    "entry_time": "2025-11-21T03:00:00.000Z",
-    "entry_price": 85782.5,
-    "exit_time": "2025-11-21T07:00:00.000Z",
-    "exit_price": 85310.7,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-25.33"
-  },
-  {
-    "trade_index": 195,
-    "direction": "LONG",
-    "entry_time": "2025-11-21T06:00:00.000Z",
-    "entry_price": 85541.3,
-    "exit_time": "2025-11-21T07:00:00.000Z",
-    "exit_price": 85070.82,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
-  },
-  {
-    "trade_index": 196,
+    "trade_index": 155,
     "direction": "LONG",
     "entry_time": "2025-11-21T07:00:00.000Z",
     "entry_price": 84006.7,
@@ -2349,10 +1857,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-27.15"
+    "max_drawdown_during_trade": -27.15
   },
   {
-    "trade_index": 197,
+    "trade_index": 156,
     "direction": "LONG",
     "entry_time": "2025-11-21T08:00:00.000Z",
     "entry_price": 83609.6,
@@ -2361,10 +1869,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 198,
+    "trade_index": 157,
     "direction": "LONG",
     "entry_time": "2025-11-21T09:00:00.000Z",
     "entry_price": 82188.7,
@@ -2373,10 +1881,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 199,
+    "trade_index": 158,
     "direction": "LONG",
     "entry_time": "2025-11-21T10:00:00.000Z",
     "entry_price": 82673.1,
@@ -2385,10 +1893,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 200,
+    "trade_index": 159,
     "direction": "LONG",
     "entry_time": "2025-11-21T11:00:00.000Z",
     "entry_price": 82279.1,
@@ -2397,10 +1905,22 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 201,
+    "trade_index": 160,
+    "direction": "SHORT",
+    "entry_time": "2025-11-21T13:00:00.000Z",
+    "entry_price": 84065.2,
+    "exit_time": "2025-11-21T14:00:00.000Z",
+    "exit_price": 84527.56,
+    "final_result": "SL_FULL",
+    "roi_total": -27.5,
+    "pnl_usdt": -33,
+    "max_drawdown_during_trade": 0
+  },
+  {
+    "trade_index": 161,
     "direction": "SHORT",
     "entry_time": "2025-11-21T14:00:00.000Z",
     "entry_price": 84801,
@@ -2409,10 +1929,10 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-15.48"
+    "max_drawdown_during_trade": -15.48
   },
   {
-    "trade_index": 202,
+    "trade_index": 162,
     "direction": "SHORT",
     "entry_time": "2025-11-21T16:00:00.000Z",
     "entry_price": 84883.1,
@@ -2421,34 +1941,22 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 203,
+    "trade_index": 163,
     "direction": "SHORT",
-    "entry_time": "2025-11-21T17:00:00.000Z",
-    "entry_price": 84842.7,
-    "exit_time": "2025-11-21T19:00:00.000Z",
-    "exit_price": 84333.64,
-    "final_result": "TP1_BE",
-    "roi_total": 30,
-    "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-12.55"
-  },
-  {
-    "trade_index": 204,
-    "direction": "SHORT",
-    "entry_time": "2025-11-21T20:00:00.000Z",
-    "entry_price": 84529,
+    "entry_time": "2025-11-21T19:00:00.000Z",
+    "entry_price": 84167.2,
     "exit_time": "2025-11-21T21:00:00.000Z",
-    "exit_price": 84993.91,
+    "exit_price": 84630.12,
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": -26.79
   },
   {
-    "trade_index": 205,
+    "trade_index": 164,
     "direction": "SHORT",
     "entry_time": "2025-11-23T01:00:00.000Z",
     "entry_price": 85837.5,
@@ -2457,22 +1965,22 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-26.94"
+    "max_drawdown_during_trade": -26.94
   },
   {
-    "trade_index": 206,
+    "trade_index": 165,
     "direction": "SHORT",
-    "entry_time": "2025-11-23T02:00:00.000Z",
-    "entry_price": 85948.4,
+    "entry_time": "2025-11-23T03:00:00.000Z",
+    "entry_price": 86261,
     "exit_time": "2025-11-23T04:00:00.000Z",
-    "exit_price": 86421.12,
+    "exit_price": 86735.44,
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-18.19"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 207,
+    "trade_index": 166,
     "direction": "SHORT",
     "entry_time": "2025-11-23T04:00:00.000Z",
     "entry_price": 86499.3,
@@ -2481,34 +1989,22 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-2.38"
+    "max_drawdown_during_trade": -2.38
   },
   {
-    "trade_index": 208,
-    "direction": "SHORT",
-    "entry_time": "2025-11-23T05:00:00.000Z",
-    "entry_price": 86315.3,
-    "exit_time": "2025-11-23T12:00:00.000Z",
-    "exit_price": 86790.03,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-8.31"
-  },
-  {
-    "trade_index": 209,
+    "trade_index": 167,
     "direction": "LONG",
-    "entry_time": "2025-11-24T10:00:00.000Z",
-    "entry_price": 86017.1,
+    "entry_time": "2025-11-24T09:00:00.000Z",
+    "entry_price": 85913.7,
     "exit_time": "2025-11-24T14:00:00.000Z",
-    "exit_price": 85544.01,
+    "exit_price": 85441.17,
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-12.84"
+    "max_drawdown_during_trade": -15.11
   },
   {
-    "trade_index": 210,
+    "trade_index": 168,
     "direction": "SHORT",
     "entry_time": "2025-11-24T17:00:00.000Z",
     "entry_price": 88314.9,
@@ -2517,10 +2013,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-26.78"
+    "max_drawdown_during_trade": -26.78
   },
   {
-    "trade_index": 211,
+    "trade_index": 169,
     "direction": "SHORT",
     "entry_time": "2025-11-24T18:00:00.000Z",
     "entry_price": 88658.9,
@@ -2529,10 +2025,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-7.28"
+    "max_drawdown_during_trade": -7.28
   },
   {
-    "trade_index": 212,
+    "trade_index": 170,
     "direction": "SHORT",
     "entry_time": "2025-11-24T19:00:00.000Z",
     "entry_price": 88277,
@@ -2541,10 +2037,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 213,
+    "trade_index": 171,
     "direction": "SHORT",
     "entry_time": "2025-11-24T20:00:00.000Z",
     "entry_price": 89018.7,
@@ -2553,22 +2049,10 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-3.07"
+    "max_drawdown_during_trade": -3.07
   },
   {
-    "trade_index": 214,
-    "direction": "SHORT",
-    "entry_time": "2025-11-24T21:00:00.000Z",
-    "entry_price": 88713.3,
-    "exit_time": "2025-11-25T14:00:00.000Z",
-    "exit_price": 86939.03,
-    "final_result": "TP2_FULL",
-    "roi_total": 100,
-    "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-19.16"
-  },
-  {
-    "trade_index": 215,
+    "trade_index": 172,
     "direction": "SHORT",
     "entry_time": "2025-11-26T17:00:00.000Z",
     "entry_price": 89792.5,
@@ -2577,10 +2061,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 216,
+    "trade_index": 173,
     "direction": "SHORT",
     "entry_time": "2025-11-26T18:00:00.000Z",
     "entry_price": 90103.4,
@@ -2589,10 +2073,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-20.25"
+    "max_drawdown_during_trade": -20.25
   },
   {
-    "trade_index": 217,
+    "trade_index": 174,
     "direction": "SHORT",
     "entry_time": "2025-11-26T19:00:00.000Z",
     "entry_price": 89923.3,
@@ -2601,10 +2085,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-8.11"
+    "max_drawdown_during_trade": -8.11
   },
   {
-    "trade_index": 218,
+    "trade_index": 175,
     "direction": "SHORT",
     "entry_time": "2025-11-26T20:00:00.000Z",
     "entry_price": 89811,
@@ -2613,22 +2097,22 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 219,
-    "direction": "SHORT",
-    "entry_time": "2025-11-26T21:00:00.000Z",
-    "entry_price": 90142.8,
-    "exit_time": "2025-11-26T22:00:00.000Z",
-    "exit_price": 90638.59,
+    "trade_index": 176,
+    "direction": "LONG",
+    "entry_time": "2025-11-28T17:00:00.000Z",
+    "entry_price": 90620.5,
+    "exit_time": "2025-11-29T18:00:00.000Z",
+    "exit_price": 90122.09,
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": -19.6
   },
   {
-    "trade_index": 220,
+    "trade_index": 177,
     "direction": "LONG",
     "entry_time": "2025-11-28T18:00:00.000Z",
     "entry_price": 90787.8,
@@ -2637,10 +2121,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-15.85"
+    "max_drawdown_during_trade": -15.85
   },
   {
-    "trade_index": 221,
+    "trade_index": 178,
     "direction": "LONG",
     "entry_time": "2025-12-01T00:00:00.000Z",
     "entry_price": 86970.7,
@@ -2649,10 +2133,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-4.06"
+    "max_drawdown_during_trade": -4.06
   },
   {
-    "trade_index": 222,
+    "trade_index": 179,
     "direction": "LONG",
     "entry_time": "2025-12-01T01:00:00.000Z",
     "entry_price": 87134,
@@ -2661,10 +2145,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 223,
+    "trade_index": 180,
     "direction": "LONG",
     "entry_time": "2025-12-01T02:00:00.000Z",
     "entry_price": 86685.6,
@@ -2673,10 +2157,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 224,
+    "trade_index": 181,
     "direction": "LONG",
     "entry_time": "2025-12-01T03:00:00.000Z",
     "entry_price": 86319.2,
@@ -2685,22 +2169,22 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 225,
+    "trade_index": 182,
     "direction": "LONG",
-    "entry_time": "2025-12-01T04:00:00.000Z",
-    "entry_price": 85767.7,
-    "exit_time": "2025-12-01T12:00:00.000Z",
-    "exit_price": 86282.31,
+    "entry_time": "2025-12-01T12:00:00.000Z",
+    "entry_price": 85396.2,
+    "exit_time": "2025-12-01T15:00:00.000Z",
+    "exit_price": 85908.58,
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-11.89"
+    "max_drawdown_during_trade": -5.04
   },
   {
-    "trade_index": 226,
+    "trade_index": 183,
     "direction": "LONG",
     "entry_time": "2025-12-01T15:00:00.000Z",
     "entry_price": 84650,
@@ -2709,22 +2193,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 227,
-    "direction": "LONG",
-    "entry_time": "2025-12-01T16:00:00.000Z",
-    "entry_price": 84540.3,
-    "exit_time": "2025-12-02T01:00:00.000Z",
-    "exit_price": 86231.11,
-    "final_result": "TP2_FULL",
-    "roi_total": 100,
-    "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-7.46"
-  },
-  {
-    "trade_index": 228,
+    "trade_index": 184,
     "direction": "SHORT",
     "entry_time": "2025-12-01T21:00:00.000Z",
     "entry_price": 86380.1,
@@ -2733,10 +2205,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-25.29"
+    "max_drawdown_during_trade": -25.29
   },
   {
-    "trade_index": 229,
+    "trade_index": 185,
     "direction": "SHORT",
     "entry_time": "2025-12-01T22:00:00.000Z",
     "entry_price": 86518.2,
@@ -2745,22 +2217,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-15.01"
+    "max_drawdown_during_trade": -15.01
   },
   {
-    "trade_index": 230,
-    "direction": "SHORT",
-    "entry_time": "2025-12-02T00:00:00.000Z",
-    "entry_price": 86472,
-    "exit_time": "2025-12-02T01:00:00.000Z",
-    "exit_price": 86947.6,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
-  },
-  {
-    "trade_index": 231,
+    "trade_index": 186,
     "direction": "SHORT",
     "entry_time": "2025-12-02T14:00:00.000Z",
     "entry_price": 89225.1,
@@ -2769,10 +2229,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 232,
+    "trade_index": 187,
     "direction": "SHORT",
     "entry_time": "2025-12-02T15:00:00.000Z",
     "entry_price": 90809.2,
@@ -2781,10 +2241,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 233,
+    "trade_index": 188,
     "direction": "SHORT",
     "entry_time": "2025-12-02T16:00:00.000Z",
     "entry_price": 90713.9,
@@ -2793,10 +2253,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 234,
+    "trade_index": 189,
     "direction": "SHORT",
     "entry_time": "2025-12-02T17:00:00.000Z",
     "entry_price": 91417.5,
@@ -2805,10 +2265,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 235,
+    "trade_index": 190,
     "direction": "SHORT",
     "entry_time": "2025-12-02T18:00:00.000Z",
     "entry_price": 91905,
@@ -2817,22 +2277,10 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-20.03"
+    "max_drawdown_during_trade": -20.03
   },
   {
-    "trade_index": 236,
-    "direction": "SHORT",
-    "entry_time": "2025-12-02T19:00:00.000Z",
-    "entry_price": 91849.9,
-    "exit_time": "2025-12-02T22:00:00.000Z",
-    "exit_price": 91298.8,
-    "final_result": "TP1_BE",
-    "roi_total": 30,
-    "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-1.85"
-  },
-  {
-    "trade_index": 237,
+    "trade_index": 191,
     "direction": "SHORT",
     "entry_time": "2025-12-03T04:00:00.000Z",
     "entry_price": 93302.2,
@@ -2841,58 +2289,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-17.70"
+    "max_drawdown_during_trade": -17.7
   },
   {
-    "trade_index": 238,
-    "direction": "SHORT",
-    "entry_time": "2025-12-03T05:00:00.000Z",
-    "entry_price": 93591,
-    "exit_time": "2025-12-03T21:00:00.000Z",
-    "exit_price": 93029.45,
-    "final_result": "TP1_BE",
-    "roi_total": 30,
-    "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-18.25"
-  },
-  {
-    "trade_index": 239,
-    "direction": "SHORT",
-    "entry_time": "2025-12-03T21:00:00.000Z",
-    "entry_price": 93645,
-    "exit_time": "2025-12-03T22:00:00.000Z",
-    "exit_price": 94160.05,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
-  },
-  {
-    "trade_index": 240,
-    "direction": "LONG",
-    "entry_time": "2025-12-04T14:00:00.000Z",
-    "entry_price": 91859.4,
-    "exit_time": "2025-12-04T17:00:00.000Z",
-    "exit_price": 92410.56,
-    "final_result": "TP1_BE",
-    "roi_total": 30,
-    "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-0.74"
-  },
-  {
-    "trade_index": 241,
-    "direction": "LONG",
-    "entry_time": "2025-12-05T13:00:00.000Z",
-    "entry_price": 90433.6,
-    "exit_time": "2025-12-05T14:00:00.000Z",
-    "exit_price": 89936.22,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
-  },
-  {
-    "trade_index": 242,
+    "trade_index": 192,
     "direction": "LONG",
     "entry_time": "2025-12-05T16:00:00.000Z",
     "entry_price": 88757.5,
@@ -2901,34 +2301,10 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-11.19"
+    "max_drawdown_during_trade": -11.19
   },
   {
-    "trade_index": 243,
-    "direction": "LONG",
-    "entry_time": "2025-12-05T17:00:00.000Z",
-    "entry_price": 89279.3,
-    "exit_time": "2025-12-05T19:00:00.000Z",
-    "exit_price": 88788.26,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-24.66"
-  },
-  {
-    "trade_index": 244,
-    "direction": "LONG",
-    "entry_time": "2025-12-05T18:00:00.000Z",
-    "entry_price": 88894.9,
-    "exit_time": "2025-12-06T23:00:00.000Z",
-    "exit_price": 89428.27,
-    "final_result": "TP1_BE",
-    "roi_total": 30,
-    "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-6.82"
-  },
-  {
-    "trade_index": 245,
+    "trade_index": 193,
     "direction": "SHORT",
     "entry_time": "2025-12-07T17:00:00.000Z",
     "entry_price": 90904.2,
@@ -2937,10 +2313,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 246,
+    "trade_index": 194,
     "direction": "SHORT",
     "entry_time": "2025-12-07T18:00:00.000Z",
     "entry_price": 91327.6,
@@ -2949,10 +2325,10 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-9.62"
+    "max_drawdown_during_trade": -9.62
   },
   {
-    "trade_index": 247,
+    "trade_index": 195,
     "direction": "SHORT",
     "entry_time": "2025-12-07T19:00:00.000Z",
     "entry_price": 91379.7,
@@ -2961,10 +2337,10 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-5.12"
+    "max_drawdown_during_trade": -5.12
   },
   {
-    "trade_index": 248,
+    "trade_index": 196,
     "direction": "SHORT",
     "entry_time": "2025-12-07T20:00:00.000Z",
     "entry_price": 91392,
@@ -2973,22 +2349,34 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-0.01"
+    "max_drawdown_during_trade": -0.01
   },
   {
-    "trade_index": 249,
+    "trade_index": 197,
+    "direction": "LONG",
+    "entry_time": "2025-12-07T22:00:00.000Z",
+    "entry_price": 89551.8,
+    "exit_time": "2025-12-08T09:00:00.000Z",
+    "exit_price": 91342.84,
+    "final_result": "TP2_FULL",
+    "roi_total": 100,
+    "pnl_usdt": 120,
+    "max_drawdown_during_trade": -4.38
+  },
+  {
+    "trade_index": 198,
     "direction": "SHORT",
-    "entry_time": "2025-12-08T03:00:00.000Z",
-    "entry_price": 91039.4,
-    "exit_time": "2025-12-08T06:00:00.000Z",
-    "exit_price": 91540.12,
+    "entry_time": "2025-12-08T02:00:00.000Z",
+    "entry_price": 91327,
+    "exit_time": "2025-12-08T07:00:00.000Z",
+    "exit_price": 91829.3,
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-22.23"
+    "max_drawdown_during_trade": -15.65
   },
   {
-    "trade_index": 250,
+    "trade_index": 199,
     "direction": "LONG",
     "entry_time": "2025-12-08T15:00:00.000Z",
     "entry_price": 89912.6,
@@ -2997,10 +2385,10 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-15.77"
+    "max_drawdown_during_trade": -15.77
   },
   {
-    "trade_index": 251,
+    "trade_index": 200,
     "direction": "LONG",
     "entry_time": "2025-12-08T16:00:00.000Z",
     "entry_price": 89929.2,
@@ -3009,34 +2397,10 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-15.97"
+    "max_drawdown_during_trade": -15.97
   },
   {
-    "trade_index": 252,
-    "direction": "LONG",
-    "entry_time": "2025-12-08T17:00:00.000Z",
-    "entry_price": 90212.1,
-    "exit_time": "2025-12-08T18:00:00.000Z",
-    "exit_price": 89715.93,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
-  },
-  {
-    "trade_index": 253,
-    "direction": "LONG",
-    "entry_time": "2025-12-08T18:00:00.000Z",
-    "entry_price": 89873.5,
-    "exit_time": "2025-12-09T03:00:00.000Z",
-    "exit_price": 90412.74,
-    "final_result": "TP1_BE",
-    "roi_total": 30,
-    "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-3.79"
-  },
-  {
-    "trade_index": 254,
+    "trade_index": 201,
     "direction": "SHORT",
     "entry_time": "2025-12-09T15:00:00.000Z",
     "entry_price": 92676.9,
@@ -3045,10 +2409,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 255,
+    "trade_index": 202,
     "direction": "SHORT",
     "entry_time": "2025-12-09T16:00:00.000Z",
     "entry_price": 94146.8,
@@ -3057,10 +2421,10 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-21.68"
+    "max_drawdown_during_trade": -21.68
   },
   {
-    "trade_index": 256,
+    "trade_index": 203,
     "direction": "SHORT",
     "entry_time": "2025-12-09T17:00:00.000Z",
     "entry_price": 93884.5,
@@ -3069,10 +2433,10 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-17.94"
+    "max_drawdown_during_trade": -17.94
   },
   {
-    "trade_index": 257,
+    "trade_index": 204,
     "direction": "SHORT",
     "entry_time": "2025-12-09T18:00:00.000Z",
     "entry_price": 93887.3,
@@ -3081,58 +2445,10 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-17.79"
+    "max_drawdown_during_trade": -17.79
   },
   {
-    "trade_index": 258,
-    "direction": "SHORT",
-    "entry_time": "2025-12-09T19:00:00.000Z",
-    "entry_price": 93761.9,
-    "exit_time": "2025-12-10T20:00:00.000Z",
-    "exit_price": 93199.33,
-    "final_result": "TP1_BE",
-    "roi_total": 30,
-    "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-3.05"
-  },
-  {
-    "trade_index": 259,
-    "direction": "LONG",
-    "entry_time": "2025-12-09T21:00:00.000Z",
-    "entry_price": 92591.2,
-    "exit_time": "2025-12-10T00:00:00.000Z",
-    "exit_price": 92081.95,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-7.35"
-  },
-  {
-    "trade_index": 260,
-    "direction": "LONG",
-    "entry_time": "2025-12-10T00:00:00.000Z",
-    "entry_price": 92084.5,
-    "exit_time": "2025-12-10T11:00:00.000Z",
-    "exit_price": 92637.01,
-    "final_result": "TP1_BE",
-    "roi_total": 30,
-    "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-10.02"
-  },
-  {
-    "trade_index": 261,
-    "direction": "LONG",
-    "entry_time": "2025-12-11T00:00:00.000Z",
-    "entry_price": 91350.1,
-    "exit_time": "2025-12-11T01:00:00.000Z",
-    "exit_price": 90847.67,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
-  },
-  {
-    "trade_index": 262,
+    "trade_index": 205,
     "direction": "LONG",
     "entry_time": "2025-12-11T01:00:00.000Z",
     "entry_price": 90637,
@@ -3141,10 +2457,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 263,
+    "trade_index": 206,
     "direction": "LONG",
     "entry_time": "2025-12-11T02:00:00.000Z",
     "entry_price": 90034.4,
@@ -3153,10 +2469,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 264,
+    "trade_index": 207,
     "direction": "LONG",
     "entry_time": "2025-12-11T03:00:00.000Z",
     "entry_price": 89833.1,
@@ -3165,22 +2481,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-10.73"
+    "max_drawdown_during_trade": -10.73
   },
   {
-    "trade_index": 265,
-    "direction": "LONG",
-    "entry_time": "2025-12-11T04:00:00.000Z",
-    "entry_price": 90386.6,
-    "exit_time": "2025-12-11T13:00:00.000Z",
-    "exit_price": 89889.47,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-26.13"
-  },
-  {
-    "trade_index": 266,
+    "trade_index": 208,
     "direction": "SHORT",
     "entry_time": "2025-12-11T20:00:00.000Z",
     "entry_price": 91740.9,
@@ -3189,10 +2493,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 267,
+    "trade_index": 209,
     "direction": "SHORT",
     "entry_time": "2025-12-11T21:00:00.000Z",
     "entry_price": 92823.6,
@@ -3201,10 +2505,10 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-18.62"
+    "max_drawdown_during_trade": -18.62
   },
   {
-    "trade_index": 268,
+    "trade_index": 210,
     "direction": "SHORT",
     "entry_time": "2025-12-11T22:00:00.000Z",
     "entry_price": 92325.4,
@@ -3213,10 +2517,10 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-23.89"
+    "max_drawdown_during_trade": -23.89
   },
   {
-    "trade_index": 269,
+    "trade_index": 211,
     "direction": "SHORT",
     "entry_time": "2025-12-11T23:00:00.000Z",
     "entry_price": 92477.5,
@@ -3225,10 +2529,10 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-13.06"
+    "max_drawdown_during_trade": -13.06
   },
   {
-    "trade_index": 270,
+    "trade_index": 212,
     "direction": "LONG",
     "entry_time": "2025-12-12T15:00:00.000Z",
     "entry_price": 89895,
@@ -3237,10 +2541,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-25.92"
+    "max_drawdown_during_trade": -25.92
   },
   {
-    "trade_index": 271,
+    "trade_index": 213,
     "direction": "LONG",
     "entry_time": "2025-12-12T16:00:00.000Z",
     "entry_price": 89996.8,
@@ -3249,10 +2553,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-15.83"
+    "max_drawdown_during_trade": -15.83
   },
   {
-    "trade_index": 272,
+    "trade_index": 214,
     "direction": "LONG",
     "entry_time": "2025-12-12T17:00:00.000Z",
     "entry_price": 90043.5,
@@ -3261,10 +2565,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-18.41"
+    "max_drawdown_during_trade": -18.41
   },
   {
-    "trade_index": 273,
+    "trade_index": 215,
     "direction": "LONG",
     "entry_time": "2025-12-12T18:00:00.000Z",
     "entry_price": 90323.7,
@@ -3273,34 +2577,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-26.61"
+    "max_drawdown_during_trade": -26.61
   },
   {
-    "trade_index": 274,
-    "direction": "LONG",
-    "entry_time": "2025-12-12T19:00:00.000Z",
-    "entry_price": 90147.3,
-    "exit_time": "2025-12-14T11:00:00.000Z",
-    "exit_price": 89651.49,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-24.15"
-  },
-  {
-    "trade_index": 275,
-    "direction": "SHORT",
-    "entry_time": "2025-12-15T04:00:00.000Z",
-    "entry_price": 89631.2,
-    "exit_time": "2025-12-15T15:00:00.000Z",
-    "exit_price": 87838.58,
-    "final_result": "TP2_FULL",
-    "roi_total": 100,
-    "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-17.23"
-  },
-  {
-    "trade_index": 276,
+    "trade_index": 216,
     "direction": "LONG",
     "entry_time": "2025-12-15T14:00:00.000Z",
     "entry_price": 88004.3,
@@ -3309,10 +2589,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 277,
+    "trade_index": 217,
     "direction": "LONG",
     "entry_time": "2025-12-15T15:00:00.000Z",
     "entry_price": 86996.6,
@@ -3321,10 +2601,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 278,
+    "trade_index": 218,
     "direction": "LONG",
     "entry_time": "2025-12-15T16:00:00.000Z",
     "entry_price": 86360.6,
@@ -3333,10 +2613,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 279,
+    "trade_index": 219,
     "direction": "LONG",
     "entry_time": "2025-12-15T17:00:00.000Z",
     "entry_price": 85734.3,
@@ -3345,10 +2625,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 280,
+    "trade_index": 220,
     "direction": "LONG",
     "entry_time": "2025-12-15T18:00:00.000Z",
     "entry_price": 86142.7,
@@ -3357,34 +2637,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-17.95"
+    "max_drawdown_during_trade": -17.95
   },
   {
-    "trade_index": 281,
-    "direction": "LONG",
-    "entry_time": "2025-12-15T19:00:00.000Z",
-    "entry_price": 86104.2,
-    "exit_time": "2025-12-15T20:00:00.000Z",
-    "exit_price": 85630.63,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
-  },
-  {
-    "trade_index": 282,
-    "direction": "SHORT",
-    "entry_time": "2025-12-16T18:00:00.000Z",
-    "entry_price": 87741.3,
-    "exit_time": "2025-12-17T13:00:00.000Z",
-    "exit_price": 87214.85,
-    "final_result": "TP1_BE",
-    "roi_total": 30,
-    "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-10.51"
-  },
-  {
-    "trade_index": 283,
+    "trade_index": 221,
     "direction": "SHORT",
     "entry_time": "2025-12-17T14:00:00.000Z",
     "entry_price": 89633.9,
@@ -3393,10 +2649,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 284,
+    "trade_index": 222,
     "direction": "LONG",
     "entry_time": "2025-12-17T18:00:00.000Z",
     "entry_price": 85796.1,
@@ -3405,34 +2661,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 285,
-    "direction": "LONG",
-    "entry_time": "2025-12-17T19:00:00.000Z",
-    "entry_price": 85982.7,
-    "exit_time": "2025-12-18T13:00:00.000Z",
-    "exit_price": 87702.35,
-    "final_result": "TP2_FULL",
-    "roi_total": 100,
-    "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-20.51"
-  },
-  {
-    "trade_index": 286,
-    "direction": "LONG",
-    "entry_time": "2025-12-17T20:00:00.000Z",
-    "entry_price": 85854.7,
-    "exit_time": "2025-12-18T13:00:00.000Z",
-    "exit_price": 87571.79,
-    "final_result": "TP2_FULL",
-    "roi_total": 100,
-    "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-11.16"
-  },
-  {
-    "trade_index": 287,
+    "trade_index": 223,
     "direction": "SHORT",
     "entry_time": "2025-12-18T13:00:00.000Z",
     "entry_price": 88804,
@@ -3441,10 +2673,22 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 288,
+    "trade_index": 224,
+    "direction": "LONG",
+    "entry_time": "2025-12-18T17:00:00.000Z",
+    "entry_price": 86443.6,
+    "exit_time": "2025-12-18T18:00:00.000Z",
+    "exit_price": 85968.16,
+    "final_result": "SL_FULL",
+    "roi_total": -27.5,
+    "pnl_usdt": -33,
+    "max_drawdown_during_trade": 0
+  },
+  {
+    "trade_index": 225,
     "direction": "LONG",
     "entry_time": "2025-12-18T18:00:00.000Z",
     "entry_price": 85946.7,
@@ -3453,10 +2697,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 289,
+    "trade_index": 226,
     "direction": "LONG",
     "entry_time": "2025-12-18T19:00:00.000Z",
     "entry_price": 84447,
@@ -3465,10 +2709,10 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-2.27"
+    "max_drawdown_during_trade": -2.27
   },
   {
-    "trade_index": 290,
+    "trade_index": 227,
     "direction": "LONG",
     "entry_time": "2025-12-18T20:00:00.000Z",
     "entry_price": 84558.8,
@@ -3477,22 +2721,10 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-2.22"
+    "max_drawdown_during_trade": -2.22
   },
   {
-    "trade_index": 291,
-    "direction": "LONG",
-    "entry_time": "2025-12-18T21:00:00.000Z",
-    "entry_price": 85584.6,
-    "exit_time": "2025-12-19T01:00:00.000Z",
-    "exit_price": 85113.88,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-19.79"
-  },
-  {
-    "trade_index": 292,
+    "trade_index": 228,
     "direction": "SHORT",
     "entry_time": "2025-12-19T03:00:00.000Z",
     "entry_price": 86863.1,
@@ -3501,10 +2733,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 293,
+    "trade_index": 229,
     "direction": "SHORT",
     "entry_time": "2025-12-19T04:00:00.000Z",
     "entry_price": 87073.5,
@@ -3513,10 +2745,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-21.62"
+    "max_drawdown_during_trade": -21.62
   },
   {
-    "trade_index": 294,
+    "trade_index": 230,
     "direction": "SHORT",
     "entry_time": "2025-12-19T05:00:00.000Z",
     "entry_price": 87099.7,
@@ -3525,10 +2757,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-20.11"
+    "max_drawdown_during_trade": -20.11
   },
   {
-    "trade_index": 295,
+    "trade_index": 231,
     "direction": "SHORT",
     "entry_time": "2025-12-19T06:00:00.000Z",
     "entry_price": 87449.9,
@@ -3537,34 +2769,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 296,
-    "direction": "SHORT",
-    "entry_time": "2025-12-19T07:00:00.000Z",
-    "entry_price": 87909.7,
-    "exit_time": "2025-12-19T14:00:00.000Z",
-    "exit_price": 88393.2,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-24.76"
-  },
-  {
-    "trade_index": 297,
-    "direction": "SHORT",
-    "entry_time": "2025-12-19T22:00:00.000Z",
-    "entry_price": 88301.1,
-    "exit_time": "2025-12-21T09:00:00.000Z",
-    "exit_price": 88786.76,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-24.24"
-  },
-  {
-    "trade_index": 298,
+    "trade_index": 232,
     "direction": "LONG",
     "entry_time": "2025-12-22T19:00:00.000Z",
     "entry_price": 88011.1,
@@ -3573,22 +2781,34 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-26.33"
+    "max_drawdown_during_trade": -26.33
   },
   {
-    "trade_index": 299,
-    "direction": "LONG",
-    "entry_time": "2025-12-22T20:00:00.000Z",
-    "entry_price": 88305.9,
-    "exit_time": "2025-12-23T03:00:00.000Z",
-    "exit_price": 87820.22,
+    "trade_index": 233,
+    "direction": "SHORT",
+    "entry_time": "2025-12-26T02:00:00.000Z",
+    "entry_price": 89151.8,
+    "exit_time": "2025-12-26T15:00:00.000Z",
+    "exit_price": 87368.76,
+    "final_result": "TP2_FULL",
+    "roi_total": 100,
+    "pnl_usdt": 120,
+    "max_drawdown_during_trade": -22.76
+  },
+  {
+    "trade_index": 234,
+    "direction": "SHORT",
+    "entry_time": "2025-12-26T03:00:00.000Z",
+    "entry_price": 88796.2,
+    "exit_time": "2025-12-26T07:00:00.000Z",
+    "exit_price": 89284.58,
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-13.36"
+    "max_drawdown_during_trade": -22.74
   },
   {
-    "trade_index": 300,
+    "trade_index": 235,
     "direction": "SHORT",
     "entry_time": "2025-12-26T04:00:00.000Z",
     "entry_price": 88926,
@@ -3597,10 +2817,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-15.41"
+    "max_drawdown_during_trade": -15.41
   },
   {
-    "trade_index": 301,
+    "trade_index": 236,
     "direction": "SHORT",
     "entry_time": "2025-12-26T05:00:00.000Z",
     "entry_price": 88954.7,
@@ -3609,22 +2829,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-13.79"
+    "max_drawdown_during_trade": -13.79
   },
   {
-    "trade_index": 302,
-    "direction": "SHORT",
-    "entry_time": "2025-12-26T06:00:00.000Z",
-    "entry_price": 89085,
-    "exit_time": "2025-12-29T02:00:00.000Z",
-    "exit_price": 88550.49,
-    "final_result": "TP1_BE",
-    "roi_total": 30,
-    "pnl_usdt": 36,
-    "max_drawdown_during_trade": "-26.53"
-  },
-  {
-    "trade_index": 303,
+    "trade_index": 237,
     "direction": "LONG",
     "entry_time": "2025-12-26T14:00:00.000Z",
     "entry_price": 87344.4,
@@ -3633,10 +2841,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 304,
+    "trade_index": 238,
     "direction": "LONG",
     "entry_time": "2025-12-26T15:00:00.000Z",
     "entry_price": 87100,
@@ -3645,10 +2853,10 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-19.49"
+    "max_drawdown_during_trade": -19.49
   },
   {
-    "trade_index": 305,
+    "trade_index": 239,
     "direction": "LONG",
     "entry_time": "2025-12-26T16:00:00.000Z",
     "entry_price": 86821.7,
@@ -3657,10 +2865,10 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-3.53"
+    "max_drawdown_during_trade": -3.53
   },
   {
-    "trade_index": 306,
+    "trade_index": 240,
     "direction": "LONG",
     "entry_time": "2025-12-26T17:00:00.000Z",
     "entry_price": 87288.6,
@@ -3669,34 +2877,10 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-11.38"
+    "max_drawdown_during_trade": -11.38
   },
   {
-    "trade_index": 307,
-    "direction": "LONG",
-    "entry_time": "2025-12-26T18:00:00.000Z",
-    "entry_price": 87232.5,
-    "exit_time": "2025-12-29T03:00:00.000Z",
-    "exit_price": 88977.15,
-    "final_result": "TP2_FULL",
-    "roi_total": 100,
-    "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-1.86"
-  },
-  {
-    "trade_index": 308,
-    "direction": "SHORT",
-    "entry_time": "2025-12-29T02:00:00.000Z",
-    "entry_price": 89129.1,
-    "exit_time": "2025-12-29T03:00:00.000Z",
-    "exit_price": 89619.31,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
-  },
-  {
-    "trade_index": 309,
+    "trade_index": 241,
     "direction": "SHORT",
     "entry_time": "2025-12-29T03:00:00.000Z",
     "entry_price": 90091.6,
@@ -3705,10 +2889,10 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-15.64"
+    "max_drawdown_during_trade": -15.64
   },
   {
-    "trade_index": 310,
+    "trade_index": 242,
     "direction": "SHORT",
     "entry_time": "2025-12-29T04:00:00.000Z",
     "entry_price": 90100.1,
@@ -3717,10 +2901,10 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-8.82"
+    "max_drawdown_during_trade": -8.82
   },
   {
-    "trade_index": 311,
+    "trade_index": 243,
     "direction": "SHORT",
     "entry_time": "2025-12-29T05:00:00.000Z",
     "entry_price": 89950.8,
@@ -3729,10 +2913,10 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-8.16"
+    "max_drawdown_during_trade": -8.16
   },
   {
-    "trade_index": 312,
+    "trade_index": 244,
     "direction": "LONG",
     "entry_time": "2025-12-29T09:00:00.000Z",
     "entry_price": 88068.2,
@@ -3741,10 +2925,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-26.62"
+    "max_drawdown_during_trade": -26.62
   },
   {
-    "trade_index": 313,
+    "trade_index": 245,
     "direction": "LONG",
     "entry_time": "2025-12-29T10:00:00.000Z",
     "entry_price": 87747.1,
@@ -3753,10 +2937,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-12.93"
+    "max_drawdown_during_trade": -12.93
   },
   {
-    "trade_index": 314,
+    "trade_index": 246,
     "direction": "LONG",
     "entry_time": "2025-12-29T11:00:00.000Z",
     "entry_price": 87529,
@@ -3765,10 +2949,10 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "0.00"
+    "max_drawdown_during_trade": 0
   },
   {
-    "trade_index": 315,
+    "trade_index": 247,
     "direction": "LONG",
     "entry_time": "2025-12-29T12:00:00.000Z",
     "entry_price": 87344,
@@ -3777,30 +2961,18 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-23.44"
+    "max_drawdown_during_trade": -23.44
   },
   {
-    "trade_index": 316,
+    "trade_index": 248,
     "direction": "LONG",
-    "entry_time": "2025-12-29T13:00:00.000Z",
-    "entry_price": 87354.3,
-    "exit_time": "2025-12-30T03:00:00.000Z",
-    "exit_price": 86873.85,
-    "final_result": "SL_FULL",
-    "roi_total": -27.5,
-    "pnl_usdt": -33,
-    "max_drawdown_during_trade": "-24.03"
-  },
-  {
-    "trade_index": 317,
-    "direction": "LONG",
-    "entry_time": "2025-12-31T16:00:00.000Z",
-    "entry_price": 87625.9,
+    "entry_time": "2025-12-31T17:00:00.000Z",
+    "entry_price": 87587.2,
     "exit_time": "2026-01-02T14:00:00.000Z",
-    "exit_price": 89378.42,
+    "exit_price": 89338.94,
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": "-24.92"
+    "max_drawdown_during_trade": -22.72
   }
 ]

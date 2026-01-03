@@ -1,10 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 const Strategy = require('./strategies/very_quick_intraday');
+const Execution = require('./trading/intraday_execution');
+const Simulator = require('./trading/simulator');
 
 // DATA FILES
 const FILE_5M = "./data/BTC_USDT_USDT-5m-futures.json";
-const FILE_15M = "./data/BTC_USDT_USDT-15m-futures.json"; // Bias filter
+const FILE_15M = "./data/BTC_USDT_USDT-15m-futures.json";
 
 function loadData(filePath) {
     const fullPath = path.join(__dirname, filePath);
@@ -35,28 +37,6 @@ function run() {
     const ind5m = Strategy.prepareIndicators(data5m);
     const ind15m = Strategy.prepare15mIndicators(data15m);
 
-    // Helper to find 15m candle index for a given time
-    // We need the latest CLOSED 15m candle relative to 5m time.
-    // If 5m time is T (open time), we want the 15m candle that covers [T, T+15m)? 
-    // Wait, Bias is checked at the moment of Entry Decision (Close of 5m candle).
-    // Let's say we are processing 5m candle [10:00, 10:05). Close time 10:05.
-    // We need the Bias state at 10:05.
-    // The 15m candle [10:00, 10:15) is OPEN. Using its Close is repainting.
-    // The 15m candle [09:45, 10:00) is CLOSED. We should use this one.
-
-    // So for 5m candle opening at T, we look for 15m candle starting at (T - 15m)? 
-    // No. T=10:00. Previous 15m started at 09:45.
-    // So target 15m start time = floor(T / 15m) * 15m - 15m ?
-    // Let's simplify: 
-    // At T=10:00 (5m open). We decide at 10:05. At 10:05, the 15m candle [09:45, 10:00) is definitely closed.
-    // The 15m candle [10:00, 10:15) is active (only 5m old).
-    // Safe Bias = Logic applied to 15m candle [09:45, 10:00).
-    // 5m Candle [10:00] -> Use 15m [09:45].
-    // 5m Candle [10:05] -> Use 15m [09:45] (Still the last closed).
-    // 5m Candle [10:10] -> Use 15m [09:45] (Still the last closed).
-    // 5m Candle [10:15] -> Use 15m [10:00] (Just closed).
-
-    // Map 15m data by timestamp for O(1) lookup
     const map15m = new Map();
     data15m.forEach((c, i) => {
         map15m.set(c[0], i);
@@ -64,33 +44,13 @@ function run() {
 
     // 3. Backtest Loop
     const trades = [];
-    let inTrade = false;
-
-    // Start index (warmup for indicators)
+    const settings = Strategy.Settings;
     const startIdx = 100;
 
     for (let i = startIdx; i < data5m.length - 1; i++) {
-        if (inTrade) continue;
-
         const cTime = data5m[i][0];
-
-        // Find relevant 15m candle
-        // 5m periods: 0, 5, 10.
-        // If min < 15 (0, 5, 10), we use the candle starting at (Hour:00 - 15m) = Hour-1:45?
-        // Wait.
-        // 10:00 -> 09:45
-        // 10:05 -> 09:45
-        // 10:10 -> 09:45
-        // 10:15 -> 10:00
-
-        // Algorithm:
-        // Round down T to nearest 15m. Then subtract 15m.
-        const remainder = cTime % (15 * 60 * 1000); // relative to epoch, but usually aligned
-        // Better: Date object logic or assume standard alignment.
-        // 15m = 900000 ms.
         const currentBlockStart = Math.floor(cTime / 900000) * 900000;
         const prevBlockStart = currentBlockStart - 900000;
-
         const idx15m = map15m.get(prevBlockStart);
 
         let bias = 'NEUTRAL';
@@ -102,99 +62,48 @@ function run() {
             const close_15 = data15m[i15][4];
 
             if (ema20_15 != null && ema50_15 != null && rsi_15 != null) {
-                // LONG Bias: EMA20 >= EMA50, Close > EMA20, RSI >= 50
-                if (ema20_15 >= ema50_15 && close_15 > ema20_15 && rsi_15 >= 50) {
-                    bias = 'LONG';
-                }
-                // SHORT Bias: EMA20 <= EMA50, Close < EMA20, RSI <= 50
-                else if (ema20_15 <= ema50_15 && close_15 < ema20_15 && rsi_15 <= 50) {
-                    bias = 'SHORT';
-                }
+                if (ema20_15 >= ema50_15 && close_15 > ema20_15 && rsi_15 >= 50) bias = 'LONG';
+                else if (ema20_15 <= ema50_15 && close_15 < ema20_15 && rsi_15 <= 50) bias = 'SHORT';
             }
         }
 
         if (bias === 'NEUTRAL') continue;
 
-        // Check Entry
         const signal = Strategy.checkEntry(i, data5m, ind5m, bias);
 
         if (signal) {
-            // EXECUTE TRADE SIMULATION
-            const { stopLoss, takeProfit, type, entryPrice, time } = signal;
+            // --- STEP 1: PREPARE ENTRY ---
+            const trade = Execution.prepareEntry(signal);
 
-            // Loop future candles
-            let result = 'OPEN';
-            let exitPrice = 0;
-            let exitTime = 0;
-            let exitIndex = -1;
+            // --- STEP 2: SETUP TP/SL ---
+            const levels = Execution.setupTPSL(trade);
+            Object.assign(trade, levels);
 
-            for (let j = i + 1; j < data5m.length; j++) {
-                const row = data5m[j];
-                const fTime = row[0];
-                const fHigh = row[2];
-                const fLow = row[3];
+            // --- STEP 3: SIMULATE EXIT ---
+            const exitData = Simulator.simulateTradeExit(trade, data5m, i + 1, settings);
 
-                if (type === 'LONG') {
-                    // Check SL first
-                    if (fLow <= stopLoss) {
-                        result = 'LOSS';
-                        exitPrice = stopLoss;
-                        exitTime = fTime;
-                        exitIndex = j;
-                        break;
-                    }
-                    if (fHigh >= takeProfit) {
-                        result = 'WIN';
-                        exitPrice = takeProfit;
-                        exitTime = fTime;
-                        exitIndex = j;
-                        break;
-                    }
-                } else {
-                    // SHORT
-                    if (fHigh >= stopLoss) {
-                        result = 'LOSS';
-                        exitPrice = stopLoss;
-                        exitTime = fTime;
-                        exitIndex = j;
-                        break;
-                    }
-                    if (fLow <= takeProfit) {
-                        result = 'WIN';
-                        exitPrice = takeProfit;
-                        exitTime = fTime;
-                        exitIndex = j;
-                        break;
-                    }
-                }
-            }
-
-            if (result !== 'OPEN') {
-                // Calculate PnL
-                let pnlSpot = 0;
-                if (type === 'LONG') {
-                    pnlSpot = (exitPrice - entryPrice) / entryPrice;
-                } else {
-                    pnlSpot = (entryPrice - exitPrice) / entryPrice;
-                }
-                const pnlFutures = pnlSpot * Strategy.Settings.LEVERAGE * 100; // in Percent
+            if (exitData.exitTime !== 0) {
+                // --- STEP 4: CALCULATE RESULTS ---
+                const result = Simulator.calculateResults(trade, exitData, settings);
 
                 trades.push({
-                    direction: type,
-                    entry_time: new Date(time).toISOString(),
-                    entry_price: entryPrice,
-                    stop_loss: stopLoss,
-                    take_profit: takeProfit,
-                    exit_time: new Date(exitTime).toISOString(),
-                    exit_price: exitPrice,
-                    result,
-                    pnl_percent_spot: pnlSpot * 100,
-                    pnl_percent_futures: pnlFutures,
-                    reason: signal.reason
+                    direction: trade.signal,
+                    entry_time: new Date(trade.entryTime).toISOString(),
+                    entry_price: trade.entryPrice,
+                    stop_loss: trade.sl,
+                    take_profit: trade.tp,
+                    exit_time: new Date(exitData.exitTime).toISOString(),
+                    exit_price: result.avgExitPrice,
+                    result: exitData.finalResult,
+                    pnl_percent_futures: result.roiTotal,
+                    reason: trade.reason
                 });
 
-                // Advance i
-                i = exitIndex;
+                // Advance i but subtract 1 because loop adds 1
+                // Wait, the original script does i = exitIndex.
+                // Find exitIndex in candles
+                let exitIndex = data5m.findIndex(c => c[0] === exitData.exitTime);
+                if (exitIndex !== -1) i = exitIndex;
             }
         }
     }
@@ -208,16 +117,10 @@ function printStats(trades) {
     const losses = trades.filter(t => t.result === 'LOSS');
     const winRate = totalTrades > 0 ? (wins.length / totalTrades) * 100 : 0;
 
-    // Avg RR
-    // We can infer RR from TP/SL or actual PnL
-    // The strategy aims for 1:3. Actual execution hits SL or TP. 
-    // PnL of Win vs PnL of Loss.
     const avgWinPnl = wins.reduce((a, b) => a + b.pnl_percent_futures, 0) / (wins.length || 1);
     const avgLossPnl = losses.reduce((a, b) => a + b.pnl_percent_futures, 0) / (losses.length || 1);
-
     const totalPnl = trades.reduce((a, b) => a + b.pnl_percent_futures, 0);
 
-    // DD
     let cumulative = 0;
     let maxCum = 0;
     let maxDD = 0;
@@ -240,8 +143,6 @@ function printStats(trades) {
 
     console.log("\n================ SUMMARY STATISTICS ================");
     console.log(`Total Trades:       ${totalTrades}`);
-    console.log(`Long Trades:        ${trades.filter(t => t.direction === 'LONG').length}`);
-    console.log(`Short Trades:       ${trades.filter(t => t.direction === 'SHORT').length}`);
     console.log(`Wins:               ${wins.length}`);
     console.log(`Losses:             ${losses.length}`);
     console.log(`Win Rate:           ${winRate.toFixed(2)}%`);
@@ -251,18 +152,6 @@ function printStats(trades) {
     console.log(`Max Drawdown:       ${maxDD.toFixed(2)}%`);
     console.log(`Max Consec. Losses: ${maxLossStreak}`);
 
-    // LOGS
-    if (trades.length > 0) {
-        // Find one LONG and one SHORT example
-        const longEx = trades.find(t => t.direction === 'LONG' && t.result === 'WIN');
-        const shortEx = trades.find(t => t.direction === 'SHORT' && t.result === 'WIN');
-
-        console.log("\n--- EXAMPLES ---");
-        if (longEx) console.log("LONG EXAMPLE:", JSON.stringify(longEx, null, 2));
-        if (shortEx) console.log("SHORT EXAMPLE:", JSON.stringify(shortEx, null, 2));
-    }
-
-    // Export log
     const exportPath = path.join(__dirname, 'quick_intraday_results.json');
     fs.writeFileSync(exportPath, JSON.stringify(trades, null, 2));
     console.log(`\nDetailed logs saved to ${exportPath}`);
