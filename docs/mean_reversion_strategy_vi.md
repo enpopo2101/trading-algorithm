@@ -33,9 +33,16 @@ $$
 ---
 
 ## 3. Logic Backtest & Công Thức Tính Toán
-*Nguồn file: `analysis/run_mean_reversion.js`*
+*Nguồn file chính: `analysis/run_mean_reversion.js`*
+*Module thực thi (Execution): `analysis/trading/mean_reversion_execution.js`*
+*Module mô phỏng (Simulator): `analysis/trading/simulator.js`*
 
-Hệ thống Backtest mô phỏng vào lệnh và quản lý vị thế theo cơ chế chia lệnh làm 2 phần (Part A và Part B) để tối ưu lợi nhuận.
+Hệ thống Backtest hiện đã được tách module để dễ dàng tích hợp với Bot Trading (Bybit) trong tương lai. Logic được chia thành:
+1.  **Strategy**: Phát hiện tín hiệu (`strategies/mean_reversion.js`).
+2.  **Execution**: Tính toán Entry/TP/SL và setup lệnh (`trading/mean_reversion_execution.js`).
+3.  **Simulator**: Mô phỏng khớp lệnh, dời SL và tính PnL (`trading/simulator.js`).
+
+Hệ thống vẫn quản lý vị thế theo cơ chế chia lệnh làm 2 phần (Part A và Part B) để tối ưu lợi nhuận.
 
 ### 3.1. Thiết Lập Vào Lệnh (Entry Setup)
 *   **Điểm vào lệnh (`Entry Price`)**: Là giá đóng cửa (`Close`) của cây nến cuối cùng trong chuỗi biến động (nến thứ `i+N`).

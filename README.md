@@ -11,16 +11,32 @@ Always update the README.md file after adding a new indicator or strategy.
 analysis/
 ├── backtest_strategy.js        # Main Entry Point: Runs the backtest loop and exports results
 ├── backtest_results.json       # Output: JSON file containing detailed trade logs
+├── run_mean_reversion.js       # Mean Reversion Strategy Runner
+├── run_quick_intraday.js       # Quick Intraday Strategy Runner
+├── trading/                    # Trade Execution & Simulation Logic
+│   ├── mean_reversion_execution.js
+│   ├── intraday_execution.js
+│   └── simulator.js            # Shared Backtest Simulator
 ├── indicators/                 # Reusable Indicator functions
 │   ├── ema.js                  # Exponential Moving Average
 │   ├── sma.js                  # Simple Moving Average
 │   ├── rsi.js                  # Relative Strength Index
 │   └── atr.js                  # Average True Range
 ├── strategies/                 # Strategy Logic Definitions
+│   ├── mean_reversion.js
+│   ├── very_quick_intraday.js
 │   └── trend_momentum.js       # Current Strategy: Trend + Momentum
 └── data/                       # Historical Data (JSON form)
     └── BTC_USDT_USDT-*.json
 ```
+
+## ⚙️ Trading Architecture
+We have separated the Strategy Logic (Signal Generation) from Trade Execution (TP/SL Setup) and Simulation (Backtest Loop) to allow easier integration with Live Trading bots (e.g., Bybit).
+
+*   **Strategies (`strategies/`)**: Pure logic to detect Entry Signals.
+*   **Execution (`trading/*_execution.js`)**: Calculates specific TP/SL prices and Order parameters.
+*   **Simulator (`trading/simulator.js`)**: Shared logic to simulate trade lifecycle (SL/TP hits) for backtesting.
+
 
 ## 🚀 How to Run
 
