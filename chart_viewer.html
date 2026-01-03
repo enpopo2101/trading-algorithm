@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OHLCV Chart Viewer</title>
+    <script src="https://unpkg.com/lightweight-charts@4.0.0/dist/lightweight-charts.standalone.production.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #131722;
+            --nav-bg: #1e222d;
+            --text-main: #d1d4dc;
+            --text-dim: #787b86;
+            --border-color: #2a2e39;
+            --accent: #2962ff;
+            --accent-hover: #1e53e5;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        nav {
+            height: 60px;
+            background-color: var(--nav-bg);
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            padding: 0 24px;
+            justify-content: space-between;
+            flex-shrink: 0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            z-index: 10;
+        }
+
+        .brand {
+            font-size: 18px;
+            font-weight: 600;
+            padding-right: 24px;
+            border-right: 1px solid var(--border-color);
+            margin-right: 24px;
+            letter-spacing: -0.02em;
+        }
+
+        .controls {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .file-upload-wrapper {
+            position: relative;
+            overflow: hidden;
+            display: inline-block;
+        }
+
+        .btn {
+            background-color: var(--accent);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn:hover {
+            background-color: var(--accent-hover);
+            transform: translateY(-1px);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        input[type="file"] {
+            font-size: 100px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        #file-name {
+            color: var(--text-dim);
+            font-size: 14px;
+        }
+
+        #chart-container {
+            flex: 1;
+            position: relative;
+            width: 100%;
+        }
+
+        .loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: var(--text-dim);
+            font-size: 14px;
+            display: none;
+        }
+
+        /* Tooltip styling */
+        .tooltip {
+            position: absolute;
+            display: none;
+            padding: 8px;
+            box-sizing: border-box;
+            font-size: 12px;
+            text-align: left;
+            z-index: 1000;
+            top: 12px;
+            left: 12px;
+            pointer-events: none;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            background: rgba(30, 34, 45, 0.9);
+            color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            font-family: 'Monaco', monospace;
+        }
+
+        .tooltip-row {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 2px;
+        }
+
+        .tooltip-label {
+            color: var(--text-dim);
+            min-width: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div style="display: flex; align-items: center;">
+            <div class="brand">Antigravity OHLCV</div>
+            <div id="file-name">No file selected</div>
+        </div>
+        <div class="controls">
+            <div class="file-upload-wrapper">
+                <button class="btn">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                        <polyline points="17 8 12 3 7 8" />
+                        <line x1="12" y1="3" x2="12" y2="15" />
+                    </svg>
+                    Upload OHLCV
+                </button>
+                <input type="file" id="file-input" accept=".json" />
+            </div>
+            <div class="file-upload-wrapper">
+                <button class="btn" style="background-color: #2a2e39; border: 1px solid #444;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 20h9" />
+                        <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
+                    </svg>
+                    Upload Trades
+                </button>
+                <input type="file" id="trade-input" accept=".json" />
+            </div>
+        </div>
+    </nav>
+
+    <div id="chart-container">
+        <div class="tooltip" id="tooltip"></div>
+        <div class="loading" id="loading-msg">Processed <span id="data-count">0</span> candles...</div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const chartContainer = document.getElementById('chart-container');
+            const fileInput = document.getElementById('file-input');
+            const tradeInput = document.getElementById('trade-input');
+            const fileNameDisplay = document.getElementById('file-name');
+            const tooltip = document.getElementById('tooltip');
+            let tradeEvents = new Map();
+
+            // Initialize Chart
+            const chart = LightweightCharts.createChart(chartContainer, {
+                layout: {
+                    background: { type: 'solid', color: '#131722' },
+                    textColor: '#d1d4dc',
+                },
+                grid: {
+                    vertLines: { color: '#2a2e39' },
+                    horzLines: { color: '#2a2e39' },
+                },
+                crosshair: {
+                    mode: LightweightCharts.CrosshairMode.Normal,
+                },
+                rightPriceScale: {
+                    borderColor: '#2a2e39',
+                },
+                timeScale: {
+                    borderColor: '#2a2e39',
+                    timeVisible: true,
+                },
+            });
+
+            // Create Series
+            const candlestickSeries = chart.addCandlestickSeries({
+                upColor: '#26a69a',
+                downColor: '#ef5350',
+                borderVisible: false,
+                wickUpColor: '#26a69a',
+                wickDownColor: '#ef5350',
+            });
+
+            const volumeSeries = chart.addHistogramSeries({
+                priceFormat: {
+                    type: 'volume',
+                },
+                priceScaleId: '', // Set as an overlay on the main scale? No, separate looks better usually, but let's try overlay with margin for "TradingView style"
+            });
+
+            // Configure volume to sit at bottom
+            chart.priceScale('').applyOptions({
+                scaleMargins: {
+                    top: 0.8,
+                    bottom: 0,
+                },
+            });
+
+            // Handle Resize
+            new ResizeObserver(entries => {
+                if (entries.length === 0 || entries[0].target !== chartContainer) { return; }
+                const newRect = entries[0].contentRect;
+                chart.applyOptions({ height: newRect.height, width: newRect.width });
+            }).observe(chartContainer);
+
+            // Handle File Upload
+            fileInput.addEventListener('change', (event) => {
+                const file = event.target.files[0];
+                if (!file) return;
+
+                fileNameDisplay.textContent = file.name;
+
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    try {
+                        const rawData = JSON.parse(e.target.result);
+                        if (!Array.isArray(rawData)) throw new Error("Data is not an array");
+
+                        // Process Data
+                        // Assumes format: [Timestamp, Open, High, Low, Close, Volume]
+                        const candleData = [];
+                        const volumeData = [];
+
+                        rawData.forEach(d => {
+                            // Check format. If d is array: [T, O, H, L, C, V]
+                            // Timestamp might be ms. Lightweight charts likes seconds for UNIX timestamps.
+                            let time = d[0];
+                            if (time > 1000000000000) {
+                                time = time / 1000;
+                            }
+
+                            // Essential check to ensure time is unique and sorted effectively by input order
+                            // Lightweight charts requires sorted data. We assume input is sorted.
+
+                            const candle = {
+                                time: time,
+                                open: d[1],
+                                high: d[2],
+                                low: d[3],
+                                close: d[4],
+                            };
+
+                            const volume = {
+                                time: time,
+                                value: d[5],
+                                color: (d[4] >= d[1]) ? 'rgba(38, 166, 154, 0.5)' : 'rgba(239, 83, 80, 0.5)',
+                            };
+
+                            candleData.push(candle);
+                            volumeData.push(volume);
+                        });
+
+                        candlestickSeries.setData(candleData);
+                        volumeSeries.setData(volumeData);
+
+                        // Fit content
+                        chart.timeScale().fitContent();
+
+                    } catch (err) {
+                        alert("Error parsing JSON: " + err.message);
+                        console.error(err);
+                    }
+                };
+                reader.readAsText(file);
+            });
+
+            // Handle Trade History Upload
+            tradeInput.addEventListener('change', (event) => {
+                const file = event.target.files[0];
+                if (!file) return;
+
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    try {
+                        const trades = JSON.parse(e.target.result);
+                        if (!Array.isArray(trades)) throw new Error("Trade data is not an array");
+
+                        const markers = [];
+
+                        trades.forEach(trade => {
+                            const entryTime = new Date(trade.entry_time).getTime() / 1000;
+                            const exitTime = new Date(trade.exit_time).getTime() / 1000;
+                            const pnl = trade.pnl_usdt !== undefined ? trade.pnl_usdt : 0;
+                            const isWin = pnl >= 0;
+                            const pnlText = pnl.toFixed(2);
+                            const tradeId = trade.trade_index || '?'; // Default if missing
+
+                            // Entry Marker
+                            markers.push({
+                                time: entryTime,
+                                position: trade.direction === 'LONG' ? 'belowBar' : 'aboveBar',
+                                color: trade.direction === 'LONG' ? '#2962ff' : '#e91e63',
+                                shape: trade.direction === 'LONG' ? 'arrowUp' : 'arrowDown',
+                                text: trade.direction === 'LONG' ? `L #${tradeId}` : `S #${tradeId}`,
+                            });
+
+                            // Exit Marker
+                            markers.push({
+                                time: exitTime,
+                                position: trade.direction === 'LONG' ? 'aboveBar' : 'belowBar',
+                                color: isWin ? '#26a69a' : '#ef5350',
+                                shape: trade.direction === 'LONG' ? 'arrowDown' : 'arrowUp',
+                                text: isWin ? `Win ${pnlText} (#${tradeId})` : `Loss ${pnlText} (#${tradeId})`,
+                            });
+
+                            // Store events for tooltip
+                            if (!tradeEvents.has(entryTime)) tradeEvents.set(entryTime, []);
+                            tradeEvents.get(entryTime).push({
+                                type: 'ENTRY',
+                                id: tradeId,
+                                direction: trade.direction,
+                                price: trade.entry_price,
+                                pnl: null,
+                                roi: null
+                            });
+
+                            if (!tradeEvents.has(exitTime)) tradeEvents.set(exitTime, []);
+                            tradeEvents.get(exitTime).push({
+                                type: 'EXIT',
+                                id: tradeId,
+                                direction: trade.direction,
+                                price: trade.exit_price,
+                                pnl: trade.pnl_usdt,
+                                roi: trade.roi_total,
+                                result: trade.final_result
+                            });
+                        });
+
+                        // Sort markers by time as required by Lightweight Charts
+                        markers.sort((a, b) => a.time - b.time);
+
+                        candlestickSeries.setMarkers(markers);
+                        alert(`Loaded ${trades.length} trades.`);
+
+                    } catch (err) {
+                        alert("Error parsing Trade JSON: " + err.message);
+                        console.error(err);
+                    }
+                };
+                reader.readAsText(file);
+            });
+
+            // Tooltip Logic
+            chart.subscribeCrosshairMove(param => {
+                if (
+                    param.point === undefined ||
+                    !param.time ||
+                    param.point.x < 0 ||
+                    param.point.x > chartContainer.clientWidth ||
+                    param.point.y < 0 ||
+                    param.point.y > chartContainer.clientHeight
+                ) {
+                    tooltip.style.display = 'none';
+                    return;
+                }
+
+                const price = param.seriesData.get(candlestickSeries);
+                const time = param.time;
+
+                if (price) {
+                    tooltip.style.display = 'block';
+                    const dateStr = new Date(time * 1000).toLocaleString();
+
+                    let tooltipHtml = `
+                        <div style="font-weight: 600; margin-bottom: 8px; border-bottom: 1px solid #444; padding-bottom: 4px;">${dateStr}</div>
+                        <div class="tooltip-row"><span class="tooltip-label" style="color: #d1d4dc">O</span> <span style="color: #d1d4dc">${price.open}</span></div>
+                        <div class="tooltip-row"><span class="tooltip-label" style="color: #26a69a">H</span> <span style="color: #26a69a">${price.high}</span></div>
+                        <div class="tooltip-row"><span class="tooltip-label" style="color: #ef5350">L</span> <span style="color: #ef5350">${price.low}</span></div>
+                        <div class="tooltip-row"><span class="tooltip-label" style="color: #d1d4dc">C</span> <span style="color: #d1d4dc">${price.close}</span></div>
+                    `;
+
+                    // Add Trade Info if exists
+                    if (tradeEvents.has(time)) {
+                        const events = tradeEvents.get(time);
+                        tooltipHtml += `<div style="margin-top: 8px; border-top: 1px solid #444; padding-top: 4px; font-weight: 500; color: #ffeb3b;">Trade Events:</div>`;
+
+                        events.forEach(ev => {
+                            const color = ev.type === 'ENTRY' ?
+                                (ev.direction === 'LONG' ? '#2962ff' : '#e91e63') :
+                                (ev.pnl >= 0 ? '#26a69a' : '#ef5350');
+
+                            const typeStr = ev.type === 'ENTRY' ? `${ev.direction} ENTRY` : `${ev.direction} EXIT`;
+                            const roiStr = ev.roi !== null ? `(${ev.roi}%)` : '';
+                            const pnlStr = ev.pnl !== null ? `${ev.pnl} USDT` : '';
+                            const idStr = ev.id ? `[#${ev.id}] ` : '';
+
+                            tooltipHtml += `
+                                <div style="color: ${color}; margin-top: 2px;">
+                                    ${idStr}${typeStr} @ ${ev.price}<br>
+                                    ${pnlStr} ${roiStr}
+                                </div>
+                            `;
+                        });
+                    }
+
+                    tooltip.innerHTML = tooltipHtml;
+                } else {
+                    tooltip.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+[
+  {
+    "direction": "SHORT",
+    "entry_time": "2025-12-26T18:25:00.000Z",
+    "entry_price": 87175.3,
+    "stop_loss": 87486.89408526062,
+    "take_profit": 86240.51774421816,
+    "exit_time": "2025-12-26T19:45:00.000Z",
+    "exit_price": 87486.89408526062,
+    "result": "LOSS",
+    "pnl_percent_spot": -0.35743391219831133,
+    "pnl_percent_futures": -10.72301736594934,
+    "reason": "RSI Cross & Impulse, Snapback EMA20, MomCandle"
+  },
+  {
+    "direction": "LONG",
+    "entry_time": "2025-12-30T14:40:00.000Z",
+    "entry_price": 88057.2,
+    "stop_loss": 87796.08,
+    "take_profit": 88840.55999999998,
+    "exit_time": "2025-12-30T14:50:00.000Z",
+    "exit_price": 88840.55999999998,
+    "result": "WIN",
+    "pnl_percent_spot": 0.8896035758574949,
+    "pnl_percent_futures": 26.68810727572485,
+    "reason": "RSI Cross & Impulse, Snapback EMA20, MomCandle"
+  }
+]

@@ -1,0 +1,3098 @@
+[
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (1h)",
+    "entry": 88619.5,
+    "stopLoss": 88181.42040897689,
+    "targets": {
+      "tp1": 88984.56632585259,
+      "tp2": 89167.09948877888,
+      "tp3": 89349.63265170518
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(57.48) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 88181.42040897689,
+      "pnlPercent": "-0.49%",
+      "exitTime": "2025-12-31T15:00:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (1h)",
+    "entry": 87980.1,
+    "stopLoss": 87671.54971529209,
+    "targets": {
+      "tp1": 88237.22523725661,
+      "tp2": 88365.7878558849,
+      "tp3": 88494.35047451321
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(52.57) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 88494.35047451321,
+      "pnlPercent": "0.58%",
+      "exitTime": "2026-01-01T22:00:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (1h)",
+    "entry": 88899.3,
+    "stopLoss": 88539.17618332263,
+    "targets": {
+      "tp1": 89199.40318056448,
+      "tp2": 89349.45477084671,
+      "tp3": 89499.50636112895
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(67.49) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 88539.17618332263,
+      "pnlPercent": "-0.41%",
+      "exitTime": "2026-01-02T05:00:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (15m)",
+    "entry": 87862.1,
+    "stopLoss": 87678.07949100915,
+    "targets": {
+      "tp1": 88015.45042415905,
+      "tp2": 88092.12563623858,
+      "tp3": 88168.8008483181
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(63.45) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87678.07949100915,
+      "pnlPercent": "-0.21%",
+      "exitTime": "2025-12-25T05:00:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (15m)",
+    "entry": 87737.8,
+    "stopLoss": 87614.13686959934,
+    "targets": {
+      "tp1": 87840.85260866722,
+      "tp2": 87892.37891300082,
+      "tp3": 87943.90521733442
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(53.44) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87614.13686959934,
+      "pnlPercent": "-0.14%",
+      "exitTime": "2025-12-25T08:15:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (15m)",
+    "entry": 87577.7,
+    "stopLoss": 87434.59853735336,
+    "targets": {
+      "tp1": 87696.9512188722,
+      "tp2": 87756.57682830829,
+      "tp3": 87816.20243774439
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(53.55) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87816.20243774439,
+      "pnlPercent": "0.27%",
+      "exitTime": "2025-12-25T15:15:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (15m)",
+    "entry": 88171.7,
+    "stopLoss": 87862.38226163828,
+    "targets": {
+      "tp1": 88429.46478196808,
+      "tp2": 88558.34717295214,
+      "tp3": 88687.22956393618
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(66.10) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 88687.22956393618,
+      "pnlPercent": "0.58%",
+      "exitTime": "2025-12-26T02:15:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (15m)",
+    "entry": 88845,
+    "stopLoss": 88571.17065379216,
+    "targets": {
+      "tp1": 89073.19112183987,
+      "tp2": 89187.2866827598,
+      "tp3": 89301.38224367975
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(54.23) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 88571.17065379216,
+      "pnlPercent": "-0.31%",
+      "exitTime": "2025-12-26T11:30:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (15m)",
+    "entry": 88714.8,
+    "stopLoss": 88508.36891027134,
+    "targets": {
+      "tp1": 88886.82590810722,
+      "tp2": 88972.83886216083,
+      "tp3": 89058.85181621445
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(51.60) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 88508.36891027134,
+      "pnlPercent": "-0.23%",
+      "exitTime": "2025-12-26T14:30:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (15m)",
+    "entry": 87429.3,
+    "stopLoss": 87661.48503191407,
+    "targets": {
+      "tp1": 87235.81247340495,
+      "tp2": 87139.06871010743,
+      "tp3": 87042.32494680991
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(45.85) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87661.48503191407,
+      "pnlPercent": "-0.27%",
+      "exitTime": "2025-12-27T07:15:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (15m)",
+    "entry": 87500.1,
+    "stopLoss": 87591.80850433484,
+    "targets": {
+      "tp1": 87423.67624638765,
+      "tp2": 87385.46436958147,
+      "tp3": 87347.2524927753
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(50.00) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87347.2524927753,
+      "pnlPercent": "0.17%",
+      "exitTime": "2025-12-27T10:30:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (15m)",
+    "entry": 87453,
+    "stopLoss": 87553.49338172395,
+    "targets": {
+      "tp1": 87369.25551523005,
+      "tp2": 87327.38327284507,
+      "tp3": 87285.5110304601
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(46.69) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87285.5110304601,
+      "pnlPercent": "0.19%",
+      "exitTime": "2025-12-27T13:30:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (15m)",
+    "entry": 87406.4,
+    "stopLoss": 87502.86768263404,
+    "targets": {
+      "tp1": 87326.01026447162,
+      "tp2": 87285.81539670743,
+      "tp3": 87245.62052894324
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(44.92) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87502.86768263404,
+      "pnlPercent": "-0.11%",
+      "exitTime": "2025-12-27T14:45:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (15m)",
+    "entry": 87448.7,
+    "stopLoss": 87540.38988433732,
+    "targets": {
+      "tp1": 87372.29176305224,
+      "tp2": 87334.08764457835,
+      "tp3": 87295.88352610447
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(48.05) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87540.38988433732,
+      "pnlPercent": "-0.10%",
+      "exitTime": "2025-12-27T20:00:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (15m)",
+    "entry": 87536.6,
+    "stopLoss": 87646.5803154428,
+    "targets": {
+      "tp1": 87444.94973713101,
+      "tp2": 87399.12460569652,
+      "tp3": 87353.29947426202
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(49.22) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87646.5803154428,
+      "pnlPercent": "-0.13%",
+      "exitTime": "2025-12-27T23:15:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (15m)",
+    "entry": 87620,
+    "stopLoss": 87722.01998021865,
+    "targets": {
+      "tp1": 87534.98334981779,
+      "tp2": 87492.47502472668,
+      "tp3": 87449.96669963557
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(43.77) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87722.01998021865,
+      "pnlPercent": "-0.12%",
+      "exitTime": "2025-12-28T06:30:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (15m)",
+    "entry": 87697.7,
+    "stopLoss": 87613.27366612044,
+    "targets": {
+      "tp1": 87768.05527823296,
+      "tp2": 87803.23291734945,
+      "tp3": 87838.41055646593
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(51.21) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87838.41055646593,
+      "pnlPercent": "0.16%",
+      "exitTime": "2025-12-28T08:30:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (15m)",
+    "entry": 87865.2,
+    "stopLoss": 87758.97906699587,
+    "targets": {
+      "tp1": 87953.7174441701,
+      "tp2": 87997.97616625515,
+      "tp3": 88042.2348883402
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(60.21) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 88042.2348883402,
+      "pnlPercent": "0.20%",
+      "exitTime": "2025-12-28T14:30:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (15m)",
+    "entry": 87939.8,
+    "stopLoss": 87824.80663868955,
+    "targets": {
+      "tp1": 88035.62780109205,
+      "tp2": 88083.54170163807,
+      "tp3": 88131.4556021841
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(58.42) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87824.80663868955,
+      "pnlPercent": "-0.13%",
+      "exitTime": "2025-12-28T15:45:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (15m)",
+    "entry": 87872.4,
+    "stopLoss": 87762.15924793406,
+    "targets": {
+      "tp1": 87964.26729338827,
+      "tp2": 88010.2009400824,
+      "tp3": 88056.13458677655
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(53.20) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87762.15924793406,
+      "pnlPercent": "-0.13%",
+      "exitTime": "2025-12-28T17:45:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (15m)",
+    "entry": 87983.1,
+    "stopLoss": 87796.69092385178,
+    "targets": {
+      "tp1": 88138.4408967902,
+      "tp2": 88216.11134518529,
+      "tp3": 88293.78179358038
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(63.05) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 88293.78179358038,
+      "pnlPercent": "0.35%",
+      "exitTime": "2025-12-29T00:30:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (15m)",
+    "entry": 88280.7,
+    "stopLoss": 88024.10938174886,
+    "targets": {
+      "tp1": 88494.52551520929,
+      "tp2": 88601.43827281393,
+      "tp3": 88708.35103041856
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(65.05) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 88708.35103041856,
+      "pnlPercent": "0.48%",
+      "exitTime": "2025-12-29T02:00:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (15m)",
+    "entry": 87400.1,
+    "stopLoss": 87773.07590637733,
+    "targets": {
+      "tp1": 87089.28674468557,
+      "tp2": 86933.88011702836,
+      "tp3": 86778.47348937113
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(40.96) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87773.07590637733,
+      "pnlPercent": "-0.43%",
+      "exitTime": "2025-12-29T17:45:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (15m)",
+    "entry": 87572.7,
+    "stopLoss": 87922.53114953321,
+    "targets": {
+      "tp1": 87281.17404205565,
+      "tp2": 87135.41106308346,
+      "tp3": 86989.6480841113
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(45.92) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 86989.6480841113,
+      "pnlPercent": "0.67%",
+      "exitTime": "2025-12-30T02:30:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (15m)",
+    "entry": 88234.8,
+    "stopLoss": 87954.17704754724,
+    "targets": {
+      "tp1": 88468.6524603773,
+      "tp2": 88585.57869056595,
+      "tp3": 88702.5049207546
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(50.70) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 88702.5049207546,
+      "pnlPercent": "0.53%",
+      "exitTime": "2025-12-31T01:30:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (15m)",
+    "entry": 88650,
+    "stopLoss": 88426.90454168567,
+    "targets": {
+      "tp1": 88835.91288192861,
+      "tp2": 88928.86932289292,
+      "tp3": 89021.82576385722
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(60.64) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 88426.90454168567,
+      "pnlPercent": "-0.25%",
+      "exitTime": "2025-12-31T03:30:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (15m)",
+    "entry": 88487.9,
+    "stopLoss": 88303.79331004733,
+    "targets": {
+      "tp1": 88641.32224162722,
+      "tp2": 88718.03336244082,
+      "tp3": 88794.74448325444
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(53.11) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 88794.74448325444,
+      "pnlPercent": "0.35%",
+      "exitTime": "2025-12-31T10:15:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (15m)",
+    "entry": 88954.4,
+    "stopLoss": 88787.92704459837,
+    "targets": {
+      "tp1": 89093.12746283467,
+      "tp2": 89162.49119425201,
+      "tp3": 89231.85492566935
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(62.98) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 88787.92704459837,
+      "pnlPercent": "-0.19%",
+      "exitTime": "2025-12-31T14:30:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (15m)",
+    "entry": 87824.6,
+    "stopLoss": 87972.4360539726,
+    "targets": {
+      "tp1": 87701.40328835617,
+      "tp2": 87639.80493253426,
+      "tp3": 87578.20657671233
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(48.96) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87578.20657671233,
+      "pnlPercent": "0.28%",
+      "exitTime": "2026-01-01T04:15:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (15m)",
+    "entry": 87674.3,
+    "stopLoss": 87824.62038270877,
+    "targets": {
+      "tp1": 87549.03301440936,
+      "tp2": 87486.39952161403,
+      "tp3": 87423.76602881872
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(44.85) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87824.62038270877,
+      "pnlPercent": "-0.17%",
+      "exitTime": "2026-01-01T09:00:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (15m)",
+    "entry": 87822.3,
+    "stopLoss": 87930.24598261395,
+    "targets": {
+      "tp1": 87732.34501448838,
+      "tp2": 87687.36752173257,
+      "tp3": 87642.39002897676
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(46.70) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87930.24598261395,
+      "pnlPercent": "-0.12%",
+      "exitTime": "2026-01-01T15:00:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (15m)",
+    "entry": 88345.5,
+    "stopLoss": 88201.84013695295,
+    "targets": {
+      "tp1": 88465.2165525392,
+      "tp2": 88525.0748288088,
+      "tp3": 88584.93310507841
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(62.18) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 88584.93310507841,
+      "pnlPercent": "0.27%",
+      "exitTime": "2026-01-01T22:00:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (15m)",
+    "entry": 88550,
+    "stopLoss": 88399.96887356482,
+    "targets": {
+      "tp1": 88675.02593869598,
+      "tp2": 88737.53890804398,
+      "tp3": 88800.05187739198
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(69.15) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 88800.05187739198,
+      "pnlPercent": "0.28%",
+      "exitTime": "2026-01-01T23:30:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (15m)",
+    "entry": 88926.7,
+    "stopLoss": 88711.1978027116,
+    "targets": {
+      "tp1": 89106.28516440699,
+      "tp2": 89196.07774661049,
+      "tp3": 89285.87032881398
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(65.56) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 88711.1978027116,
+      "pnlPercent": "-0.24%",
+      "exitTime": "2026-01-02T04:15:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87695.4,
+    "stopLoss": 87975.58530255914,
+    "targets": {
+      "tp1": 87461.91224786738,
+      "tp2": 87345.16837180108,
+      "tp3": 87228.42449573477
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(48.69) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87228.42449573477,
+      "pnlPercent": "0.53%",
+      "exitTime": "2025-12-23T17:55:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87651.5,
+    "stopLoss": 87886.08988296197,
+    "targets": {
+      "tp1": 87456.00843086503,
+      "tp2": 87358.26264629755,
+      "tp3": 87260.51686173005
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(45.00) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87886.08988296197,
+      "pnlPercent": "-0.27%",
+      "exitTime": "2025-12-23T20:35:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87674.3,
+    "stopLoss": 87914.35797341469,
+    "targets": {
+      "tp1": 87474.2516888211,
+      "tp2": 87374.22753323165,
+      "tp3": 87274.20337764219
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(45.46) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87274.20337764219,
+      "pnlPercent": "0.46%",
+      "exitTime": "2025-12-23T22:35:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87381.9,
+    "stopLoss": 87578.07349694268,
+    "targets": {
+      "tp1": 87218.42208588109,
+      "tp2": 87136.68312882163,
+      "tp3": 87054.94417176217
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(39.63) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87578.07349694268,
+      "pnlPercent": "-0.22%",
+      "exitTime": "2025-12-24T00:00:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87308.9,
+    "stopLoss": 87468.31330339175,
+    "targets": {
+      "tp1": 87176.05558050686,
+      "tp2": 87109.63337076029,
+      "tp3": 87043.21116101372
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(41.03) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87468.31330339175,
+      "pnlPercent": "-0.18%",
+      "exitTime": "2025-12-24T00:35:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87510.4,
+    "stopLoss": 87656.48397551858,
+    "targets": {
+      "tp1": 87388.6633537345,
+      "tp2": 87327.79503060176,
+      "tp3": 87266.92670746901
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(47.37) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87266.92670746901,
+      "pnlPercent": "0.28%",
+      "exitTime": "2025-12-24T02:35:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87281.7,
+    "stopLoss": 87399.96603463564,
+    "targets": {
+      "tp1": 87183.14497113696,
+      "tp2": 87133.86745670545,
+      "tp3": 87084.58994227393
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(48.52) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87084.58994227393,
+      "pnlPercent": "0.23%",
+      "exitTime": "2025-12-24T04:55:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87066.9,
+    "stopLoss": 87181.11077163338,
+    "targets": {
+      "tp1": 86971.72435697218,
+      "tp2": 86924.13653545827,
+      "tp3": 86876.54871394436
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(39.15) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 86876.54871394436,
+      "pnlPercent": "0.22%",
+      "exitTime": "2025-12-24T05:40:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 86920.1,
+    "stopLoss": 87046.30240701805,
+    "targets": {
+      "tp1": 86814.93132748497,
+      "tp2": 86762.34699122744,
+      "tp3": 86709.76265496993
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(37.40) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87046.30240701805,
+      "pnlPercent": "-0.15%",
+      "exitTime": "2025-12-24T07:15:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 86957,
+    "stopLoss": 87054.3992173084,
+    "targets": {
+      "tp1": 86875.83398557633,
+      "tp2": 86835.2509783645,
+      "tp3": 86794.66797115267
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(44.98) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87054.3992173084,
+      "pnlPercent": "-0.11%",
+      "exitTime": "2025-12-24T07:35:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 86868.1,
+    "stopLoss": 86971.35049153345,
+    "targets": {
+      "tp1": 86782.05792372214,
+      "tp2": 86739.03688558319,
+      "tp3": 86696.01584744426
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(38.63) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 86971.35049153345,
+      "pnlPercent": "-0.12%",
+      "exitTime": "2025-12-24T08:15:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 86754.4,
+    "stopLoss": 86874.42278900332,
+    "targets": {
+      "tp1": 86654.38100916389,
+      "tp2": 86604.37151374583,
+      "tp3": 86554.36201832778
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(35.01) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 86874.42278900332,
+      "pnlPercent": "-0.14%",
+      "exitTime": "2025-12-24T08:25:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 86796,
+    "stopLoss": 86926.96536398756,
+    "targets": {
+      "tp1": 86686.86219667703,
+      "tp2": 86632.29329501554,
+      "tp3": 86577.72439335406
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(40.40) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 86926.96536398756,
+      "pnlPercent": "-0.15%",
+      "exitTime": "2025-12-24T08:45:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 86782.7,
+    "stopLoss": 86895.92492717784,
+    "targets": {
+      "tp1": 86688.34589401846,
+      "tp2": 86641.1688410277,
+      "tp3": 86593.99178803693
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(42.46) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 86895.92492717784,
+      "pnlPercent": "-0.13%",
+      "exitTime": "2025-12-24T10:05:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87228.7,
+    "stopLoss": 87319.03820428131,
+    "targets": {
+      "tp1": 87153.4181630989,
+      "tp2": 87115.77724464836,
+      "tp3": 87078.13632619781
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(48.14) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87078.13632619781,
+      "pnlPercent": "0.17%",
+      "exitTime": "2025-12-24T13:30:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87131,
+    "stopLoss": 87243.42342376313,
+    "targets": {
+      "tp1": 87037.31381353072,
+      "tp2": 86990.47072029609,
+      "tp3": 86943.62762706143
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(42.90) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87243.42342376313,
+      "pnlPercent": "-0.13%",
+      "exitTime": "2025-12-24T13:50:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87196.6,
+    "stopLoss": 87309.84326101295,
+    "targets": {
+      "tp1": 87102.23061582255,
+      "tp2": 87055.04592373382,
+      "tp3": 87007.8612316451
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(45.86) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87007.8612316451,
+      "pnlPercent": "0.22%",
+      "exitTime": "2025-12-24T14:30:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 86950,
+    "stopLoss": 87192.68729969105,
+    "targets": {
+      "tp1": 86747.76058359079,
+      "tp2": 86646.64087538618,
+      "tp3": 86545.52116718156
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(43.26) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 86545.52116718156,
+      "pnlPercent": "0.47%",
+      "exitTime": "2025-12-24T15:20:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 86969,
+    "stopLoss": 87202.6259462859,
+    "targets": {
+      "tp1": 86774.31171142841,
+      "tp2": 86676.96756714262,
+      "tp3": 86579.62342285684
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(47.80) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87202.6259462859,
+      "pnlPercent": "-0.27%",
+      "exitTime": "2025-12-24T16:30:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87404.1,
+    "stopLoss": 87213.3836917003,
+    "targets": {
+      "tp1": 87563.03025691642,
+      "tp2": 87642.49538537463,
+      "tp3": 87721.96051383285
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(56.66) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87721.96051383285,
+      "pnlPercent": "0.36%",
+      "exitTime": "2025-12-24T21:25:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87630,
+    "stopLoss": 87529.9941220775,
+    "targets": {
+      "tp1": 87713.33823160207,
+      "tp2": 87755.00734740311,
+      "tp3": 87796.67646320416
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(50.93) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87529.9941220775,
+      "pnlPercent": "-0.11%",
+      "exitTime": "2025-12-25T02:00:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87699.6,
+    "stopLoss": 87598.92728802266,
+    "targets": {
+      "tp1": 87783.49392664779,
+      "tp2": 87825.4408899717,
+      "tp3": 87867.38785329559
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(55.27) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87867.38785329559,
+      "pnlPercent": "0.19%",
+      "exitTime": "2025-12-25T02:40:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87819.6,
+    "stopLoss": 87742.16346946976,
+    "targets": {
+      "tp1": 87884.13044210854,
+      "tp2": 87916.39566316281,
+      "tp3": 87948.66088421708
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(57.05) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87742.16346946976,
+      "pnlPercent": "-0.09%",
+      "exitTime": "2025-12-25T04:00:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87784.3,
+    "stopLoss": 87710.01267081765,
+    "targets": {
+      "tp1": 87846.20610765196,
+      "tp2": 87877.15916147793,
+      "tp3": 87908.11221530392
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(53.42) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87710.01267081765,
+      "pnlPercent": "-0.08%",
+      "exitTime": "2025-12-25T04:25:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87785,
+    "stopLoss": 87721.18210640144,
+    "targets": {
+      "tp1": 87838.1815779988,
+      "tp2": 87864.7723669982,
+      "tp3": 87891.36315599759
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(53.95) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87721.18210640144,
+      "pnlPercent": "-0.07%",
+      "exitTime": "2025-12-25T05:00:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87720,
+    "stopLoss": 87656.2973243942,
+    "targets": {
+      "tp1": 87773.08556300483,
+      "tp2": 87799.62834450725,
+      "tp3": 87826.17112600966
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(50.88) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87656.2973243942,
+      "pnlPercent": "-0.07%",
+      "exitTime": "2025-12-25T06:05:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87714.5,
+    "stopLoss": 87659.54527487824,
+    "targets": {
+      "tp1": 87760.29560426813,
+      "tp2": 87783.1934064022,
+      "tp3": 87806.09120853628
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(51.12) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87806.09120853628,
+      "pnlPercent": "0.10%",
+      "exitTime": "2025-12-25T06:55:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87776.7,
+    "stopLoss": 87724.82040464255,
+    "targets": {
+      "tp1": 87819.93299613119,
+      "tp2": 87841.54949419679,
+      "tp3": 87863.1659922624
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(57.10) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87724.82040464255,
+      "pnlPercent": "-0.06%",
+      "exitTime": "2025-12-25T07:35:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87795.9,
+    "stopLoss": 87748.0092364154,
+    "targets": {
+      "tp1": 87835.80896965382,
+      "tp2": 87855.76345448074,
+      "tp3": 87875.71793930765
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(60.42) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87748.0092364154,
+      "pnlPercent": "-0.05%",
+      "exitTime": "2025-12-25T08:10:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87442.1,
+    "stopLoss": 87512.55111433504,
+    "targets": {
+      "tp1": 87383.39073805413,
+      "tp2": 87354.0361070812,
+      "tp3": 87324.68147610826
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(40.13) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87324.68147610826,
+      "pnlPercent": "0.13%",
+      "exitTime": "2025-12-25T10:15:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87447.5,
+    "stopLoss": 87516.31719764852,
+    "targets": {
+      "tp1": 87390.1523352929,
+      "tp2": 87361.47850293935,
+      "tp3": 87332.8046705858
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(48.09) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87516.31719764852,
+      "pnlPercent": "-0.08%",
+      "exitTime": "2025-12-25T12:20:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87445.8,
+    "stopLoss": 87504.69083249637,
+    "targets": {
+      "tp1": 87396.72430625302,
+      "tp2": 87372.18645937953,
+      "tp3": 87347.64861250605
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(45.12) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87504.69083249637,
+      "pnlPercent": "-0.07%",
+      "exitTime": "2025-12-25T13:40:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87534.1,
+    "stopLoss": 87613.21478823909,
+    "targets": {
+      "tp1": 87468.17100980078,
+      "tp2": 87435.20651470116,
+      "tp3": 87402.24201960154
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(49.73) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87613.21478823909,
+      "pnlPercent": "-0.09%",
+      "exitTime": "2025-12-25T14:45:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 88114.7,
+    "stopLoss": 87975.33611688836,
+    "targets": {
+      "tp1": 88230.8365692597,
+      "tp2": 88288.90485388954,
+      "tp3": 88346.9731385194
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(53.12) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87975.33611688836,
+      "pnlPercent": "-0.16%",
+      "exitTime": "2025-12-25T20:20:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87025.5,
+    "stopLoss": 87210.0734052794,
+    "targets": {
+      "tp1": 86871.68882893382,
+      "tp2": 86794.78324340074,
+      "tp3": 86717.87765786766
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(30.23) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87210.0734052794,
+      "pnlPercent": "-0.21%",
+      "exitTime": "2025-12-26T00:25:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 88776.5,
+    "stopLoss": 88585.34118010853,
+    "targets": {
+      "tp1": 88935.79901657622,
+      "tp2": 89015.44852486433,
+      "tp3": 89095.09803315245
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(56.54) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 89095.09803315245,
+      "pnlPercent": "0.36%",
+      "exitTime": "2025-12-26T04:45:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 88959.8,
+    "stopLoss": 88786.01477580007,
+    "targets": {
+      "tp1": 89104.62102016663,
+      "tp2": 89177.03153024992,
+      "tp3": 89249.44204033323
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(60.19) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 88786.01477580007,
+      "pnlPercent": "-0.20%",
+      "exitTime": "2025-12-26T05:35:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 89096.8,
+    "stopLoss": 88984.62495702974,
+    "targets": {
+      "tp1": 89190.27920247523,
+      "tp2": 89237.01880371282,
+      "tp3": 89283.75840495044
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(64.67) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 89283.75840495044,
+      "pnlPercent": "0.21%",
+      "exitTime": "2025-12-26T07:10:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 88751.3,
+    "stopLoss": 88613.96678284279,
+    "targets": {
+      "tp1": 88865.74434763101,
+      "tp2": 88922.9665214465,
+      "tp3": 88980.18869526201
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(50.62) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 88613.96678284279,
+      "pnlPercent": "-0.15%",
+      "exitTime": "2025-12-26T11:15:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 88661.7,
+    "stopLoss": 88563.331827969,
+    "targets": {
+      "tp1": 88743.6734766925,
+      "tp2": 88784.66021503873,
+      "tp3": 88825.64695338499
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(51.65) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 88825.64695338499,
+      "pnlPercent": "0.18%",
+      "exitTime": "2025-12-26T13:35:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 89000,
+    "stopLoss": 88894.11584176931,
+    "targets": {
+      "tp1": 89088.23679852558,
+      "tp2": 89132.35519778838,
+      "tp3": 89176.47359705117
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(69.08) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 88894.11584176931,
+      "pnlPercent": "-0.12%",
+      "exitTime": "2025-12-26T14:05:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 86821.7,
+    "stopLoss": 87051.14349813343,
+    "targets": {
+      "tp1": 86630.4970848888,
+      "tp2": 86534.8956273332,
+      "tp3": 86439.29416977761
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(31.40) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87051.14349813343,
+      "pnlPercent": "-0.26%",
+      "exitTime": "2025-12-26T17:15:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87175.3,
+    "stopLoss": 87352.62560042558,
+    "targets": {
+      "tp1": 87027.52866631202,
+      "tp2": 86953.64299946802,
+      "tp3": 86879.75733262404
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(45.40) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87352.62560042558,
+      "pnlPercent": "-0.20%",
+      "exitTime": "2025-12-26T19:20:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87467.9,
+    "stopLoss": 87580.5912996075,
+    "targets": {
+      "tp1": 87373.9905836604,
+      "tp2": 87327.03587549059,
+      "tp3": 87280.0811673208
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(47.10) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87280.0811673208,
+      "pnlPercent": "0.21%",
+      "exitTime": "2025-12-26T22:40:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87400,
+    "stopLoss": 87508.97041381836,
+    "targets": {
+      "tp1": 87309.19132181804,
+      "tp2": 87263.78698272706,
+      "tp3": 87218.38264363608
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(45.51) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87218.38264363608,
+      "pnlPercent": "0.21%",
+      "exitTime": "2025-12-27T00:20:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87357.3,
+    "stopLoss": 87418.11592511673,
+    "targets": {
+      "tp1": 87306.62006240274,
+      "tp2": 87281.2800936041,
+      "tp3": 87255.94012480546
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(48.26) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87418.11592511673,
+      "pnlPercent": "-0.07%",
+      "exitTime": "2025-12-27T02:05:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87372.1,
+    "stopLoss": 87420.16993818418,
+    "targets": {
+      "tp1": 87332.04171817987,
+      "tp2": 87312.0125772698,
+      "tp3": 87291.98343635972
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(46.71) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87420.16993818418,
+      "pnlPercent": "-0.06%",
+      "exitTime": "2025-12-27T03:30:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87413.1,
+    "stopLoss": 87450.75598016298,
+    "targets": {
+      "tp1": 87381.72001653085,
+      "tp2": 87366.03002479627,
+      "tp3": 87350.3400330617
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(48.18) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87450.75598016298,
+      "pnlPercent": "-0.04%",
+      "exitTime": "2025-12-27T04:40:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87426.1,
+    "stopLoss": 87461.6058061598,
+    "targets": {
+      "tp1": 87396.51182820016,
+      "tp2": 87381.71774230026,
+      "tp3": 87366.92365640034
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(49.97) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87461.6058061598,
+      "pnlPercent": "-0.04%",
+      "exitTime": "2025-12-27T05:35:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87433,
+    "stopLoss": 87464.58871783054,
+    "targets": {
+      "tp1": 87406.67606847455,
+      "tp2": 87393.51410271182,
+      "tp3": 87380.35213694909
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(49.65) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87464.58871783054,
+      "pnlPercent": "-0.04%",
+      "exitTime": "2025-12-27T06:05:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87428.5,
+    "stopLoss": 87468.3799610327,
+    "targets": {
+      "tp1": 87395.26669913942,
+      "tp2": 87378.65004870914,
+      "tp3": 87362.03339827884
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(47.78) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87468.3799610327,
+      "pnlPercent": "-0.05%",
+      "exitTime": "2025-12-27T07:05:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87523.4,
+    "stopLoss": 87570.37001889807,
+    "targets": {
+      "tp1": 87484.25831758493,
+      "tp2": 87464.6874763774,
+      "tp3": 87445.11663516986
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(47.71) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87570.37001889807,
+      "pnlPercent": "-0.05%",
+      "exitTime": "2025-12-27T09:30:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87503.9,
+    "stopLoss": 87550.45655349868,
+    "targets": {
+      "tp1": 87465.10287208443,
+      "tp2": 87445.70430812665,
+      "tp3": 87426.30574416886
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(43.17) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87550.45655349868,
+      "pnlPercent": "-0.05%",
+      "exitTime": "2025-12-27T10:15:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87500.1,
+    "stopLoss": 87551.8914970979,
+    "targets": {
+      "tp1": 87456.9404190851,
+      "tp2": 87435.36062862765,
+      "tp3": 87413.78083817019
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(43.97) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87413.78083817019,
+      "pnlPercent": "0.10%",
+      "exitTime": "2025-12-27T10:35:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87459.8,
+    "stopLoss": 87517.76212969814,
+    "targets": {
+      "tp1": 87411.49822525156,
+      "tp2": 87387.34733787733,
+      "tp3": 87363.19645050312
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(44.55) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87363.19645050312,
+      "pnlPercent": "0.11%",
+      "exitTime": "2025-12-27T13:05:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87465,
+    "stopLoss": 87509.75827227408,
+    "targets": {
+      "tp1": 87427.7014397716,
+      "tp2": 87409.0521596574,
+      "tp3": 87390.4028795432
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(46.22) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87509.75827227408,
+      "pnlPercent": "-0.05%",
+      "exitTime": "2025-12-27T16:40:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87474.8,
+    "stopLoss": 87523.89869315438,
+    "targets": {
+      "tp1": 87433.88442237135,
+      "tp2": 87413.42663355703,
+      "tp3": 87392.9688447427
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(49.54) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87523.89869315438,
+      "pnlPercent": "-0.06%",
+      "exitTime": "2025-12-27T18:00:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87479.6,
+    "stopLoss": 87515.04352604864,
+    "targets": {
+      "tp1": 87450.06372829281,
+      "tp2": 87435.29559243922,
+      "tp3": 87420.52745658562
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(48.49) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87420.52745658562,
+      "pnlPercent": "0.07%",
+      "exitTime": "2025-12-27T18:45:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87554.4,
+    "stopLoss": 87527.51952642226,
+    "targets": {
+      "tp1": 87576.8003946481,
+      "tp2": 87588.00059197216,
+      "tp3": 87599.20078929621
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(61.54) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87599.20078929621,
+      "pnlPercent": "0.05%",
+      "exitTime": "2025-12-27T21:30:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87621.1,
+    "stopLoss": 87595.4146208819,
+    "targets": {
+      "tp1": 87642.50448259844,
+      "tp2": 87653.20672389765,
+      "tp3": 87663.90896519685
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(67.54) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87663.90896519685,
+      "pnlPercent": "0.05%",
+      "exitTime": "2025-12-27T22:10:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87626,
+    "stopLoss": 87539.04545823667,
+    "targets": {
+      "tp1": 87698.46211813611,
+      "tp2": 87734.69317720417,
+      "tp3": 87770.92423627223
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(54.31) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87770.92423627223,
+      "pnlPercent": "0.17%",
+      "exitTime": "2025-12-27T23:45:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87909.9,
+    "stopLoss": 87819.17248133356,
+    "targets": {
+      "tp1": 87985.50626555536,
+      "tp2": 88023.30939833305,
+      "tp3": 88061.11253111073
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(65.57) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87819.17248133356,
+      "pnlPercent": "-0.10%",
+      "exitTime": "2025-12-28T01:10:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87769.9,
+    "stopLoss": 87707.51337655184,
+    "targets": {
+      "tp1": 87821.88885287345,
+      "tp2": 87847.88327931019,
+      "tp3": 87873.87770574693
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(51.47) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87707.51337655184,
+      "pnlPercent": "-0.07%",
+      "exitTime": "2025-12-28T03:25:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87770.7,
+    "stopLoss": 87725.25450792948,
+    "targets": {
+      "tp1": 87808.57124339209,
+      "tp2": 87827.50686508814,
+      "tp3": 87846.44248678419
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(55.47) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87725.25450792948,
+      "pnlPercent": "-0.05%",
+      "exitTime": "2025-12-28T04:25:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87671.3,
+    "stopLoss": 87625.2520338437,
+    "targets": {
+      "tp1": 87709.67330513024,
+      "tp2": 87728.85995769537,
+      "tp3": 87748.0466102605
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(50.69) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87748.0466102605,
+      "pnlPercent": "0.09%",
+      "exitTime": "2025-12-28T06:40:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87695.2,
+    "stopLoss": 87657.86391183564,
+    "targets": {
+      "tp1": 87726.31340680363,
+      "tp2": 87741.87011020545,
+      "tp3": 87757.42681360726
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(54.16) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87757.42681360726,
+      "pnlPercent": "0.07%",
+      "exitTime": "2025-12-28T08:05:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87829.8,
+    "stopLoss": 87789.83413744648,
+    "targets": {
+      "tp1": 87863.10488546127,
+      "tp2": 87879.7573281919,
+      "tp3": 87896.40977092255
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(68.17) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87896.40977092255,
+      "pnlPercent": "0.08%",
+      "exitTime": "2025-12-28T08:40:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87796,
+    "stopLoss": 87745.09593271204,
+    "targets": {
+      "tp1": 87838.42005607332,
+      "tp2": 87859.63008410996,
+      "tp3": 87880.84011214662
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(60.39) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87745.09593271204,
+      "pnlPercent": "-0.06%",
+      "exitTime": "2025-12-28T09:35:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87823.2,
+    "stopLoss": 87773.92943222156,
+    "targets": {
+      "tp1": 87864.25880648203,
+      "tp2": 87884.78820972305,
+      "tp3": 87905.31761296406
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(59.09) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87905.31761296406,
+      "pnlPercent": "0.09%",
+      "exitTime": "2025-12-28T10:05:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87925.6,
+    "stopLoss": 87864.8532870075,
+    "targets": {
+      "tp1": 87976.2222608271,
+      "tp2": 88001.53339124063,
+      "tp3": 88026.84452165417
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(66.22) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87864.8532870075,
+      "pnlPercent": "-0.07%",
+      "exitTime": "2025-12-28T10:30:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87850.8,
+    "stopLoss": 87799.4782136791,
+    "targets": {
+      "tp1": 87893.56815526742,
+      "tp2": 87914.95223290112,
+      "tp3": 87936.33631053483
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(53.09) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87799.4782136791,
+      "pnlPercent": "-0.06%",
+      "exitTime": "2025-12-28T12:10:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87833.1,
+    "stopLoss": 87790.2442459051,
+    "targets": {
+      "tp1": 87868.81312841244,
+      "tp2": 87886.66969261864,
+      "tp3": 87904.52625682486
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(51.62) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87790.2442459051,
+      "pnlPercent": "-0.05%",
+      "exitTime": "2025-12-28T12:35:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87820.4,
+    "stopLoss": 87776.62450097957,
+    "targets": {
+      "tp1": 87856.87958251702,
+      "tp2": 87875.11937377552,
+      "tp3": 87893.35916503404
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(50.81) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87893.35916503404,
+      "pnlPercent": "0.08%",
+      "exitTime": "2025-12-28T13:05:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87866.8,
+    "stopLoss": 87813.88624197173,
+    "targets": {
+      "tp1": 87910.8947983569,
+      "tp2": 87932.94219753533,
+      "tp3": 87954.98959671377
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(57.05) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87954.98959671377,
+      "pnlPercent": "0.10%",
+      "exitTime": "2025-12-28T14:00:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87946.4,
+    "stopLoss": 87895.98683905296,
+    "targets": {
+      "tp1": 87988.41096745586,
+      "tp2": 88009.41645118379,
+      "tp3": 88030.42193491173
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(60.58) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 88030.42193491173,
+      "pnlPercent": "0.10%",
+      "exitTime": "2025-12-28T14:40:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87872.4,
+    "stopLoss": 87818.4477095368,
+    "targets": {
+      "tp1": 87917.36024205264,
+      "tp2": 87939.84036307897,
+      "tp3": 87962.3204841053
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(55.68) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87818.4477095368,
+      "pnlPercent": "-0.06%",
+      "exitTime": "2025-12-28T17:30:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87502.8,
+    "stopLoss": 87583.28341176521,
+    "targets": {
+      "tp1": 87435.73049019565,
+      "tp2": 87402.19573529348,
+      "tp3": 87368.66098039132
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(30.79) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87583.28341176521,
+      "pnlPercent": "-0.09%",
+      "exitTime": "2025-12-28T19:05:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87519.3,
+    "stopLoss": 87606.3700698518,
+    "targets": {
+      "tp1": 87446.74160845685,
+      "tp2": 87410.46241268527,
+      "tp3": 87374.18321691369
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(37.42) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87606.3700698518,
+      "pnlPercent": "-0.10%",
+      "exitTime": "2025-12-28T19:35:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87482.6,
+    "stopLoss": 87553.68994327205,
+    "targets": {
+      "tp1": 87423.35838060663,
+      "tp2": 87393.73757090994,
+      "tp3": 87364.11676121326
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(42.10) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87553.68994327205,
+      "pnlPercent": "-0.08%",
+      "exitTime": "2025-12-28T21:35:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87490.4,
+    "stopLoss": 87545.5844115033,
+    "targets": {
+      "tp1": 87444.41299041391,
+      "tp2": 87421.41948562086,
+      "tp3": 87398.42598082781
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(42.47) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87545.5844115033,
+      "pnlPercent": "-0.06%",
+      "exitTime": "2025-12-28T22:20:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 88206.4,
+    "stopLoss": 88043.99376271885,
+    "targets": {
+      "tp1": 88341.73853106762,
+      "tp2": 88409.40779660143,
+      "tp3": 88477.07706213523
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(63.75) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 88477.07706213523,
+      "pnlPercent": "0.31%",
+      "exitTime": "2025-12-29T02:00:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 90088,
+    "stopLoss": 89938.65136879997,
+    "targets": {
+      "tp1": 90212.4571926667,
+      "tp2": 90274.68578900004,
+      "tp3": 90336.91438533338
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(58.58) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 89938.65136879997,
+      "pnlPercent": "-0.17%",
+      "exitTime": "2025-12-29T06:25:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 89687.2,
+    "stopLoss": 89552.50119607254,
+    "targets": {
+      "tp1": 89799.44900327288,
+      "tp2": 89855.5735049093,
+      "tp3": 89911.69800654575
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(50.68) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 89552.50119607254,
+      "pnlPercent": "-0.15%",
+      "exitTime": "2025-12-29T08:50:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87257.1,
+    "stopLoss": 87434.53054280467,
+    "targets": {
+      "tp1": 87109.24121432945,
+      "tp2": 87035.31182149418,
+      "tp3": 86961.3824286589
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(40.67) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87434.53054280467,
+      "pnlPercent": "-0.20%",
+      "exitTime": "2025-12-29T14:15:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87399.9,
+    "stopLoss": 87661.90559685753,
+    "targets": {
+      "tp1": 87181.56200261871,
+      "tp2": 87072.39300392808,
+      "tp3": 86963.22400523744
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(45.55) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87661.90559685753,
+      "pnlPercent": "-0.30%",
+      "exitTime": "2025-12-29T15:10:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87563.2,
+    "stopLoss": 87808.39828526393,
+    "targets": {
+      "tp1": 87358.86809561339,
+      "tp2": 87256.70214342009,
+      "tp3": 87154.53619122678
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(49.07) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87808.39828526393,
+      "pnlPercent": "-0.28%",
+      "exitTime": "2025-12-29T17:55:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87614.8,
+    "stopLoss": 87787.80137224063,
+    "targets": {
+      "tp1": 87470.63218979948,
+      "tp2": 87398.54828469922,
+      "tp3": 87326.46437959895
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(47.70) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87326.46437959895,
+      "pnlPercent": "0.33%",
+      "exitTime": "2025-12-29T18:55:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87537.4,
+    "stopLoss": 87717.31269447473,
+    "targets": {
+      "tp1": 87387.47275460437,
+      "tp2": 87312.50913190657,
+      "tp3": 87237.54550920875
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(46.81) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87237.54550920875,
+      "pnlPercent": "0.34%",
+      "exitTime": "2025-12-29T20:35:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87222,
+    "stopLoss": 87322.87644349271,
+    "targets": {
+      "tp1": 87137.9362970894,
+      "tp2": 87095.9044456341,
+      "tp3": 87053.87259417881
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(42.13) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87053.87259417881,
+      "pnlPercent": "0.19%",
+      "exitTime": "2025-12-29T22:10:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87297.3,
+    "stopLoss": 87388.95851384537,
+    "targets": {
+      "tp1": 87220.91790512887,
+      "tp2": 87182.7268576933,
+      "tp3": 87144.53581025773
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(49.98) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87144.53581025773,
+      "pnlPercent": "0.17%",
+      "exitTime": "2025-12-29T23:40:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87203.3,
+    "stopLoss": 87282.79585564921,
+    "targets": {
+      "tp1": 87137.05345362566,
+      "tp2": 87103.9301804385,
+      "tp3": 87070.80690725133
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(45.08) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87282.79585564921,
+      "pnlPercent": "-0.09%",
+      "exitTime": "2025-12-30T00:00:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87152,
+    "stopLoss": 87244.51588977019,
+    "targets": {
+      "tp1": 87074.9034251915,
+      "tp2": 87036.35513778726,
+      "tp3": 86997.80685038301
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(40.52) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87244.51588977019,
+      "pnlPercent": "-0.11%",
+      "exitTime": "2025-12-30T01:10:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87167.5,
+    "stopLoss": 87257.14344948501,
+    "targets": {
+      "tp1": 87092.79712542915,
+      "tp2": 87055.44568814374,
+      "tp3": 87018.09425085831
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(46.06) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87257.14344948501,
+      "pnlPercent": "-0.10%",
+      "exitTime": "2025-12-30T01:45:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87166.8,
+    "stopLoss": 87260.36807619287,
+    "targets": {
+      "tp1": 87088.82660317261,
+      "tp2": 87049.83990475892,
+      "tp3": 87010.85320634523
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(45.83) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87260.36807619287,
+      "pnlPercent": "-0.11%",
+      "exitTime": "2025-12-30T02:15:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 86997.3,
+    "stopLoss": 87116.43830629144,
+    "targets": {
+      "tp1": 86898.01807809046,
+      "tp2": 86848.37711713571,
+      "tp3": 86798.73615618094
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(38.39) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87116.43830629144,
+      "pnlPercent": "-0.14%",
+      "exitTime": "2025-12-30T02:35:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87262,
+    "stopLoss": 87365.51345374962,
+    "targets": {
+      "tp1": 87175.73878854199,
+      "tp2": 87132.60818281297,
+      "tp3": 87089.47757708396
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(49.14) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87365.51345374962,
+      "pnlPercent": "-0.12%",
+      "exitTime": "2025-12-30T06:15:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87346.2,
+    "stopLoss": 87438.69862245233,
+    "targets": {
+      "tp1": 87269.11781462305,
+      "tp2": 87230.57672193459,
+      "tp3": 87192.03562924611
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(49.32) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87438.69862245233,
+      "pnlPercent": "-0.11%",
+      "exitTime": "2025-12-30T07:35:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87818.9,
+    "stopLoss": 87686.84219829022,
+    "targets": {
+      "tp1": 87928.94816809148,
+      "tp2": 87983.97225213722,
+      "tp3": 88038.99633618296
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(58.67) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 88038.99633618296,
+      "pnlPercent": "0.25%",
+      "exitTime": "2025-12-30T10:00:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87982.3,
+    "stopLoss": 87856.52269022104,
+    "targets": {
+      "tp1": 88087.11442481581,
+      "tp2": 88139.5216372237,
+      "tp3": 88191.92884963161
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(63.69) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87856.52269022104,
+      "pnlPercent": "-0.14%",
+      "exitTime": "2025-12-30T11:40:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87934.1,
+    "stopLoss": 87820.09911200125,
+    "targets": {
+      "tp1": 88029.10073999898,
+      "tp2": 88076.60110999845,
+      "tp3": 88124.10147999793
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(53.24) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87820.09911200125,
+      "pnlPercent": "-0.13%",
+      "exitTime": "2025-12-30T14:00:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 88150.6,
+    "stopLoss": 88015.7416579018,
+    "targets": {
+      "tp1": 88262.98195174852,
+      "tp2": 88319.17292762277,
+      "tp3": 88375.36390349701
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(60.15) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 88375.36390349701,
+      "pnlPercent": "0.25%",
+      "exitTime": "2025-12-30T14:20:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 88296.4,
+    "stopLoss": 88099.98832911819,
+    "targets": {
+      "tp1": 88460.0763924015,
+      "tp2": 88541.91458860225,
+      "tp3": 88623.752784803
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(62.19) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 88623.752784803,
+      "pnlPercent": "0.37%",
+      "exitTime": "2025-12-30T14:50:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 88433,
+    "stopLoss": 88138.98650819021,
+    "targets": {
+      "tp1": 88678.01124317483,
+      "tp2": 88800.51686476223,
+      "tp3": 88923.02248634964
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(57.85) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 88923.02248634964,
+      "pnlPercent": "0.55%",
+      "exitTime": "2025-12-30T15:50:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 88123.2,
+    "stopLoss": 87987.07627514462,
+    "targets": {
+      "tp1": 88236.63643737948,
+      "tp2": 88293.35465606922,
+      "tp3": 88350.07287475897
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(51.12) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 88350.07287475897,
+      "pnlPercent": "0.26%",
+      "exitTime": "2025-12-30T22:00:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 88387.7,
+    "stopLoss": 88285.77423859296,
+    "targets": {
+      "tp1": 88472.63813450586,
+      "tp2": 88515.1072017588,
+      "tp3": 88557.57626901173
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(60.40) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 88285.77423859296,
+      "pnlPercent": "-0.12%",
+      "exitTime": "2025-12-31T00:15:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 88584.4,
+    "stopLoss": 88458.81090243132,
+    "targets": {
+      "tp1": 88689.05758130722,
+      "tp2": 88741.38637196083,
+      "tp3": 88793.71516261446
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(66.39) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 88458.81090243132,
+      "pnlPercent": "-0.14%",
+      "exitTime": "2025-12-31T03:30:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 88502.1,
+    "stopLoss": 88401.9879175381,
+    "targets": {
+      "tp1": 88585.52673538492,
+      "tp2": 88627.24010307738,
+      "tp3": 88668.95347076983
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(50.37) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 88401.9879175381,
+      "pnlPercent": "-0.11%",
+      "exitTime": "2025-12-31T04:20:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 88424.9,
+    "stopLoss": 88333.54478654978,
+    "targets": {
+      "tp1": 88501.02934454184,
+      "tp2": 88539.09401681276,
+      "tp3": 88577.15868908368
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(50.73) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 88577.15868908368,
+      "pnlPercent": "0.17%",
+      "exitTime": "2025-12-31T07:35:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 88538.8,
+    "stopLoss": 88458.46813157533,
+    "targets": {
+      "tp1": 88605.74322368724,
+      "tp2": 88639.21483553086,
+      "tp3": 88672.68644737448
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(53.67) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 88672.68644737448,
+      "pnlPercent": "0.15%",
+      "exitTime": "2025-12-31T09:45:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 88804.6,
+    "stopLoss": 88719.92280528409,
+    "targets": {
+      "tp1": 88875.16432892992,
+      "tp2": 88910.44649339489,
+      "tp3": 88945.72865785986
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(65.81) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 88945.72865785986,
+      "pnlPercent": "0.16%",
+      "exitTime": "2025-12-31T11:30:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 88902.4,
+    "stopLoss": 88810.48187266284,
+    "targets": {
+      "tp1": 88978.99843944762,
+      "tp2": 89017.29765917144,
+      "tp3": 89055.59687889525
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(66.34) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 88810.48187266284,
+      "pnlPercent": "-0.10%",
+      "exitTime": "2025-12-31T12:35:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 88835.7,
+    "stopLoss": 88745.2379827793,
+    "targets": {
+      "tp1": 88911.08501435057,
+      "tp2": 88948.77752152586,
+      "tp3": 88986.47002870115
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(52.65) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 88745.2379827793,
+      "pnlPercent": "-0.10%",
+      "exitTime": "2025-12-31T13:30:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 88810.5,
+    "stopLoss": 88725.45149651731,
+    "targets": {
+      "tp1": 88881.37375290223,
+      "tp2": 88916.81062935335,
+      "tp3": 88952.24750580447
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(51.47) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 88952.24750580447,
+      "pnlPercent": "0.16%",
+      "exitTime": "2025-12-31T13:50:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 89082,
+    "stopLoss": 88964.47687869718,
+    "targets": {
+      "tp1": 89179.93593441902,
+      "tp2": 89228.90390162852,
+      "tp3": 89277.87186883802
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(69.13) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 88964.47687869718,
+      "pnlPercent": "-0.13%",
+      "exitTime": "2025-12-31T14:20:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87724.6,
+    "stopLoss": 87880.22813992493,
+    "targets": {
+      "tp1": 87594.9098833959,
+      "tp2": 87530.06482509385,
+      "tp3": 87465.21976679181
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(47.04) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87465.21976679181,
+      "pnlPercent": "0.30%",
+      "exitTime": "2025-12-31T19:55:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87399.2,
+    "stopLoss": 87517.07501130253,
+    "targets": {
+      "tp1": 87300.97082391455,
+      "tp2": 87251.85623587183,
+      "tp3": 87202.7416478291
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(33.05) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87202.7416478291,
+      "pnlPercent": "0.22%",
+      "exitTime": "2025-12-31T20:40:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87705.6,
+    "stopLoss": 87785.66519155668,
+    "targets": {
+      "tp1": 87638.87900703611,
+      "tp2": 87605.51851055416,
+      "tp3": 87572.15801407222
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(49.11) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87785.66519155668,
+      "pnlPercent": "-0.09%",
+      "exitTime": "2026-01-01T00:05:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87873.7,
+    "stopLoss": 87947.9905079147,
+    "targets": {
+      "tp1": 87811.79124340441,
+      "tp2": 87780.83686510661,
+      "tp3": 87749.88248680883
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(49.05) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87947.9905079147,
+      "pnlPercent": "-0.08%",
+      "exitTime": "2026-01-01T03:10:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87886.7,
+    "stopLoss": 87950.8698621842,
+    "targets": {
+      "tp1": 87833.22511484649,
+      "tp2": 87806.48767226974,
+      "tp3": 87779.75022969299
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(48.35) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 87779.75022969299,
+      "pnlPercent": "0.12%",
+      "exitTime": "2026-01-01T04:00:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87643.2,
+    "stopLoss": 87701.65786207072,
+    "targets": {
+      "tp1": 87594.48511494107,
+      "tp2": 87570.12767241159,
+      "tp3": 87545.77022988212
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(42.95) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87701.65786207072,
+      "pnlPercent": "-0.07%",
+      "exitTime": "2026-01-01T08:05:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87666.4,
+    "stopLoss": 87719.35627085602,
+    "targets": {
+      "tp1": 87622.26977428664,
+      "tp2": 87600.20466142996,
+      "tp3": 87578.1395485733
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(49.39) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87719.35627085602,
+      "pnlPercent": "-0.06%",
+      "exitTime": "2026-01-01T08:55:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 SHORT SIGNAL – BTCUSDT (5m)",
+    "entry": 87769.8,
+    "stopLoss": 87814.12213958836,
+    "targets": {
+      "tp1": 87732.86488367636,
+      "tp2": 87714.39732551455,
+      "tp3": 87695.92976735273
+    },
+    "indicators": "- EMA50 < EMA200 (Downtrend)\n- RSI(48.34) < 50 & > 30\n- Close < EMA10 (Bearish)\n- Touched Resistance",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87814.12213958836,
+      "pnlPercent": "-0.05%",
+      "exitTime": "2026-01-01T10:25:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87945.4,
+    "stopLoss": 87901.80320530507,
+    "targets": {
+      "tp1": 87981.73066224577,
+      "tp2": 87999.89599336866,
+      "tp3": 88018.06132449154
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(56.23) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87901.80320530507,
+      "pnlPercent": "-0.05%",
+      "exitTime": "2026-01-01T13:45:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87910.1,
+    "stopLoss": 87847.41602822211,
+    "targets": {
+      "tp1": 87962.33664314826,
+      "tp2": 87988.45496472238,
+      "tp3": 88014.5732862965
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(51.75) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87847.41602822211,
+      "pnlPercent": "-0.07%",
+      "exitTime": "2026-01-01T14:25:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87914.6,
+    "stopLoss": 87852.5747778879,
+    "targets": {
+      "tp1": 87966.28768509343,
+      "tp2": 87992.13152764013,
+      "tp3": 88017.97537018683
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(54.63) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 88017.97537018683,
+      "pnlPercent": "0.12%",
+      "exitTime": "2026-01-01T15:15:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87965.9,
+    "stopLoss": 87903.60230133541,
+    "targets": {
+      "tp1": 88017.81474888715,
+      "tp2": 88043.77212333072,
+      "tp3": 88069.7294977743
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(58.55) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87903.60230133541,
+      "pnlPercent": "-0.07%",
+      "exitTime": "2026-01-01T15:35:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87975,
+    "stopLoss": 87903.39515890449,
+    "targets": {
+      "tp1": 88034.67070091293,
+      "tp2": 88064.50605136939,
+      "tp3": 88094.34140182585
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(58.30) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 87903.39515890449,
+      "pnlPercent": "-0.08%",
+      "exitTime": "2026-01-01T16:05:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 87932.8,
+    "stopLoss": 87862.40884126388,
+    "targets": {
+      "tp1": 87991.45929894678,
+      "tp2": 88020.78894842016,
+      "tp3": 88050.11859789354
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(52.22) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 88050.11859789354,
+      "pnlPercent": "0.13%",
+      "exitTime": "2026-01-01T17:20:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 88122.7,
+    "stopLoss": 88044.5502099877,
+    "targets": {
+      "tp1": 88187.82482501025,
+      "tp2": 88220.38723751537,
+      "tp3": 88252.94965002048
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(50.41) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 88252.94965002048,
+      "pnlPercent": "0.15%",
+      "exitTime": "2026-01-01T19:40:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 88277.4,
+    "stopLoss": 88213.09393532782,
+    "targets": {
+      "tp1": 88330.98838722681,
+      "tp2": 88357.78258084021,
+      "tp3": 88384.57677445363
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(55.56) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 88384.57677445363,
+      "pnlPercent": "0.12%",
+      "exitTime": "2026-01-01T21:10:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 88308.2,
+    "stopLoss": 88246.28734280367,
+    "targets": {
+      "tp1": 88359.79388099693,
+      "tp2": 88385.59082149541,
+      "tp3": 88411.38776199389
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(55.16) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 88411.38776199389,
+      "pnlPercent": "0.12%",
+      "exitTime": "2026-01-01T22:00:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 88550,
+    "stopLoss": 88467.6617790975,
+    "targets": {
+      "tp1": 88618.61518408541,
+      "tp2": 88652.92277612812,
+      "tp3": 88687.23036817083
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(69.06) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 88467.6617790975,
+      "pnlPercent": "-0.09%",
+      "exitTime": "2026-01-01T23:00:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 88776,
+    "stopLoss": 88653.38302167314,
+    "targets": {
+      "tp1": 88878.18081527238,
+      "tp2": 88929.27122290857,
+      "tp3": 88980.36163054476
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(60.40) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 88653.38302167314,
+      "pnlPercent": "-0.14%",
+      "exitTime": "2026-01-02T00:40:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 88788.2,
+    "stopLoss": 88662.64800969967,
+    "targets": {
+      "tp1": 88892.82665858361,
+      "tp2": 88945.13998787542,
+      "tp3": 88997.45331716722
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(58.97) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 88662.64800969967,
+      "pnlPercent": "-0.14%",
+      "exitTime": "2026-01-02T01:15:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 88580,
+    "stopLoss": 88477.09781685461,
+    "targets": {
+      "tp1": 88665.75181928782,
+      "tp2": 88708.62772893172,
+      "tp3": 88751.50363857564
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(53.80) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 88751.50363857564,
+      "pnlPercent": "0.19%",
+      "exitTime": "2026-01-02T03:05:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 88714.5,
+    "stopLoss": 88608.83954735818,
+    "targets": {
+      "tp1": 88802.55037720152,
+      "tp2": 88846.57556580227,
+      "tp3": 88890.60075440303
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(50.45) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "LOSS",
+      "exitPrice": 88608.83954735818,
+      "pnlPercent": "-0.12%",
+      "exitTime": "2026-01-02T05:20:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 88729.4,
+    "stopLoss": 88632.55120668313,
+    "targets": {
+      "tp1": 88810.10732776405,
+      "tp2": 88850.46099164608,
+      "tp3": 88890.81465552811
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(54.01) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 88890.81465552811,
+      "pnlPercent": "0.18%",
+      "exitTime": "2026-01-02T06:30:00.000Z"
+    }
+  },
+  {
+    "headline": "🚀 LONG SIGNAL – BTCUSDT (5m)",
+    "entry": 88948.2,
+    "stopLoss": 88853.57704585588,
+    "targets": {
+      "tp1": 89027.05246178676,
+      "tp2": 89066.47869268015,
+      "tp3": 89105.90492357353
+    },
+    "indicators": "- EMA10 > EMA50 > EMA200\n- RSI(60.36) > 50 & < 70\n- Close > EMA10\n- Volume breakout (simulated)",
+    "rr": "1 : 1.67",
+    "result": {
+      "status": "WIN",
+      "exitPrice": 89105.90492357353,
+      "pnlPercent": "0.18%",
+      "exitTime": "2026-01-02T08:35:00.000Z"
+    }
+  }
+]
