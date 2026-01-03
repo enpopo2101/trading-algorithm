@@ -122,13 +122,6 @@ function printStats(trades) {
     console.log(`Avg ROI / Trade:    ${avgROI.toFixed(2)}%`);
     console.log(`Max Consec Losses:  ${maxConsLoss}`);
 
-    // EXAMPLES
-    const exLong = longTrades.find(t => t.final_result === 'TP2_FULL') || longTrades[0];
-    const exShort = shortTrades.find(t => t.final_result === 'TP2_FULL') || shortTrades[0];
-
-    console.log("\n--- EXAMPLES ---");
-    if (exLong) console.log("LONG EXAMPLE:", JSON.stringify(exLong, null, 2));
-    if (exShort) console.log("SHORT EXAMPLE:", JSON.stringify(exShort, null, 2));
 
     // Export
     const exportPath = path.join(__dirname, 'mean_reversion_results.json');

@@ -9,7 +9,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -10.09
+    "max_drawdown_during_trade": -10.09047875846389
   },
   {
     "trade_index": 2,
@@ -21,7 +21,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -4.5
+    "max_drawdown_during_trade": -4.50029175959033
   },
   {
     "trade_index": 3,
@@ -33,7 +33,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -21.38
+    "max_drawdown_during_trade": -21.38246150343908
   },
   {
     "trade_index": 4,
@@ -45,7 +45,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -15.49
+    "max_drawdown_during_trade": -15.486144596437097
   },
   {
     "trade_index": 5,
@@ -69,7 +69,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -24.87
+    "max_drawdown_during_trade": -24.86813597924685
   },
   {
     "trade_index": 7,
@@ -81,7 +81,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -23.01
+    "max_drawdown_during_trade": -23.006762030542117
   },
   {
     "trade_index": 8,
@@ -93,7 +93,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -1.51
+    "max_drawdown_during_trade": -1.5061487280488828
   },
   {
     "trade_index": 9,
@@ -105,7 +105,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -4
+    "max_drawdown_during_trade": -4.000000000000118
   },
   {
     "trade_index": 10,
@@ -117,7 +117,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -7.49
+    "max_drawdown_during_trade": -7.486298778894186
   },
   {
     "trade_index": 11,
@@ -141,7 +141,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -26.76
+    "max_drawdown_during_trade": -26.762589928057306
   },
   {
     "trade_index": 13,
@@ -153,7 +153,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -18.24
+    "max_drawdown_during_trade": -18.241222952816035
   },
   {
     "trade_index": 14,
@@ -249,7 +249,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -0.65
+    "max_drawdown_during_trade": -0.6528002881325409
   },
   {
     "trade_index": 22,
@@ -261,7 +261,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -10.79
+    "max_drawdown_during_trade": -10.794036906361825
   },
   {
     "trade_index": 23,
@@ -273,7 +273,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -10.76
+    "max_drawdown_during_trade": -10.76412836401249
   },
   {
     "trade_index": 24,
@@ -285,7 +285,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -12.09
+    "max_drawdown_during_trade": -12.091193431288351
   },
   {
     "trade_index": 25,
@@ -297,7 +297,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -24.59
+    "max_drawdown_during_trade": -24.59191131684762
   },
   {
     "trade_index": 26,
@@ -309,7 +309,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -17.68
+    "max_drawdown_during_trade": -17.68084818945684
   },
   {
     "trade_index": 27,
@@ -321,7 +321,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -27.12
+    "max_drawdown_during_trade": -27.116998770766525
   },
   {
     "trade_index": 28,
@@ -333,7 +333,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -15.66
+    "max_drawdown_during_trade": -15.656066681811634
   },
   {
     "trade_index": 29,
@@ -369,7 +369,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -9.37
+    "max_drawdown_during_trade": -9.367287212130417
   },
   {
     "trade_index": 32,
@@ -417,7 +417,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -27.5
+    "max_drawdown_during_trade": -27.49941092491705
   },
   {
     "trade_index": 36,
@@ -465,7 +465,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -17.39
+    "max_drawdown_during_trade": -17.392324486314173
   },
   {
     "trade_index": 40,
@@ -489,7 +489,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -5.3
+    "max_drawdown_during_trade": -5.304191313730542
   },
   {
     "trade_index": 42,
@@ -513,7 +513,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -16.96
+    "max_drawdown_during_trade": -16.958988444098154
   },
   {
     "trade_index": 44,
@@ -525,7 +525,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -18.79
+    "max_drawdown_during_trade": -18.785044964537853
   },
   {
     "trade_index": 45,
@@ -537,7 +537,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -15.94
+    "max_drawdown_during_trade": -15.936010929671523
   },
   {
     "trade_index": 46,
@@ -549,7 +549,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -3.03
+    "max_drawdown_during_trade": -3.0326145602707535
   },
   {
     "trade_index": 47,
@@ -573,7 +573,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -25.8
+    "max_drawdown_during_trade": -25.795023077900392
   },
   {
     "trade_index": 49,
@@ -585,7 +585,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -19.58
+    "max_drawdown_during_trade": -19.58096904020391
   },
   {
     "trade_index": 50,
@@ -597,7 +597,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -13.45
+    "max_drawdown_during_trade": -13.446754692072945
   },
   {
     "trade_index": 51,
@@ -633,7 +633,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -22.01
+    "max_drawdown_during_trade": -22.013104401973848
   },
   {
     "trade_index": 54,
@@ -645,7 +645,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -17.23
+    "max_drawdown_during_trade": -17.23337604616321
   },
   {
     "trade_index": 55,
@@ -657,7 +657,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -23.6
+    "max_drawdown_during_trade": -23.60276087213438
   },
   {
     "trade_index": 56,
@@ -669,7 +669,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -1.57
+    "max_drawdown_during_trade": -1.5656170527916995
   },
   {
     "trade_index": 57,
@@ -681,7 +681,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -2.72
+    "max_drawdown_during_trade": -2.7164331613529247
   },
   {
     "trade_index": 58,
@@ -693,7 +693,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -1.18
+    "max_drawdown_during_trade": -1.1781542797597162
   },
   {
     "trade_index": 59,
@@ -705,7 +705,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -20.67
+    "max_drawdown_during_trade": -20.668418322092744
   },
   {
     "trade_index": 60,
@@ -717,7 +717,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -17.86
+    "max_drawdown_during_trade": -17.861823433531594
   },
   {
     "trade_index": 61,
@@ -741,7 +741,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -24.99
+    "max_drawdown_during_trade": -24.987714226261637
   },
   {
     "trade_index": 63,
@@ -753,7 +753,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -19.77
+    "max_drawdown_during_trade": -19.772154091134826
   },
   {
     "trade_index": 64,
@@ -765,7 +765,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -5.33
+    "max_drawdown_during_trade": -5.330452007923383
   },
   {
     "trade_index": 65,
@@ -789,7 +789,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -6.35
+    "max_drawdown_during_trade": -6.345405732707599
   },
   {
     "trade_index": 67,
@@ -801,7 +801,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -4.53
+    "max_drawdown_during_trade": -4.527806697900267
   },
   {
     "trade_index": 68,
@@ -825,7 +825,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -15.25
+    "max_drawdown_during_trade": -15.248805099727988
   },
   {
     "trade_index": 70,
@@ -849,7 +849,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -7.17
+    "max_drawdown_during_trade": -7.174660492279229
   },
   {
     "trade_index": 72,
@@ -885,7 +885,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -2.68
+    "max_drawdown_during_trade": -2.682841585504758
   },
   {
     "trade_index": 75,
@@ -897,7 +897,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -25.63
+    "max_drawdown_during_trade": -25.62890458446879
   },
   {
     "trade_index": 76,
@@ -909,7 +909,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -23.68
+    "max_drawdown_during_trade": -23.682399915433383
   },
   {
     "trade_index": 77,
@@ -933,7 +933,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -19.81
+    "max_drawdown_during_trade": -19.807262284475556
   },
   {
     "trade_index": 79,
@@ -945,7 +945,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -27.09
+    "max_drawdown_during_trade": -27.08701541699041
   },
   {
     "trade_index": 80,
@@ -957,7 +957,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -20.45
+    "max_drawdown_during_trade": -20.44843289170053
   },
   {
     "trade_index": 81,
@@ -981,7 +981,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -24.28
+    "max_drawdown_during_trade": -24.284165109249763
   },
   {
     "trade_index": 83,
@@ -1053,7 +1053,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -15.53
+    "max_drawdown_during_trade": -15.53030193414959
   },
   {
     "trade_index": 89,
@@ -1065,7 +1065,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -5.26
+    "max_drawdown_during_trade": -5.256340833040763
   },
   {
     "trade_index": 90,
@@ -1089,7 +1089,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -9.21
+    "max_drawdown_during_trade": -9.211024316100268
   },
   {
     "trade_index": 92,
@@ -1113,7 +1113,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -22.64
+    "max_drawdown_during_trade": -22.636989446492592
   },
   {
     "trade_index": 94,
@@ -1137,7 +1137,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -24.18
+    "max_drawdown_during_trade": -24.184808901789754
   },
   {
     "trade_index": 96,
@@ -1149,7 +1149,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -16.98
+    "max_drawdown_during_trade": -16.98348605454784
   },
   {
     "trade_index": 97,
@@ -1161,7 +1161,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -5.96
+    "max_drawdown_during_trade": -5.962540986449086
   },
   {
     "trade_index": 98,
@@ -1173,7 +1173,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -18.73
+    "max_drawdown_during_trade": -18.726239319456468
   },
   {
     "trade_index": 99,
@@ -1185,7 +1185,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -18.83
+    "max_drawdown_during_trade": -18.828112319428385
   },
   {
     "trade_index": 100,
@@ -1197,7 +1197,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -12.05
+    "max_drawdown_during_trade": -12.048285971772447
   },
   {
     "trade_index": 101,
@@ -1209,7 +1209,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -15.1
+    "max_drawdown_during_trade": -15.102891124872752
   },
   {
     "trade_index": 102,
@@ -1233,7 +1233,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -1.9
+    "max_drawdown_during_trade": -1.8985512820892152
   },
   {
     "trade_index": 104,
@@ -1245,7 +1245,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -16.7
+    "max_drawdown_during_trade": -16.6961651917407
   },
   {
     "trade_index": 105,
@@ -1269,7 +1269,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -22.67
+    "max_drawdown_during_trade": -22.67394138380599
   },
   {
     "trade_index": 107,
@@ -1281,7 +1281,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -3.39
+    "max_drawdown_during_trade": -3.386883401472913
   },
   {
     "trade_index": 108,
@@ -1329,7 +1329,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -16.74
+    "max_drawdown_during_trade": -16.744520228902665
   },
   {
     "trade_index": 112,
@@ -1353,7 +1353,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -7.43
+    "max_drawdown_during_trade": -7.433894892165658
   },
   {
     "trade_index": 114,
@@ -1389,7 +1389,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -24.57
+    "max_drawdown_during_trade": -24.56748153190638
   },
   {
     "trade_index": 117,
@@ -1413,7 +1413,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -15.95
+    "max_drawdown_during_trade": -15.954374061275873
   },
   {
     "trade_index": 119,
@@ -1425,7 +1425,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -6.29
+    "max_drawdown_during_trade": -6.28528706592045
   },
   {
     "trade_index": 120,
@@ -1437,7 +1437,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -14.88
+    "max_drawdown_during_trade": -14.87520507998499
   },
   {
     "trade_index": 121,
@@ -1449,7 +1449,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -20.23
+    "max_drawdown_during_trade": -20.22544802335498
   },
   {
     "trade_index": 122,
@@ -1461,7 +1461,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -8.06
+    "max_drawdown_during_trade": -8.055940283332706
   },
   {
     "trade_index": 123,
@@ -1473,7 +1473,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -26.97
+    "max_drawdown_during_trade": -26.968086348839627
   },
   {
     "trade_index": 124,
@@ -1485,7 +1485,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -5.79
+    "max_drawdown_during_trade": -5.792189639160637
   },
   {
     "trade_index": 125,
@@ -1497,7 +1497,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -10.66
+    "max_drawdown_during_trade": -10.658744482954905
   },
   {
     "trade_index": 126,
@@ -1533,7 +1533,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -22.16
+    "max_drawdown_during_trade": -22.15889377914408
   },
   {
     "trade_index": 129,
@@ -1545,7 +1545,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -21.79
+    "max_drawdown_during_trade": -21.794613655781152
   },
   {
     "trade_index": 130,
@@ -1557,7 +1557,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -20.69
+    "max_drawdown_during_trade": -20.688644233053818
   },
   {
     "trade_index": 131,
@@ -1581,7 +1581,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -17.63
+    "max_drawdown_during_trade": -17.62688681976424
   },
   {
     "trade_index": 133,
@@ -1605,7 +1605,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -15.02
+    "max_drawdown_during_trade": -15.02451114157407
   },
   {
     "trade_index": 135,
@@ -1617,7 +1617,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -27.48
+    "max_drawdown_during_trade": -27.48464046292678
   },
   {
     "trade_index": 136,
@@ -1629,7 +1629,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -15.3
+    "max_drawdown_during_trade": -15.296289229568366
   },
   {
     "trade_index": 137,
@@ -1641,7 +1641,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -10.35
+    "max_drawdown_during_trade": -10.352184410450679
   },
   {
     "trade_index": 138,
@@ -1653,7 +1653,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -1.93
+    "max_drawdown_during_trade": -1.9298756852161525
   },
   {
     "trade_index": 139,
@@ -1665,7 +1665,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -26.97
+    "max_drawdown_during_trade": -26.974115972013657
   },
   {
     "trade_index": 140,
@@ -1737,7 +1737,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -21.82
+    "max_drawdown_during_trade": -21.824625091836296
   },
   {
     "trade_index": 146,
@@ -1749,7 +1749,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -21.83
+    "max_drawdown_during_trade": -21.830050812536307
   },
   {
     "trade_index": 147,
@@ -1797,7 +1797,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -21.93
+    "max_drawdown_during_trade": -21.9270594141751
   },
   {
     "trade_index": 151,
@@ -1821,7 +1821,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -1.82
+    "max_drawdown_during_trade": -1.8222248961042569
   },
   {
     "trade_index": 153,
@@ -1833,7 +1833,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -5.83
+    "max_drawdown_during_trade": -5.827307238810052
   },
   {
     "trade_index": 154,
@@ -1845,7 +1845,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -2.84
+    "max_drawdown_during_trade": -2.839698160578198
   },
   {
     "trade_index": 155,
@@ -1857,7 +1857,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -27.15
+    "max_drawdown_during_trade": -27.146644255755277
   },
   {
     "trade_index": 156,
@@ -1929,7 +1929,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -15.48
+    "max_drawdown_during_trade": -15.477411822973785
   },
   {
     "trade_index": 162,
@@ -1953,7 +1953,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -26.79
+    "max_drawdown_during_trade": -26.791909437405547
   },
   {
     "trade_index": 164,
@@ -1965,7 +1965,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -26.94
+    "max_drawdown_during_trade": -26.94043978447648
   },
   {
     "trade_index": 165,
@@ -1989,7 +1989,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -2.38
+    "max_drawdown_during_trade": -2.3815221626069283
   },
   {
     "trade_index": 167,
@@ -2001,7 +2001,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -15.11
+    "max_drawdown_during_trade": -15.10818414292431
   },
   {
     "trade_index": 168,
@@ -2013,7 +2013,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -26.78
+    "max_drawdown_during_trade": -26.784834722114038
   },
   {
     "trade_index": 169,
@@ -2025,7 +2025,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -7.28
+    "max_drawdown_during_trade": -7.280712934629564
   },
   {
     "trade_index": 170,
@@ -2049,7 +2049,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -3.07
+    "max_drawdown_during_trade": -3.0667713637699623
   },
   {
     "trade_index": 172,
@@ -2073,7 +2073,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -20.25
+    "max_drawdown_during_trade": -20.25450759904732
   },
   {
     "trade_index": 174,
@@ -2085,7 +2085,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -8.11
+    "max_drawdown_during_trade": -8.112469182069285
   },
   {
     "trade_index": 175,
@@ -2109,7 +2109,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -19.6
+    "max_drawdown_during_trade": -19.603732047384582
   },
   {
     "trade_index": 177,
@@ -2121,7 +2121,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -15.85
+    "max_drawdown_during_trade": -15.8501472664831
   },
   {
     "trade_index": 178,
@@ -2133,7 +2133,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -4.06
+    "max_drawdown_during_trade": -4.064587269045615
   },
   {
     "trade_index": 179,
@@ -2181,7 +2181,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -5.04
+    "max_drawdown_during_trade": -5.035352861134337
   },
   {
     "trade_index": 183,
@@ -2205,7 +2205,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -25.29
+    "max_drawdown_during_trade": -25.289389570051096
   },
   {
     "trade_index": 185,
@@ -2217,7 +2217,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -15.01
+    "max_drawdown_during_trade": -15.014181987142758
   },
   {
     "trade_index": 186,
@@ -2277,7 +2277,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -20.03
+    "max_drawdown_during_trade": -20.03155432239797
   },
   {
     "trade_index": 191,
@@ -2289,7 +2289,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -17.7
+    "max_drawdown_during_trade": -17.700547253977017
   },
   {
     "trade_index": 192,
@@ -2301,7 +2301,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -11.19
+    "max_drawdown_during_trade": -11.193420274342849
   },
   {
     "trade_index": 193,
@@ -2325,7 +2325,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -9.62
+    "max_drawdown_during_trade": -9.624691768971722
   },
   {
     "trade_index": 195,
@@ -2337,7 +2337,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -5.12
+    "max_drawdown_during_trade": -5.116015920384944
   },
   {
     "trade_index": 196,
@@ -2349,7 +2349,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -0.01
+    "max_drawdown_during_trade": -0.00547093837566859
   },
   {
     "trade_index": 197,
@@ -2361,7 +2361,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -4.38
+    "max_drawdown_during_trade": -4.3773547823722545
   },
   {
     "trade_index": 198,
@@ -2373,7 +2373,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -15.65
+    "max_drawdown_during_trade": -15.652545249487785
   },
   {
     "trade_index": 199,
@@ -2385,7 +2385,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -15.77
+    "max_drawdown_during_trade": -15.765309867582516
   },
   {
     "trade_index": 200,
@@ -2397,7 +2397,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -15.97
+    "max_drawdown_during_trade": -15.973677070406659
   },
   {
     "trade_index": 201,
@@ -2421,7 +2421,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -21.68
+    "max_drawdown_during_trade": -21.678909957640467
   },
   {
     "trade_index": 203,
@@ -2433,7 +2433,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -17.94
+    "max_drawdown_during_trade": -17.936933146579197
   },
   {
     "trade_index": 204,
@@ -2445,7 +2445,7 @@
     "final_result": "TP1_BE",
     "roi_total": 30,
     "pnl_usdt": 36,
-    "max_drawdown_during_trade": -17.79
+    "max_drawdown_during_trade": -17.78728326408364
   },
   {
     "trade_index": 205,
@@ -2481,7 +2481,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -10.73
+    "max_drawdown_during_trade": -10.725445298003276
   },
   {
     "trade_index": 208,
@@ -2505,7 +2505,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -18.62
+    "max_drawdown_during_trade": -18.621341986305048
   },
   {
     "trade_index": 210,
@@ -2517,7 +2517,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -23.89
+    "max_drawdown_during_trade": -23.893749715680176
   },
   {
     "trade_index": 211,
@@ -2529,7 +2529,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -13.06
+    "max_drawdown_during_trade": -13.057230137060365
   },
   {
     "trade_index": 212,
@@ -2541,7 +2541,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -25.92
+    "max_drawdown_during_trade": -25.91912787140553
   },
   {
     "trade_index": 213,
@@ -2553,7 +2553,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -15.83
+    "max_drawdown_during_trade": -15.828340563220507
   },
   {
     "trade_index": 214,
@@ -2565,7 +2565,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -18.41
+    "max_drawdown_during_trade": -18.413322449705188
   },
   {
     "trade_index": 215,
@@ -2577,7 +2577,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -26.61
+    "max_drawdown_during_trade": -26.609848799373648
   },
   {
     "trade_index": 216,
@@ -2637,7 +2637,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -17.95
+    "max_drawdown_during_trade": -17.95276906806978
   },
   {
     "trade_index": 221,
@@ -2709,7 +2709,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -2.27
+    "max_drawdown_during_trade": -2.2736154037440155
   },
   {
     "trade_index": 227,
@@ -2721,7 +2721,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -2.22
+    "max_drawdown_during_trade": -2.2233049664852045
   },
   {
     "trade_index": 228,
@@ -2745,7 +2745,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -21.62
+    "max_drawdown_during_trade": -21.619666144119623
   },
   {
     "trade_index": 230,
@@ -2757,7 +2757,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -20.11
+    "max_drawdown_during_trade": -20.1091392966912
   },
   {
     "trade_index": 231,
@@ -2781,7 +2781,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -26.33
+    "max_drawdown_during_trade": -26.326224760286408
   },
   {
     "trade_index": 233,
@@ -2793,7 +2793,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -22.76
+    "max_drawdown_during_trade": -22.758934760711664
   },
   {
     "trade_index": 234,
@@ -2805,7 +2805,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -22.74
+    "max_drawdown_during_trade": -22.737459485879064
   },
   {
     "trade_index": 235,
@@ -2817,7 +2817,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -15.41
+    "max_drawdown_during_trade": -15.406067966623935
   },
   {
     "trade_index": 236,
@@ -2829,7 +2829,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -13.79
+    "max_drawdown_during_trade": -13.787916771120745
   },
   {
     "trade_index": 237,
@@ -2853,7 +2853,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -19.49
+    "max_drawdown_during_trade": -19.494833524684605
   },
   {
     "trade_index": 239,
@@ -2865,7 +2865,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -3.53
+    "max_drawdown_during_trade": -3.5302234349248467
   },
   {
     "trade_index": 240,
@@ -2877,7 +2877,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -11.38
+    "max_drawdown_during_trade": -11.376055979819004
   },
   {
     "trade_index": 241,
@@ -2889,7 +2889,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -15.64
+    "max_drawdown_during_trade": -15.639637879668488
   },
   {
     "trade_index": 242,
@@ -2901,7 +2901,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -8.82
+    "max_drawdown_during_trade": -8.82351961873516
   },
   {
     "trade_index": 243,
@@ -2913,7 +2913,7 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -8.16
+    "max_drawdown_during_trade": -8.160016364501645
   },
   {
     "trade_index": 244,
@@ -2925,7 +2925,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -26.62
+    "max_drawdown_during_trade": -26.621413858804548
   },
   {
     "trade_index": 245,
@@ -2937,7 +2937,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -12.93
+    "max_drawdown_during_trade": -12.934900412663207
   },
   {
     "trade_index": 246,
@@ -2961,7 +2961,7 @@
     "final_result": "SL_FULL",
     "roi_total": -27.5,
     "pnl_usdt": -33,
-    "max_drawdown_during_trade": -23.44
+    "max_drawdown_during_trade": -23.441793368748858
   },
   {
     "trade_index": 248,
@@ -2973,6 +2973,6 @@
     "final_result": "TP2_FULL",
     "roi_total": 100,
     "pnl_usdt": 120,
-    "max_drawdown_during_trade": -22.72
+    "max_drawdown_during_trade": -22.720214825910634
   }
 ]
